@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[100%] [32m[1mLinking CXX executable local_cartesian[0m
+[100%] Built target local_cartesian
+-- Install configuration: ""
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/lib/parser/parser_geo
+-- Installing: /home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian
+-- Set runtime path of "/home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian" to "/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib"
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/package_run_dependencies/parser
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/parent_prefix_path/parser
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.sh
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.dsv
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.bash
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.sh
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.zsh
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.dsv
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/package.dsv
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/packages/parser
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig.cmake
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig-version.cmake
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/package.xml

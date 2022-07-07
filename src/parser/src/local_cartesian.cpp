@@ -7,6 +7,8 @@
 #include <GeographicLib/LocalCartesian.hpp>
 #include <fstream>
 
+
+#include <nav_msgs/msg/path.hpp>
 #include "rclcpp/rclcpp.hpp"
 
 #include "kml/dom.h"  // The KML DOM header.
@@ -18,11 +20,11 @@ using namespace GeographicLib;
 
 class MinimalPublisher : public rclcpp::Node
 {
-  /*public:
+  public:
   
     MinimalPublisher(): Node("minimal_publisher")
     {
-      publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud>("topic", 10);
+      publisher_ = this->create_publisher<nav_msgs::msg::Path>("topic", 10);
       timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
     }
@@ -30,18 +32,18 @@ class MinimalPublisher : public rclcpp::Node
   private:
     void timer_callback()
     {
-      auto message = sensor_msgs::msg::PointCloud();
+      auto message = nav_msgs::msg::Path();
       //message.data = "Hello, world! " + std::to_string(count_++);
       RCLCPP_INFO(this->get_logger(), "Denemeeee");
       publisher_->publish(message);
     }
     rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<sensor_msgs::msg::PointCloud>::SharedPtr publisher_;
-    size_t count_;*/
+    rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr publisher_;
+    size_t count_;
 };
 
  
-int main() {
+int main(int argc, char * argv[]) {
 
 
 
@@ -64,9 +66,18 @@ int main() {
       proj.Reverse(x, y, z, lat, lon, h);
       cout << lat << " " << lon << " " << h << "\n";
     }
+
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<MinimalPublisher>());
+    rclcpp::shutdown();
   }
   catch (const exception& e) {
     cerr << "Caught exception: " << e.what() << "\n";
     return 1;
   }
+
+    //rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<MinimalPublisher>());
+    rclcpp::shutdown();
+  
 }
