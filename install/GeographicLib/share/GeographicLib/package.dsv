@@ -1,0 +1,12 @@
+source;share/GeographicLib/hook/cmake_prefix_path.ps1
+source;share/GeographicLib/hook/cmake_prefix_path.dsv
+source;share/GeographicLib/hook/cmake_prefix_path.sh
+source;share/GeographicLib/hook/ld_library_path_lib.ps1
+source;share/GeographicLib/hook/ld_library_path_lib.dsv
+source;share/GeographicLib/hook/ld_library_path_lib.sh
+source;share/GeographicLib/hook/path.ps1
+source;share/GeographicLib/hook/path.dsv
+source;share/GeographicLib/hook/path.sh
+source;share/GeographicLib/hook/pythonscriptspath.ps1
+source;share/GeographicLib/hook/pythonscriptspath.dsv
+source;share/GeographicLib/hook/pythonscriptspath.sh

@@ -1,0 +1,14 @@
+[0.023s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.072s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[0.072s] [ 75%] Built target parser_geo
+[0.158s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:12:26:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.158s]    12 | const parseKML = require([01;35m[K'parse-kml'[m[K);
+[0.158s]       |                          [01;35m[K^~~~~~~~~~~[m[K
+[0.554s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:12:7:[m[K [01;31m[Kerror: [m[K‘[01m[KparseKML[m[K’ does not name a type
+[0.554s]    12 | const [01;31m[KparseKML[m[K = require('parse-kml');
+[0.554s]       |       [01;31m[K^~~~~~~~[m[K
+[0.774s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[0.774s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/local_cartesian.dir/all] Error 2
+[0.774s] make: *** [Makefile:141: all] Error 2
+[0.776s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

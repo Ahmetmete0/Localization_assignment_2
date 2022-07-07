@@ -1,0 +1,17 @@
+[  4%] Built target scripts
+[ 60%] Built target GeographicLib_SHARED
+[ 62%] Built target TransverseMercatorProj
+[ 65%] Built target ConicProj
+[ 68%] Built target GeodesicProj
+[ 74%] Built target RhumbSolve
+[ 74%] Built target Gravity
+[ 77%] Built target Planimeter
+[ 80%] Built target CartConvert
+[ 82%] Built target GeoidEval
+[ 85%] Built target MagneticField
+[ 88%] Built target GeodSolve
+[ 91%] Built target GeoConvert
+[ 94%] Built target polygontest
+[100%] Built target geodtest
+[100%] Built target signtest
+[100%] Built target tools

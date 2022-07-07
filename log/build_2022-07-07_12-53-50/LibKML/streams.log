@@ -1,0 +1,178 @@
+[0.024s] Invoking command in '/home/mete/catkin_ws2/build/LibKML': /usr/bin/cmake --build /home/mete/catkin_ws2/build/LibKML -- -j12 -l12
+[0.047s] -- CMAKE_BUILD_TYPE is not set. setting it to 'Release'
+[0.047s] CMake Warning (dev) at CMakeLists.txt:74 (set):
+[0.047s]   implicitly converting 'Directory containing test data' to 'STRING' type.
+[0.048s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.048s] 
+[0.048s] CMake Warning (dev) at CMakeLists.txt:88 (set):
+[0.048s]   implicitly converting 'install directory ' to 'STRING' type.
+[0.048s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.048s] 
+[0.068s] -- Found Boost: 1.71.0
+[0.077s] -- [SuperFind] EXPAT found from system
+[0.102s] -- [SuperFind] ZLIB found from system
+[0.102s] -- [SuperFind] MiniZip found from system
+[0.102s] -- [SuperFind] UriParser found from system
+[0.110s] -- Configuring done
+[0.136s] -- Generating done
+[0.137s] -- Build files have been written to: /home/mete/catkin_ws2/build/LibKML
+[0.157s] [35m[1mScanning dependencies of target kmlbase[0m
+[0.177s] [  1%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/attributes.cc.o[0m
+[0.177s] [  1%] [32mBuilding C object src/kml/base/CMakeFiles/kmlbase.dir/contrib/minizip/iomem_simple.c.o[0m
+[0.177s] [  3%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/date_time.cc.o[0m
+[0.177s] [  3%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/csv_splitter.cc.o[0m
+[0.177s] [  3%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/expat_handler_ns.cc.o[0m
+[0.177s] [  4%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/expat_parser.cc.o[0m
+[0.177s] [  5%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/file.cc.o[0m
+[0.177s] [  6%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/file_posix.cc.o[0m
+[0.178s] [  6%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/mimetypes.cc.o[0m
+[0.178s] [  7%] [32mBuilding C object src/kml/base/CMakeFiles/kmlbase.dir/contrib/minizip/unzip.c.o[0m
+[0.180s] [  8%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/localec.cc.o[0m
+[0.183s] [  9%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/math_util.cc.o[0m
+[0.260s] [ 10%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/referent.cc.o[0m
+[0.274s] [ 11%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/string_util.cc.o[0m
+[0.310s] [ 12%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/time_util.cc.o[0m
+[0.339s] [ 13%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/uri_parser.cc.o[0m
+[0.373s] [ 14%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/version.cc.o[0m
+[0.384s] [ 14%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/xml_namespaces.cc.o[0m
+[0.471s] [ 15%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/zip_file.cc.o[0m
+[1.243s] [ 16%] [32m[1mLinking CXX shared library ../../../lib/libkmlbase.so[0m
+[1.314s] [ 16%] Built target kmlbase
+[1.322s] [35m[1mScanning dependencies of target kmlxsd[0m
+[1.327s] [35m[1mScanning dependencies of target kmldom[0m
+[1.334s] [ 18%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_primitive_type.cc.o[0m
+[1.334s] [ 18%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_element.cc.o[0m
+[1.334s] [ 18%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_file.cc.o[0m
+[1.336s] [ 19%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_complex_type.cc.o[0m
+[1.337s] [ 21%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_handler.cc.o[0m
+[1.337s] [ 21%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_util.cc.o[0m
+[1.337s] [ 22%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xst_parser.cc.o[0m
+[1.362s] [ 22%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/atom.cc.o[0m
+[1.363s] [ 24%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/abstractview.cc.o[0m
+[1.364s] [ 24%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/abstractlatlonbox.cc.o[0m
+[1.364s] [ 25%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/balloonstyle.cc.o[0m
+[1.375s] [ 26%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/colorstyle.cc.o[0m
+[1.673s] [ 27%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/container.cc.o[0m
+[1.989s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/colorstyle.h:32[m[K,
+[1.990s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/colorstyle.cc:28[m[K:
+[1.990s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::ColorStyle::AddElement(const ElementPtr&)[m[K’:
+[1.990s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[1.990s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[1.990s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[2.015s] [ 28%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/document.cc.o[0m
+[2.024s] [ 29%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/element.cc.o[0m
+[2.032s] [ 29%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/extendeddata.cc.o[0m
+[2.061s] [ 30%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/feature.cc.o[0m
+[2.127s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/balloonstyle.h:31[m[K,
+[2.127s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/balloonstyle.cc:28[m[K:
+[2.127s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::BalloonStyle::AddElement(const ElementPtr&)[m[K’:
+[2.128s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.128s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[2.128s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[2.128s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.128s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[2.129s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[2.196s] [ 31%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/folder.cc.o[0m
+[2.274s] [ 32%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/geometry.cc.o[0m
+[2.509s] [ 33%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/gx_timeprimitive.cc.o[0m
+[2.872s] [ 34%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/gx_tour.cc.o[0m
+[2.947s] [ 34%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/hotspot.cc.o[0m
+[2.952s] [ 35%] [32m[1mLinking CXX shared library ../../../lib/libkmlxsd.so[0m
+[3.126s] [ 36%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/iconstyle.cc.o[0m
+[3.140s] [ 37%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml.cc.o[0m
+[3.185s] [ 37%] Built target kmlxsd
+[3.202s] [ 38%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_cast.cc.o[0m
+[3.224s] [ 39%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_factory.cc.o[0m
+[3.411s] [ 39%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_handler.cc.o[0m
+[3.515s] [ 40%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_handler_ns.cc.o[0m
+[3.828s] [ 41%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/labelstyle.cc.o[0m
+[4.319s] [ 42%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/linestyle.cc.o[0m
+[4.350s] [ 43%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/link.cc.o[0m
+[4.600s] [ 44%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/liststyle.cc.o[0m
+[4.751s] [ 44%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/model.cc.o[0m
+[4.763s] [ 45%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/networklink.cc.o[0m
+[4.809s] [ 46%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/networklinkcontrol.cc.o[0m
+[4.978s] [ 47%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/object.cc.o[0m
+[4.979s] [ 48%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/overlay.cc.o[0m
+[5.078s] [ 49%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/parser.cc.o[0m
+[5.095s] [ 49%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/placemark.cc.o[0m
+[5.233s] [ 50%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/polystyle.cc.o[0m
+[5.260s] [ 51%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/region.cc.o[0m
+[5.581s] [ 52%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/schema.cc.o[0m
+[6.185s] [ 53%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/serializer.cc.o[0m
+[6.250s] [ 54%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/snippet.cc.o[0m
+[6.324s] [ 54%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/style.cc.o[0m
+[6.571s] [ 55%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/stylemap.cc.o[0m
+[6.682s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/liststyle.h:32[m[K,
+[6.682s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/liststyle.cc:26[m[K:
+[6.683s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::ListStyle::AddElement(const ElementPtr&)[m[K’:
+[6.683s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[6.683s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[6.683s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[6.686s] [ 56%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/styleselector.cc.o[0m
+[6.708s] [ 57%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/substyle.cc.o[0m
+[6.763s] [ 58%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/timeprimitive.cc.o[0m
+[6.905s] [ 58%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/vec2.cc.o[0m
+[6.976s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/overlay.h:34[m[K,
+[6.977s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/overlay.cc:30[m[K:
+[6.977s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::Overlay::AddElement(const ElementPtr&)[m[K’:
+[6.977s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[6.977s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[6.977s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[7.221s] [ 59%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/visitor.cc.o[0m
+[7.345s] [ 60%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/visitor_driver.cc.o[0m
+[7.350s] [ 61%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/xal.cc.o[0m
+[7.447s] [ 62%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/xml_serializer.cc.o[0m
+[7.597s] [ 63%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/xsd.cc.o[0m
+[9.485s] [ 63%] [32m[1mLinking CXX shared library ../../../lib/libkmldom.so[0m
+[9.589s] [ 63%] Built target kmldom
+[9.602s] [35m[1mScanning dependencies of target kmlengine[0m
+[9.635s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/entity_mapper.cc.o[0m
+[9.636s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/feature_balloon.cc.o[0m
+[9.636s] [ 69%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/feature_visitor.cc.o[0m
+[9.636s] [ 69%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/find.cc.o[0m
+[9.636s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/clone.cc.o[0m
+[9.636s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/feature_view.cc.o[0m
+[9.636s] [ 69%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/get_link_parents.cc.o[0m
+[9.636s] [ 70%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/get_links.cc.o[0m
+[9.637s] [ 71%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/find_xml_namespaces.cc.o[0m
+[9.637s] [ 72%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/href.cc.o[0m
+[9.637s] [ 72%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_cache.cc.o[0m
+[9.648s] [ 73%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/id_mapper.cc.o[0m
+[10.059s] [ 74%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_file.cc.o[0m
+[11.391s] [ 75%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_stream.cc.o[0m
+[11.462s] [ 76%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_uri.cc.o[0m
+[11.491s] [ 77%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kmz_cache.cc.o[0m
+[11.590s] [ 77%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kmz_file.cc.o[0m
+[11.600s] [ 78%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/link_util.cc.o[0m
+[11.609s] [ 79%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/location_util.cc.o[0m
+[11.701s] [ 80%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/merge.cc.o[0m
+[11.737s] [ 81%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/parse_old_schema.cc.o[0m
+[11.779s] [ 82%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_inliner.cc.o[0m
+[11.822s] [ 82%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_merger.cc.o[0m
+[12.118s] [ 83%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_resolver.cc.o[0m
+[12.495s] [ 84%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_splitter.cc.o[0m
+[13.131s] [ 85%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/update.cc.o[0m
+[13.215s] [ 86%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/update_processor.cc.o[0m
+[14.166s] [ 87%] [32m[1mLinking CXX shared library ../../../lib/libkmlengine.so[0m
+[14.261s] [ 87%] Built target kmlengine
+[14.274s] [35m[1mScanning dependencies of target kmlconvenience[0m
+[14.297s] [ 88%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_maps_data.cc.o[0m
+[14.298s] [ 90%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/atom_util.cc.o[0m
+[14.298s] [ 91%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/csv_parser.cc.o[0m
+[14.298s] [ 91%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/csv_file.cc.o[0m
+[14.299s] [ 92%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/feature_list.cc.o[0m
+[14.299s] [ 93%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_doc_list.cc.o[0m
+[14.300s] [ 93%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_spreadsheets.cc.o[0m
+[14.300s] [ 90%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/convenience.cc.o[0m
+[14.300s] [ 94%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/kmz_check_links.cc.o[0m
+[14.301s] [ 95%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/http_client.cc.o[0m
+[14.302s] [ 96%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_picasa_web.cc.o[0m
+[16.218s] [ 97%] [32m[1mLinking CXX shared library ../../../lib/libkmlconvenience.so[0m
+[16.287s] [ 97%] Built target kmlconvenience
+[16.295s] [35m[1mScanning dependencies of target kmlregionator[0m
+[16.311s] [ 99%] [32mBuilding CXX object src/kml/regionator/CMakeFiles/kmlregionator.dir/regionator.cc.o[0m
+[16.311s] [ 99%] [32mBuilding CXX object src/kml/regionator/CMakeFiles/kmlregionator.dir/regionator_util.cc.o[0m
+[16.311s] [ 99%] [32mBuilding CXX object src/kml/regionator/CMakeFiles/kmlregionator.dir/feature_list_region_handler.cc.o[0m
+[17.323s] [100%] [32m[1mLinking CXX shared library ../../../lib/libkmlregionator.so[0m
+[17.386s] [100%] Built target kmlregionator

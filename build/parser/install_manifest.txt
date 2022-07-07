@@ -1,0 +1,17 @@
+/home/mete/catkin_ws2/install/parser/lib/parser/parser_geo
+/home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian
+/home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/package_run_dependencies/parser
+/home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/parent_prefix_path/parser
+/home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.sh
+/home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.dsv
+/home/mete/catkin_ws2/install/parser/share/parser/environment/path.sh
+/home/mete/catkin_ws2/install/parser/share/parser/environment/path.dsv
+/home/mete/catkin_ws2/install/parser/share/parser/local_setup.bash
+/home/mete/catkin_ws2/install/parser/share/parser/local_setup.sh
+/home/mete/catkin_ws2/install/parser/share/parser/local_setup.zsh
+/home/mete/catkin_ws2/install/parser/share/parser/local_setup.dsv
+/home/mete/catkin_ws2/install/parser/share/parser/package.dsv
+/home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/packages/parser
+/home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig.cmake
+/home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig-version.cmake
+/home/mete/catkin_ws2/install/parser/share/parser/package.xml

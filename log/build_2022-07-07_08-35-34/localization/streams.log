@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/mete/catkin_ws2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/localization -- -j12 -l12
+[0.044s] CMake Error at CMakeLists.txt:21 (find_package):
+[0.044s]   By not providing "FindGeographicLib.cmake" in CMAKE_MODULE_PATH this
+[0.044s]   project has asked CMake to find a package configuration file provided by
+[0.044s]   "GeographicLib", but CMake did not find one.
+[0.044s] 
+[0.044s]   Could not find a package configuration file provided by "GeographicLib"
+[0.044s]   with any of the following names:
+[0.044s] 
+[0.044s]     GeographicLibConfig.cmake
+[0.044s]     geographiclib-config.cmake
+[0.044s] 
+[0.044s]   Add the installation prefix of "GeographicLib" to CMAKE_PREFIX_PATH or set
+[0.044s]   "GeographicLib_DIR" to a directory containing one of the above files.  If
+[0.044s]   "GeographicLib" provides a separate development package or SDK, be sure it
+[0.045s]   has been installed.
+[0.045s] 
+[0.045s] 
+[0.045s] -- Configuring incomplete, errors occurred!
+[0.045s] See also "/home/mete/catkin_ws2/build/localization/CMakeFiles/CMakeOutput.log".
+[0.045s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.047s] Invoked command in '/home/mete/catkin_ws2/build/localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/localization -- -j12 -l12

@@ -1,0 +1,4 @@
+Invoking command in '/home/mete/catkin_ws2/build/LibKML': /usr/bin/cmake --build /home/mete/catkin_ws2/build/LibKML -- -j12 -l12
+Invoked command in '/home/mete/catkin_ws2/build/LibKML' returned '0': /usr/bin/cmake --build /home/mete/catkin_ws2/build/LibKML -- -j12 -l12
+Invoking command in '/home/mete/catkin_ws2/build/LibKML': /usr/bin/cmake --install /home/mete/catkin_ws2/build/LibKML
+Invoked command in '/home/mete/catkin_ws2/build/LibKML' returned '0': /usr/bin/cmake --install /home/mete/catkin_ws2/build/LibKML

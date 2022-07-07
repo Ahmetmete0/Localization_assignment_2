@@ -1,0 +1,46 @@
+[0.013s] Invoking command in '/home/mete/catkin_ws2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws2/src/localization -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/localization
+[0.143s] -- The C compiler identification is GNU 9.4.0
+[0.192s] -- The CXX compiler identification is GNU 9.4.0
+[0.198s] -- Check for working C compiler: /usr/bin/cc
+[0.262s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.263s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.386s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++
+[0.493s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.494s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Detecting CXX compile features
+[0.568s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.590s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.590s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.766s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.826s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.828s] -- Added test 'lint_cmake' to check CMake code style
+[0.829s] -- Added test 'xmllint' to check XML markup files
+[0.831s] -- Configuring done
+[0.832s] -- Generating done
+[0.833s] -- Build files have been written to: /home/mete/catkin_ws2/build/localization
+[0.835s] Invoked command in '/home/mete/catkin_ws2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws2/src/localization -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/localization
+[0.838s] Invoking command in '/home/mete/catkin_ws2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/localization -- -j12 -l12
+[0.868s] Invoked command in '/home/mete/catkin_ws2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/localization -- -j12 -l12
+[0.896s] Invoking command in '/home/mete/catkin_ws2/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws2/build/localization
+[0.904s] -- Install configuration: ""
+[0.904s] -- Installing: /home/mete/catkin_ws2/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/environment/ament_prefix_path.sh
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/environment/ament_prefix_path.dsv
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/environment/path.sh
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/environment/path.dsv
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/local_setup.bash
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/local_setup.sh
+[0.905s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/local_setup.zsh
+[0.906s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/local_setup.dsv
+[0.906s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/package.dsv
+[0.906s] -- Installing: /home/mete/catkin_ws2/install/localization/share/ament_index/resource_index/packages/localization
+[0.906s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/cmake/localizationConfig.cmake
+[0.906s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[0.906s] -- Installing: /home/mete/catkin_ws2/install/localization/share/localization/package.xml
+[0.908s] Invoked command in '/home/mete/catkin_ws2/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws2/build/localization

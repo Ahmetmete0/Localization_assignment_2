@@ -1,0 +1,46 @@
+-- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+-- GeographicLib configuration, version 2.1
+--   ${GeographicLib_LIBRARIES} set to shared library
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mete/catkin_ws2/build/parser
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 75%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:19:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGeographicLib::LocalCartesian::LocalCartesian(const double&, const double&, double, double)[m[K’
+   19 |     LocalCartesian proj(lat0, lon0, 1.81700869684152, 359.9999998710744[01;31m[K)[m[K;
+      |                                                                        [01;31m[K^[m[K
+In file included from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:7[m[K:
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:77:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KGeographicLib::LocalCartesian::LocalCartesian(const GeographicLib::Geocentric&)[m[K’
+   77 |     explicit [01;36m[KLocalCartesian[m[K(const Geocentric& earth = Geocentric::WGS84())
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:77:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:64:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KGeographicLib::LocalCartesian::LocalCartesian(GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, const GeographicLib::Geocentric&)[m[K’
+   64 |     [01;36m[KLocalCartesian[m[K(real lat0, real lon0, real h0 = 0,
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:65:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst GeographicLib::Geocentric&[m[K’
+   65 |                    [01;36m[Kconst Geocentric& earth = Geocentric::WGS84()[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr GeographicLib::LocalCartesian::LocalCartesian(const GeographicLib::LocalCartesian&)[m[K’
+   38 |   class GEOGRAPHICLIB_EXPORT [01;36m[KLocalCartesian[m[K {
+      |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr GeographicLib::LocalCartesian::LocalCartesian(GeographicLib::LocalCartesian&&)[m[K’
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

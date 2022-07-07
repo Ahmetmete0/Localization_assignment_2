@@ -1,0 +1,51 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.044s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.045s] -- GeographicLib configuration, version 2.1
+[0.046s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.046s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.406s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.407s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.526s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.622s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.669s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.669s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.670s] -- Configured cppcheck include dirs: 
+[0.670s] -- Configured cppcheck exclude dirs and/or files: 
+[0.670s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.670s] -- Configured cpplint exclude dirs and/or files: 
+[0.671s] -- Added test 'lint_cmake' to check CMake code style
+[0.671s] -- Added test 'uncrustify' to check C / C++ code style
+[0.671s] -- Configured uncrustify additional arguments: 
+[0.672s] -- Added test 'xmllint' to check XML markup files
+[0.674s] -- Configuring done
+[0.681s] -- Generating done
+[0.682s] -- Build files have been written to: /home/mete/catkin_ws2/build/parser
+[0.709s] [ 50%] Built target parser_geo
+[0.712s] [ 75%] [32m[1mLinking CXX executable local_cartesian[0m
+[0.779s] [100%] Built target local_cartesian
+[0.789s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.809s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws2/build/parser
+[0.816s] -- Install configuration: ""
+[0.816s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/lib/parser/parser_geo
+[0.817s] -- Installing: /home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian
+[0.817s] -- Set runtime path of "/home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian" to "/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib"
+[0.817s] -- Installing: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/package_run_dependencies/parser
+[0.817s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/parent_prefix_path/parser
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.sh
+[0.818s] -- Installing: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.dsv
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.sh
+[0.818s] -- Installing: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.dsv
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.bash
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.sh
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.zsh
+[0.818s] -- Installing: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.dsv
+[0.818s] -- Installing: /home/mete/catkin_ws2/install/parser/share/parser/package.dsv
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/packages/parser
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig.cmake
+[0.818s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig-version.cmake
+[0.819s] -- Installing: /home/mete/catkin_ws2/install/parser/share/parser/package.xml
+[0.819s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws2/build/parser

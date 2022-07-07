@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Wfloat-conversion -O3 -DNDEBUG   CMakeFiles/geodtest.dir/geodtest.cpp.o  -o geodtest  -Wl,-rpath,/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/src ../src/libGeographicLib.so.23.0.0 

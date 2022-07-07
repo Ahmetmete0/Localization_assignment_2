@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Wfloat-conversion -O3 -DNDEBUG   CMakeFiles/signtest.dir/signtest.cpp.o  -o signtest  -Wl,-rpath,/home/mete/catkin_ws2/build/GeographicLib/src ../src/libGeographicLib.so.23.0.0 

@@ -1,0 +1,5 @@
+[0.024s] Invoking command in '/home/mete/catkin_ws2/build/gtest': /usr/bin/cmake --build /home/mete/catkin_ws2/build/gtest -- -j12 -l12
+[0.038s] CMake Error: The source directory "/home/mete/catkin_ws2/src/libkml/third_party/gtest-1.7.0" does not exist.
+[0.038s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.038s] make: *** [Makefile:220: cmake_check_build_system] Error 1
+[0.041s] Invoked command in '/home/mete/catkin_ws2/build/gtest' returned '2': /usr/bin/cmake --build /home/mete/catkin_ws2/build/gtest -- -j12 -l12

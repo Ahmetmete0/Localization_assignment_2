@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+   26 |       if (karakter == [01;35m[K","[m[K){
+      |                       [01;35m[K^~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K-fpermissive[m[K]
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:29:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar[m[K’ [[01;31m[K-fpermissive[m[K]
+   29 |         kelime = [01;31m[K""[m[K;
+      |                  [01;31m[K^~[m[K
+      |                  [01;31m[K|[m[K
+      |                  [01;31m[Kconst char*[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

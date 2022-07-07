@@ -1,0 +1,6 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:29:18:[m[K [01;31m[Kerror: [m[Kempty character constant
+   29 |         kelime = [01;31m[K''[m[K;
+      |                  [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

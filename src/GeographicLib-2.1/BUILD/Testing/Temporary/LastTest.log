@@ -1,0 +1,3102 @@
+Start testing: Jul 07 08:38 +03
+----------------------------------------------------------
+1/182 Testing: geodtest
+1/182 Test: geodtest
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests/geodtest"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"geodtest" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"geodtest" end time: Jul 07 08:38 +03
+"geodtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/182 Testing: signtest
+2/182 Test: signtest
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests/signtest"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"signtest" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"signtest" end time: Jul 07 08:38 +03
+"signtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/182 Testing: polygontest
+3/182 Test: polygontest
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests/polygontest"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"polygontest" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"polygontest" end time: Jul 07 08:38 +03
+"polygontest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/182 Testing: GeoConvert0
+4/182 Test: GeoConvert0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-p" "-3" "-m" "--input-string" "33.3 44.4"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+38SMB4484
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[38SMB4484]
+"GeoConvert0" end time: Jul 07 08:38 +03
+"GeoConvert0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/182 Testing: GeoConvert1
+5/182 Test: GeoConvert1
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-d" "--input-string" "38smb"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert1" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+32d59'14.1"N 044d27'53.4"E
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[32d59'14\.1"N 044d27'53\.4"E]
+"GeoConvert1" end time: Jul 07 08:38 +03
+"GeoConvert1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/182 Testing: GeoConvert2
+6/182 Test: GeoConvert2
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-p" "-2" "--input-string" "30d30'30" 30.50833"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert2" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+30.508 30.508
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[30\.508 30\.508]
+"GeoConvert2" end time: Jul 07 08:38 +03
+"GeoConvert2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/182 Testing: GeoConvert3
+7/182 Test: GeoConvert3
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--junk"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert3" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+Usage:
+    GeoConvert [ -g | -d | -: | -u | -m | -c ] [ -z zone | -s | -t | -S |
+    -T ] [ -n ] [ -w ] [ -p prec ] [ -l | -a ] [ --comment-delimiter
+    commentdelim ] [ --version | -h | --help ] [ --input-file infile |
+    --input-string instring ] [ --line-separator linesep ] [ --output-file
+    outfile ]
+
+For full documentation type:
+    GeoConvert --help
+or visit:
+    https://geographiclib.sourceforge.io/C++/2.1/GeoConvert.1.html
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert3" end time: Jul 07 08:38 +03
+"GeoConvert3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/182 Testing: GeoConvert4
+8/182 Test: GeoConvert4
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--input-string" "garbage"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert4" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+ERROR: Band letter g not in UPS set ABYZ
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert4" end time: Jul 07 08:38 +03
+"GeoConvert4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/182 Testing: GeoConvert5
+9/182 Test: GeoConvert5
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--input-string" "5d. 0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert5" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+ERROR: Missing numbers in trailing component of 5d.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert5" end time: Jul 07 08:38 +03
+"GeoConvert5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/182 Testing: GeoConvert6
+10/182 Test: GeoConvert6
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-p" "9" "--input-string" "0 179.99999999999998578"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert6" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000000000 179.99999999999997
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[179\.9999999999999[7-9]]
+"GeoConvert6" end time: Jul 07 08:38 +03
+"GeoConvert6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/182 Testing: GeoConvert7
+11/182 Test: GeoConvert7
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--version"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert7" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert: GeographicLib version 2.1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert7" end time: Jul 07 08:38 +03
+"GeoConvert7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/182 Testing: GeoConvert8
+12/182 Test: GeoConvert8
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-u" "-p" "6" "--input-string" "86 0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert8" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+n 2000000.000000 1555731.570643
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[n 2000000\.0* 1555731\.570643]
+"GeoConvert8" end time: Jul 07 08:38 +03
+"GeoConvert8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/182 Testing: GeoConvert9
+13/182 Test: GeoConvert9
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--input-string" "5d70.0 10"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert9" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+ERROR: Minutes 70 not in range [0, 60)
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert9" end time: Jul 07 08:38 +03
+"GeoConvert9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/182 Testing: GeoConvert10
+14/182 Test: GeoConvert10
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--input-string" "5d60 10"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert10" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+ERROR: Minutes 60 not in range [0, 60)
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert10" end time: Jul 07 08:38 +03
+"GeoConvert10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/182 Testing: GeoConvert11
+15/182 Test: GeoConvert11
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--input-string" "5d59 10"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert11" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+5.98333 10.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert11" end time: Jul 07 08:38 +03
+"GeoConvert11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/182 Testing: GeoConvert12
+16/182 Test: GeoConvert12
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--input-string" "5d60. 10"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert12" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+6.00000 10.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert12" end time: Jul 07 08:38 +03
+"GeoConvert12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/182 Testing: GeoConvert13
+17/182 Test: GeoConvert13
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "--input-string" "5d60.0 10"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert13" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+6.00000 10.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeoConvert13" end time: Jul 07 08:38 +03
+"GeoConvert13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/182 Testing: GeoConvert14
+18/182 Test: GeoConvert14
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-:" "-p" "-4" "--input-string" "5.25 5.75"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert14" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+05.2N 005.8E
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[05.2N 005.8E]
+"GeoConvert14" end time: Jul 07 08:38 +03
+"GeoConvert14" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/182 Testing: GeoConvert15
+19/182 Test: GeoConvert15
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-:" "-p" "-1" "--input-string" "5.03125 5.09375"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert15" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+05:01:52N 005:05:38E
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[05:01:52N 005:05:38E]
+"GeoConvert15" end time: Jul 07 08:38 +03
+"GeoConvert15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/182 Testing: GeoConvert16
+20/182 Test: GeoConvert16
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-m" "-p" "3" "--input-string" "38n 444140.6 3684706.3"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert16" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+38SMB4414060084706300
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[38SMB4414060084706300]
+"GeoConvert16" end time: Jul 07 08:38 +03
+"GeoConvert16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/182 Testing: GeoConvert17
+21/182 Test: GeoConvert17
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-m" "-p" "3" "--input-string" "38n 500000 63.811"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert17" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+38NNF0000000000063811
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[38NNF0000000000063811]
+"GeoConvert17" end time: Jul 07 08:38 +03
+"GeoConvert17" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/182 Testing: GeoConvert18
+22/182 Test: GeoConvert18
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-m" "-p" "4" "--input-string" "38n 500000 63.811"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert18" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+38NNF000000000000638110
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[38NNF000000000000638110]
+"GeoConvert18" end time: Jul 07 08:38 +03
+"GeoConvert18" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/182 Testing: GeoConvert19
+23/182 Test: GeoConvert19
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-m" "-p" "-6" "--input-string" "s 2746000 1515000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert19" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+B
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^B[
+]]
+"GeoConvert19" end time: Jul 07 08:38 +03
+"GeoConvert19" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/182 Testing: GeoConvert20
+24/182 Test: GeoConvert20
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-m" "-p" "-5" "--input-string" "s 2746000 1515000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert20" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+BKH
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^BKH[
+]]
+"GeoConvert20" end time: Jul 07 08:38 +03
+"GeoConvert20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/182 Testing: GeoConvert21
+25/182 Test: GeoConvert21
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-m" "-p" "-4" "--input-string" "s 2746000 1515000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert21" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+BKH41
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^BKH41[
+]]
+"GeoConvert21" end time: Jul 07 08:38 +03
+"GeoConvert21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/182 Testing: GeoConvert22
+26/182 Test: GeoConvert22
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-p" "-5" "--input-string" "5.5 6.5"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert22" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+6 6
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[6 6]
+"GeoConvert22" end time: Jul 07 08:38 +03
+"GeoConvert22" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/182 Testing: GeoConvert23
+27/182 Test: GeoConvert23
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeoConvert" "-p" "-5" "-d" "--input-string" "5.5 6.5"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeoConvert23" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+06N 006E
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[06N 006E]
+"GeoConvert23" end time: Jul 07 08:38 +03
+"GeoConvert23" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/182 Testing: GeodSolve0
+28/182 Test: GeodSolve0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "40.6 -73.8 49d01'N 2d33'E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+53.47022 111.59367 5853226
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[53\.47022 111\.59367 5853226]
+"GeodSolve0" end time: Jul 07 08:38 +03
+"GeodSolve0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/182 Testing: GeodSolve1
+29/182 Test: GeodSolve1
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-p" "0" "--input-string" "40d38'23"N 073d46'44"W 53d30' 5850e3"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve1" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+49.01467 2.56106 111.62947
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[49\.01467 2\.56106 111\.62947]
+"GeodSolve1" end time: Jul 07 08:38 +03
+"GeodSolve1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/182 Testing: GeodSolve2
+30/182 Test: GeodSolve2
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "-e" "6.4e6" "-1/150" "--input-string" "0.07476 0 -0.07476 180"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve2" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00078 90.00078 20106193
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00078 90\.00078 20106193]
+"GeodSolve2" end time: Jul 07 08:38 +03
+"GeodSolve2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/182 Testing: GeodSolve3
+31/182 Test: GeodSolve3
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "-e" "6.4e6" "-1/150" "--input-string" "0.1 0 -0.1 180"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve3" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00105 90.00105 20106193
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00105 90\.00105 20106193]
+"GeodSolve3" end time: Jul 07 08:38 +03
+"GeodSolve3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/182 Testing: GeodSolve4
+32/182 Test: GeodSolve4
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "36.493349428792 0 36.49334942879201 .0000008"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve4" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+89.99999976 90.00000024 0.072
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* .* 0\.072]
+"GeodSolve4" end time: Jul 07 08:38 +03
+"GeodSolve4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/182 Testing: GeodSolve5
+33/182 Test: GeodSolve5
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-p" "0" "--input-string" "0.01777745589997 30 0 10e6"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve5" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 -150.00000 180.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 -150\.00000 -?180\.00000]
+"GeodSolve5" end time: Jul 07 08:38 +03
+"GeodSolve5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/182 Testing: GeodSolve6
+34/182 Test: GeodSolve6
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "88.202499451857 0 -88.202499451857 179.981022032992859592"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve6" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000000 90.00000000 20003898.214
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* .* 20003898.214]
+"GeodSolve6" end time: Jul 07 08:38 +03
+"GeodSolve6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/182 Testing: GeodSolve7
+35/182 Test: GeodSolve7
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "89.262080389218 0 -89.262080389218 179.992207982775375662"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve7" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000000 90.00000000 20003925.854
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* .* 20003925.854]
+"GeodSolve7" end time: Jul 07 08:38 +03
+"GeodSolve7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/182 Testing: GeodSolve8
+36/182 Test: GeodSolve8
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "89.333123580033 0 -89.333123580032997687 179.99295812360148422"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve8" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000000 90.00000000 20003926.881
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* .* 20003926.881]
+"GeodSolve8" end time: Jul 07 08:38 +03
+"GeodSolve8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/182 Testing: GeodSolve9
+37/182 Test: GeodSolve9
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "56.320923501171 0 -56.320923501171 179.664747671772880215"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve9" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+89.99998907 90.00001093 19993558.287
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* .* 19993558.287]
+"GeodSolve9" end time: Jul 07 08:38 +03
+"GeodSolve9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/182 Testing: GeodSolve10
+38/182 Test: GeodSolve10
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "52.784459512564 0 -52.784459512563990912 179.634407464943777557"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve10" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+89.99995977 90.00004025 19991596.095
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* .* 19991596.095]
+"GeodSolve10" end time: Jul 07 08:38 +03
+"GeodSolve10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/182 Testing: GeodSolve11
+39/182 Test: GeodSolve11
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "48.522876735459 0 -48.52287673545898293 179.599720456223079643"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve11" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+89.99996442 90.00003560 19989144.774
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* .* 19989144.774]
+"GeodSolve11" end time: Jul 07 08:38 +03
+"GeodSolve11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/182 Testing: GeodSolve12
+40/182 Test: GeodSolve12
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-e" "89.8" "-1.83" "-p" "1" "--input-string" "0 0 -10 160"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve12" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+120.271181 105.158683 266.7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[120\.27.* 105\.15.* 266\.7]
+"GeodSolve12" end time: Jul 07 08:38 +03
+"GeodSolve12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/182 Testing: GeodSolve13
+41/182 Test: GeodSolve13
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-e" "89.8" "-1.83" "-p" "1" "--input-string" "0 0 -10 160" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve13" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+120.271236 105.158802 266.7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[120\.27.* 105\.15.* 266\.7]
+"GeodSolve13" end time: Jul 07 08:38 +03
+"GeodSolve13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/182 Testing: GeodSolve14
+42/182 Test: GeodSolve14
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "0 0 1 nan"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve14" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve14" end time: Jul 07 08:38 +03
+"GeodSolve14" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/182 Testing: GeodSolve15
+43/182 Test: GeodSolve15
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-e" "6.4e6" "-1/150" "-f" "--input-string" "1 2 3 4"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve15" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+1.00000000 2.00000000 3.00000000 1.00003529 2.00000187 3.00000003 4.000 0.00003557 4.000 1.0000000000 1.0000000000 23700
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[1\..* 2\..* 3\..* 1\..* 2\..* 3\..* 4\..* 0\..* 4\..* 1\..* 1\..* 23700]
+"GeodSolve15" end time: Jul 07 08:38 +03
+"GeodSolve15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/182 Testing: GeodSolve16
+44/182 Test: GeodSolve16
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-e" "6.4e6" "-1/150" "-f" "--input-string" "1 2 3 4" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve16" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+1.00000000 2.00000000 3.00000000 1.00003529 2.00000187 3.00000003 4.000 0.00003557 4.000 1.0000000000 1.0000000000 23700
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[1\..* 2\..* 3\..* 1\..* 2\..* 3\..* 4\..* 0\..* 4\..* 1\..* 1\..* 23700]
+"GeodSolve16" end time: Jul 07 08:38 +03
+"GeodSolve16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/182 Testing: GeodSolve17
+45/182 Test: GeodSolve17
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "--input-string" "40 -75 -10 2e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve17" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 -254.91289466 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* -254\.[0-9]* -170\.[0-9]*]
+"GeodSolve17" end time: Jul 07 08:38 +03
+"GeodSolve17" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/182 Testing: GeodSolve18
+46/182 Test: GeodSolve18
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "--input-string" "40 -75 -10 2e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve18" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 -254.91289466 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* -254\.[0-9]* -170\.[0-9]*]
+"GeodSolve18" end time: Jul 07 08:38 +03
+"GeodSolve18" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/182 Testing: GeodSolve19
+47/182 Test: GeodSolve19
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-L" "40" "-75" "-10" "--input-string" "2e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve19" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 -254.91289466 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* -254\.[0-9]* -170\.[0-9]*]
+"GeodSolve19" end time: Jul 07 08:38 +03
+"GeodSolve19" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/182 Testing: GeodSolve20
+48/182 Test: GeodSolve20
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-L" "40" "-75" "-10" "--input-string" "2e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve20" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 -254.91289466 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* -254\.[0-9]* -170\.[0-9]*]
+"GeodSolve20" end time: Jul 07 08:38 +03
+"GeodSolve20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/182 Testing: GeodSolve21
+49/182 Test: GeodSolve21
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "40 -75 -10 2e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve21" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 105.08710534 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* 105\.[0-9]* -170\.[0-9]*]
+"GeodSolve21" end time: Jul 07 08:38 +03
+"GeodSolve21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/182 Testing: GeodSolve22
+50/182 Test: GeodSolve22
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "40 -75 -10 2e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve22" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 105.08710534 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* 105\.[0-9]* -170\.[0-9]*]
+"GeodSolve22" end time: Jul 07 08:38 +03
+"GeodSolve22" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/182 Testing: GeodSolve23
+51/182 Test: GeodSolve23
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-L" "40" "-75" "-10" "--input-string" "2e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve23" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 105.08710534 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* 105\.[0-9]* -170\.[0-9]*]
+"GeodSolve23" end time: Jul 07 08:38 +03
+"GeodSolve23" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/182 Testing: GeodSolve24
+52/182 Test: GeodSolve24
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-L" "40" "-75" "-10" "--input-string" "2e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve24" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-39.97041231 105.08710534 -170.00435717
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-39\.[0-9]* 105\.[0-9]* -170\.[0-9]*]
+"GeodSolve24" end time: Jul 07 08:38 +03
+"GeodSolve24" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/182 Testing: GeodSolve25
+53/182 Test: GeodSolve25
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-p" "6" "--input-string" "0 0 7:33:36-7.56 10001965"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve25" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+89.99999347044 0.00000000000 0.00000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[89\.9[0-9]* 0\.00000000000 0\.00000000000]
+"GeodSolve25" end time: Jul 07 08:38 +03
+"GeodSolve25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/182 Testing: GeodSolve26
+54/182 Test: GeodSolve26
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-e" "6.4e6" "0" "--input-string" "1 2 3 4"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve26" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+1.00000000 2.00000000 44.95199835 3.00000000 4.00000000 45.02181506 315834.074 2.82749367 315705.896 0.9987825815 0.9987825815 49911046115
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 49911046115]
+"GeodSolve26" end time: Jul 07 08:38 +03
+"GeodSolve26" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/182 Testing: GeodSolve27
+55/182 Test: GeodSolve27
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-e" "6.4e6" "0" "--input-string" "1 2 3 4" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve27" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+1.00000000 2.00000000 44.95199835 3.00000000 4.00000000 45.02181506 315834.074 2.82749367 315705.896 0.9987825815 0.9987825815 49911046115
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 49911046115]
+"GeodSolve27" end time: Jul 07 08:38 +03
+"GeodSolve27" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/182 Testing: GeodSolve28
+56/182 Test: GeodSolve28
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-f" "-e" "6.4e6" "0.1" "-p" "3" "--input-string" "1 2 10 5e6"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve28" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+1.00000000 2.00000000 10.00000000 51.43412414 12.48688458 15.17896642 5000000.000 48.55570690 4445242.454 0.6622444295 0.6900333216 3155927746107
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 48.55570690 ]
+"GeodSolve28" end time: Jul 07 08:38 +03
+"GeodSolve28" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/182 Testing: GeodSolve29
+57/182 Test: GeodSolve29
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-p" "0" "--input-string" "0 539 0 181"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve29" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 179.00000 90.00000 0.00000 -179.00000 90.00000 222639 2.00673 222593 0.9993867 0.9993867 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\..* 179\..* 90\..* 0\..* -179\..* 90\..* 222639 ]
+"GeodSolve29" end time: Jul 07 08:38 +03
+"GeodSolve29" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/182 Testing: GeodSolve30
+58/182 Test: GeodSolve30
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-p" "0" "--input-string" "0 539 0 181" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve30" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 179.00000 90.00000 0.00000 -179.00000 90.00000 222639 2.00673 222593 0.9993867 0.9993867 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\..* 179\..* 90\..* 0\..* -179\..* 90\..* 222639 ]
+"GeodSolve30" end time: Jul 07 08:38 +03
+"GeodSolve30" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/182 Testing: GeodSolve31
+59/182 Test: GeodSolve31
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-p" "0" "--input-string" "0 539 0 181" "-u"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve31" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 539.00000 90.00000 0.00000 541.00000 90.00000 222639 2.00673 222593 0.9993867 0.9993867 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\..* 539\..* 90\..* 0\..* 541\..* 90\..* 222639 ]
+"GeodSolve31" end time: Jul 07 08:38 +03
+"GeodSolve31" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/182 Testing: GeodSolve32
+60/182 Test: GeodSolve32
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-p" "0" "--input-string" "0 539 0 181" "-u" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve32" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 539.00000 90.00000 0.00000 541.00000 90.00000 222639 2.00673 222593 0.9993867 0.9993867 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\..* 539\..* 90\..* 0\..* 541\..* 90\..* 222639 ]
+"GeodSolve32" end time: Jul 07 08:38 +03
+"GeodSolve32" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/182 Testing: GeodSolve33
+61/182 Test: GeodSolve33
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve33" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 19926189
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 19926189]
+"GeodSolve33" end time: Jul 07 08:38 +03
+"GeodSolve33" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/182 Testing: GeodSolve34
+62/182 Test: GeodSolve34
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve34" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 19926189
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 19926189]
+"GeodSolve34" end time: Jul 07 08:38 +03
+"GeodSolve34" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/182 Testing: GeodSolve35
+63/182 Test: GeodSolve35
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179.5"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve35" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+55.96650 124.03350 19980862
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[55\.96650 124\.03350 19980862]
+"GeodSolve35" end time: Jul 07 08:38 +03
+"GeodSolve35" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/182 Testing: GeodSolve36
+64/182 Test: GeodSolve36
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179.5" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve36" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+55.96650 124.03350 19980862
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[55\.96650 124\.03350 19980862]
+"GeodSolve36" end time: Jul 07 08:38 +03
+"GeodSolve36" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/182 Testing: GeodSolve37
+65/182 Test: GeodSolve37
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 180"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve37" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 20003931
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 20003931]
+"GeodSolve37" end time: Jul 07 08:38 +03
+"GeodSolve37" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/182 Testing: GeodSolve38
+66/182 Test: GeodSolve38
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 180" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve38" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 20003931
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 20003931]
+"GeodSolve38" end time: Jul 07 08:38 +03
+"GeodSolve38" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/182 Testing: GeodSolve39
+67/182 Test: GeodSolve39
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 1 180"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve39" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 19893357
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 19893357]
+"GeodSolve39" end time: Jul 07 08:38 +03
+"GeodSolve39" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/182 Testing: GeodSolve40
+68/182 Test: GeodSolve40
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 1 180" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve40" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 19893357
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 19893357]
+"GeodSolve40" end time: Jul 07 08:38 +03
+"GeodSolve40" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/182 Testing: GeodSolve41
+69/182 Test: GeodSolve41
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179" "-e" "6.4e6" "0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve41" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 19994492
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 19994492]
+"GeodSolve41" end time: Jul 07 08:38 +03
+"GeodSolve41" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/182 Testing: GeodSolve42
+70/182 Test: GeodSolve42
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179" "-e" "6.4e6" "0" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve42" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 19994492
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 19994492]
+"GeodSolve42" end time: Jul 07 08:38 +03
+"GeodSolve42" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/182 Testing: GeodSolve43
+71/182 Test: GeodSolve43
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 180" "-e" "6.4e6" "0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve43" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 20106193
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 20106193]
+"GeodSolve43" end time: Jul 07 08:38 +03
+"GeodSolve43" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/182 Testing: GeodSolve44
+72/182 Test: GeodSolve44
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 180" "-e" "6.4e6" "0" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve44" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 20106193
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 20106193]
+"GeodSolve44" end time: Jul 07 08:38 +03
+"GeodSolve44" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/182 Testing: GeodSolve45
+73/182 Test: GeodSolve45
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 1 180" "-e" "6.4e6" "0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve45" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 19994492
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 19994492]
+"GeodSolve45" end time: Jul 07 08:38 +03
+"GeodSolve45" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/182 Testing: GeodSolve46
+74/182 Test: GeodSolve46
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 1 180" "-e" "6.4e6" "0" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve46" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 19994492
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 19994492]
+"GeodSolve46" end time: Jul 07 08:38 +03
+"GeodSolve46" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/182 Testing: GeodSolve47
+75/182 Test: GeodSolve47
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179" "-e" "6.4e6" "-1/300"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve47" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 19994492
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 19994492]
+"GeodSolve47" end time: Jul 07 08:38 +03
+"GeodSolve47" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/182 Testing: GeodSolve48
+76/182 Test: GeodSolve48
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 179" "-e" "6.4e6" "-1/300" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve48" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 19994492
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 19994492]
+"GeodSolve48" end time: Jul 07 08:38 +03
+"GeodSolve48" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/182 Testing: GeodSolve49
+77/182 Test: GeodSolve49
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 180" "-e" "6.4e6" "-1/300"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve49" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 20106193
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 20106193]
+"GeodSolve49" end time: Jul 07 08:38 +03
+"GeodSolve49" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/182 Testing: GeodSolve50
+78/182 Test: GeodSolve50
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0 180" "-e" "6.4e6" "-1/300" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve50" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000 90.00000 20106193
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.00000 90\.00000 20106193]
+"GeodSolve50" end time: Jul 07 08:38 +03
+"GeodSolve50" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/182 Testing: GeodSolve51
+79/182 Test: GeodSolve51
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0.5 180" "-e" "6.4e6" "-1/300"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve51" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+33.02493 146.97364 20082617
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[33\.02493 146\.97364 20082617]
+"GeodSolve51" end time: Jul 07 08:38 +03
+"GeodSolve51" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/182 Testing: GeodSolve52
+80/182 Test: GeodSolve52
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 0.5 180" "-e" "6.4e6" "-1/300" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve52" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+33.02493 146.97364 20082617
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[33\.02493 146\.97364 20082617]
+"GeodSolve52" end time: Jul 07 08:38 +03
+"GeodSolve52" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/182 Testing: GeodSolve53
+81/182 Test: GeodSolve53
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 1 180" "-e" "6.4e6" "-1/300"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve53" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 20027270
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 20027270]
+"GeodSolve53" end time: Jul 07 08:38 +03
+"GeodSolve53" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/182 Testing: GeodSolve54
+82/182 Test: GeodSolve54
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "0" "--input-string" "0 0 1 180" "-e" "6.4e6" "-1/300" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve54" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000 180.00000 20027270
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.00000 -?180\.00000 20027270]
+"GeodSolve54" end time: Jul 07 08:38 +03
+"GeodSolve54" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/182 Testing: GeodSolve55
+83/182 Test: GeodSolve55
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "nan 0 0 90"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve55" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve55" end time: Jul 07 08:38 +03
+"GeodSolve55" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/182 Testing: GeodSolve56
+84/182 Test: GeodSolve56
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "nan 0 0 90" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve56" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve56" end time: Jul 07 08:38 +03
+"GeodSolve56" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/182 Testing: GeodSolve57
+85/182 Test: GeodSolve57
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "nan 0 90 9"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve57" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve57" end time: Jul 07 08:38 +03
+"GeodSolve57" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/182 Testing: GeodSolve58
+86/182 Test: GeodSolve58
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "nan 0 90 9" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve58" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve58" end time: Jul 07 08:38 +03
+"GeodSolve58" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/182 Testing: GeodSolve59
+87/182 Test: GeodSolve59
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "9" "--input-string" "5 0.00000000000001 10 180"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve59" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000000004 179.99999999999997 18345191.174332712
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.0000000000000[34] 179\.9999999999999[5-7] 18345191\.17433271[2-6]]
+"GeodSolve59" end time: Jul 07 08:38 +03
+"GeodSolve59" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/182 Testing: GeodSolve60
+88/182 Test: GeodSolve60
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "9" "--input-string" "5 0.00000000000001 10 180" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve60" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000000004 179.99999999999997 18345191.174332712
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.0000000000000[34] 179\.9999999999999[5-7] 18345191\.17433271[2-6]]
+"GeodSolve60" end time: Jul 07 08:38 +03
+"GeodSolve60" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/182 Testing: GeodSolve61
+89/182 Test: GeodSolve61
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "--input-string" "45 0 -0.000000000000000003 1e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve61" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+45.30632 -180.00000 -180.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[45\.30632 -180\.00000 -?180\.00000]
+"GeodSolve61" end time: Jul 07 08:38 +03
+"GeodSolve61" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/182 Testing: GeodSolve62
+90/182 Test: GeodSolve62
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "-I" "45" "0" "80" "-0.000000000000000003" "--input-string" "1e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve62" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+45.30632 -180.00000 -180.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[45\.30632 -180\.00000 -?180\.00000]
+"GeodSolve62" end time: Jul 07 08:38 +03
+"GeodSolve62" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/182 Testing: GeodSolve63
+91/182 Test: GeodSolve63
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "--input-string" "45 0 -0.000000000000000003 1e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve63" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+45.30632 -180.00000 -180.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[45\.30632 -180\.00000 -?180\.00000]
+"GeodSolve63" end time: Jul 07 08:38 +03
+"GeodSolve63" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/182 Testing: GeodSolve64
+92/182 Test: GeodSolve64
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "-I" "45" "0" "80" "-0.000000000000000003" "--input-string" "1e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve64" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+45.30632 -180.00000 -180.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[45\.30632 -180\.00000 -?180\.00000]
+"GeodSolve64" end time: Jul 07 08:38 +03
+"GeodSolve64" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/182 Testing: GeodSolve65
+93/182 Test: GeodSolve65
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-I" "30" "-0.000000000000000001" "-31" "180" "-f" "-u" "-p" "0" "--input-string" "1e7;2e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve65" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+30.00000 -0.00000 -180.00000 -60.23169 -0.00000 -180.00000 10000000 90.06544 6363636 -0.0012834 0.0013749 0
+30.00000 -0.00000 -180.00000 -30.03547 -180.00000 -0.00000 20000000 179.96459 54342 -1.0045592 -0.9954339 127516405431022
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[30\.00000 -0\.00000 -?180\.00000 -60\.23169 -0\.00000 -?180\.00000 10000000 90\.06544 6363636 -0\.0012834 0\.0013749 0[
+]+30\.00000 -0\.00000 -?180\.00000 -30\.03547 -180\.00000 -0\.00000 20000000 179\.96459 54342 -1\.0045592 -0\.9954339 127516405431022]
+"GeodSolve65" end time: Jul 07 08:38 +03
+"GeodSolve65" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/182 Testing: GeodSolve66
+94/182 Test: GeodSolve66
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-I" "30" "-0.000000000000000001" "-31" "180" "-f" "-u" "-p" "0" "--input-string" "1e7;2e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve66" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+30.00000 -0.00000 -180.00000 -60.23169 -0.00000 -180.00000 10000000 90.06544 6363636 -0.0012834 0.0013749 0
+30.00000 -0.00000 -180.00000 -30.03547 -180.00000 -0.00000 20000000 179.96459 54342 -1.0045592 -0.9954339 127516405431022
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[30\.00000 -0\.00000 -?180\.00000 -60\.23169 -0\.00000 -?180\.00000 10000000 90\.06544 6363636 -0\.0012834 0\.0013749 0[
+]+30\.00000 -0\.00000 -?180\.00000 -30\.03547 -180\.00000 -0\.00000 20000000 179\.96459 54342 -1\.0045592 -0\.9954339 127516405431022]
+"GeodSolve66" end time: Jul 07 08:38 +03
+"GeodSolve66" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/182 Testing: GeodSolve67
+95/182 Test: GeodSolve67
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "-I" "-5" "-0.000000000000002" "-10" "180" "--input-string" "2e7"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve67" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+4.96445 -180.00000 -0.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4\.96445 -180\.00000 -0\.00000]
+"GeodSolve67" end time: Jul 07 08:38 +03
+"GeodSolve67" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/182 Testing: GeodSolve68
+96/182 Test: GeodSolve68
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "-I" "-5" "-0.000000000000002" "-10" "180" "--input-string" "2e7" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve68" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+4.96445 -180.00000 -0.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4\.96445 -180\.00000 -0\.00000]
+"GeodSolve68" end time: Jul 07 08:38 +03
+"GeodSolve68" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/182 Testing: GeodSolve69
+97/182 Test: GeodSolve69
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "-I" "-5" "-0.000000000000002" "-10" "180" "--input-string" "0.5" "-F"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve69" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-87.52461 -0.00000 -180.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-87\.52461 -0\.00000 -180\.00000]
+"GeodSolve69" end time: Jul 07 08:38 +03
+"GeodSolve69" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/182 Testing: GeodSolve70
+98/182 Test: GeodSolve70
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-u" "-p" "0" "-I" "-5" "-0.000000000000002" "-10" "180" "--input-string" "0.5" "-F" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve70" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-87.52461 -0.00000 -180.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[-87\.52461 -0\.00000 -180\.00000]
+"GeodSolve70" end time: Jul 07 08:38 +03
+"GeodSolve70" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/182 Testing: GeodSolve71
+99/182 Test: GeodSolve71
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-D" "1" "2" "45" "1e7" "-p" "0" "--input-string" "0.5" "-F"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve71" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+30.92625 37.54640 55.43104
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[30\.92625 37\.54640 55\.43104]
+"GeodSolve71" end time: Jul 07 08:38 +03
+"GeodSolve71" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/182 Testing: GeodSolve72
+100/182 Test: GeodSolve72
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-D" "1" "2" "45" "1e7" "-p" "0" "--input-string" "0.5" "-F"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve72" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+30.92625 37.54640 55.43104
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[30\.92625 37\.54640 55\.43104]
+"GeodSolve72" end time: Jul 07 08:38 +03
+"GeodSolve72" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/182 Testing: GeodSolve73
+101/182 Test: GeodSolve73
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-p" "0" "--input-string" "90 10 180 -1e6"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve73" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+81.04623 -170.00000 0.00000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[81\.04623 -170\.00000 0\.00000]
+"GeodSolve73" end time: Jul 07 08:38 +03
+"GeodSolve73" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/182 Testing: GeodSolve74
+102/182 Test: GeodSolve74
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "10" "-f" "--input-string" "54.1589 15.3872 54.1591 15.3877"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve74" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+54.158900000000003 15.387200000000000 55.723110354612096 54.159100000000002 15.387700000000001 55.723515677124311 39.5276863853 0.000355493251256 39.5276863851 0.99999999998083666 0.99999999998083666 286698586.302
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[54.* 15.* 55\.72311035.* 54.* 15.* 55\.72351567.* 39\.52768638.* 0\.00035549.* 39\.52768638.* 0\.99999999.* 0\.99999999.* 286698586\.302]
+"GeodSolve74" end time: Jul 07 08:38 +03
+"GeodSolve74" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/182 Testing: GeodSolve75
+103/182 Test: GeodSolve75
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "10" "-f" "--input-string" "54.1589 15.3872 54.1591 15.3877" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve75" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+54.158900000000003 15.387200000000000 55.723110354580328 54.159100000000002 15.387700000000001 55.723515677092550 39.5276863864 0.000355493251263 39.5276863858 0.99999999998083655 0.99999999998083655 286698586.299
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[54.* 15.* 55\.72311035.* 54.* 15.* 55\.72351567.* 39\.52768638.* 0\.00035549.* 39\.52768638.* 0\.99999999.* 0\.99999999.* 286698586\.(29[89]|30[0-5])]
+"GeodSolve75" end time: Jul 07 08:38 +03
+"GeodSolve75" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/182 Testing: GeodSolve76
+104/182 Test: GeodSolve76
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "6" "--input-string" "41:19S 174:49E 40:58N 5:30W"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve76" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+160.39137649664 19.50042925176 19960543.857179
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[160\.39137649664 19\.50042925176 19960543\.857179]
+"GeodSolve76" end time: Jul 07 08:38 +03
+"GeodSolve76" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/182 Testing: GeodSolve77
+105/182 Test: GeodSolve77
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "6" "--input-string" "41:19S 174:49E 40:58N 5:30W" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve77" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+160.39137649664 19.50042925176 19960543.857179
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[160\.39137649664 19\.50042925176 19960543\.857179]
+"GeodSolve77" end time: Jul 07 08:38 +03
+"GeodSolve77" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/182 Testing: GeodSolve78
+106/182 Test: GeodSolve78
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "6" "--input-string" "27.2 0 -27.1 179.5"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve78" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+45.82468716758 134.22776532670 19974354.765767
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[45\.82468716758 134\.22776532670 19974354\.765767]
+"GeodSolve78" end time: Jul 07 08:38 +03
+"GeodSolve78" time elapsed: 00:00:00
+----------------------------------------------------------
+
+107/182 Testing: GeodSolve79
+107/182 Test: GeodSolve79
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-p" "6" "--input-string" "27.2 0 -27.1 179.5" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve79" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+45.82468716758 134.22776532670 19974354.765767
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[45\.82468716758 134\.22776532670 19974354\.765767]
+"GeodSolve79" end time: Jul 07 08:38 +03
+"GeodSolve79" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/182 Testing: GeodSolve80
+108/182 Test: GeodSolve80
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "0 0 0 90" "-f"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve80" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 0.00000000 90.00000000 0.00000000 90.00000000 90.00000000 10018754.171 90.30276808 6356663.562 -0.0052842753 -0.0052842753 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ -0\.0052842753 -0\.0052842753 ]
+"GeodSolve80" end time: Jul 07 08:38 +03
+"GeodSolve80" time elapsed: 00:00:00
+----------------------------------------------------------
+
+109/182 Testing: GeodSolve81
+109/182 Test: GeodSolve81
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "0 0 0.000001 0.000001" "-f"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve81" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 0.00000000 45.19242322 0.00000100 0.00000100 45.19242322 0.157 0.00000141 0.157 1.0000000000 1.0000000000 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 0\.157 1\.0000000000 1\.0000000000 0]
+"GeodSolve81" end time: Jul 07 08:38 +03
+"GeodSolve81" time elapsed: 00:00:00
+----------------------------------------------------------
+
+110/182 Testing: GeodSolve82
+110/182 Test: GeodSolve82
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "20.001 0 20.001 0" "-f"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve82" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+20.00100000 0.00000000 180.00000000 20.00100000 0.00000000 180.00000000 0.000 0.00000000 0.000 1.0000000000 1.0000000000 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[20\.0010* 0\.0* 180\.0* 20\.0010* 0\.0* 180\.0* 0\.0* 0\.0* 0\.0* 1\.0* 1\.0* -?0]
+"GeodSolve82" end time: Jul 07 08:38 +03
+"GeodSolve82" time elapsed: 00:00:00
+----------------------------------------------------------
+
+111/182 Testing: GeodSolve83
+111/182 Test: GeodSolve83
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "90 0 90 180" "-f"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve83" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000000 0.00000000 0.00000000 90.00000000 180.00000000 180.00000000 0.000 0.00000000 0.000 1.0000000000 1.0000000000 127516405431022
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[90\.0* 0\.0* 0\.0* 90\.0* 180\.0* 180\.0* 0\.0* 0\.0* 0\.0* 1\.0* 1\.0* 127516405431022]
+"GeodSolve83" end time: Jul 07 08:38 +03
+"GeodSolve83" time elapsed: 00:00:00
+----------------------------------------------------------
+
+112/182 Testing: GeodSolve84
+112/182 Test: GeodSolve84
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "0 0 90 inf"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve84" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve84" end time: Jul 07 08:38 +03
+"GeodSolve84" time elapsed: 00:00:00
+----------------------------------------------------------
+
+113/182 Testing: GeodSolve85
+113/182 Test: GeodSolve85
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "0 0 90 nan"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve85" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve85" end time: Jul 07 08:38 +03
+"GeodSolve85" time elapsed: 00:00:00
+----------------------------------------------------------
+
+114/182 Testing: GeodSolve86
+114/182 Test: GeodSolve86
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "0 0 inf 1000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve86" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve86" end time: Jul 07 08:38 +03
+"GeodSolve86" time elapsed: 00:00:00
+----------------------------------------------------------
+
+115/182 Testing: GeodSolve87
+115/182 Test: GeodSolve87
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "0 0 nan 1000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve87" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve87" end time: Jul 07 08:38 +03
+"GeodSolve87" time elapsed: 00:00:00
+----------------------------------------------------------
+
+116/182 Testing: GeodSolve88
+116/182 Test: GeodSolve88
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "0 inf 90 1000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve88" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 nan 90.00000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.0* nan 90\.0*]
+"GeodSolve88" end time: Jul 07 08:38 +03
+"GeodSolve88" time elapsed: 00:00:00
+----------------------------------------------------------
+
+117/182 Testing: GeodSolve89
+117/182 Test: GeodSolve89
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "0 nan 90 1000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve89" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 nan 90.00000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[0\.0* nan 90\.0*]
+"GeodSolve89" end time: Jul 07 08:38 +03
+"GeodSolve89" time elapsed: 00:00:00
+----------------------------------------------------------
+
+118/182 Testing: GeodSolve90
+118/182 Test: GeodSolve90
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "inf 0 90 1000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve90" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+ERROR: Latitude infd not in [-90d, 90d]
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GeodSolve90" end time: Jul 07 08:38 +03
+"GeodSolve90" time elapsed: 00:00:00
+----------------------------------------------------------
+
+119/182 Testing: GeodSolve91
+119/182 Test: GeodSolve91
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "--input-string" "nan 0 90 1000"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve91" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve91" end time: Jul 07 08:38 +03
+"GeodSolve91" time elapsed: 00:00:00
+----------------------------------------------------------
+
+120/182 Testing: GeodSolve92
+120/182 Test: GeodSolve92
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "37.757540000000006 -122.47018 37.75754 -122.470177"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve92" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+89.99999927 90.00000111 0.264
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[89\.9999992. 90\.000001[01]. 0\.264]
+"GeodSolve92" end time: Jul 07 08:38 +03
+"GeodSolve92" time elapsed: 00:00:00
+----------------------------------------------------------
+
+121/182 Testing: GeodSolve93
+121/182 Test: GeodSolve93
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "37.757540000000006 -122.47018 37.75754 -122.470177" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve93" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+89.99999927 90.00000111 0.264
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[89\.9999992. 90\.000001[01]. 0\.264]
+"GeodSolve93" end time: Jul 07 08:38 +03
+"GeodSolve93" time elapsed: 00:00:00
+----------------------------------------------------------
+
+122/182 Testing: GeodSolve94
+122/182 Test: GeodSolve94
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "0 0 nan 90"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve94" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve94" end time: Jul 07 08:38 +03
+"GeodSolve94" time elapsed: 00:00:00
+----------------------------------------------------------
+
+123/182 Testing: GeodSolve95
+123/182 Test: GeodSolve95
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "--input-string" "0 0 nan 90" "-E"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve95" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+nan nan nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[nan nan nan]
+"GeodSolve95" end time: Jul 07 08:38 +03
+"GeodSolve95" time elapsed: 00:00:00
+----------------------------------------------------------
+
+124/182 Testing: GeodSolve96
+124/182 Test: GeodSolve96
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-e" "6378137" "1/298.257222101" "--input-string" "0 0 60.0832522871723 89.8492185074635"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve96" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 0.00000000 30.00000000 60.08325229 89.84921851 90.00000000 9997769.060 90.00000000 6372797.556 0.0000000000 0.0039524137 42426932221845
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* 42426932221845]
+"GeodSolve96" end time: Jul 07 08:38 +03
+"GeodSolve96" time elapsed: 00:00:00
+----------------------------------------------------------
+
+125/182 Testing: GeodSolve97
+125/182 Test: GeodSolve97
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-i" "-f" "-e" "6378137" "1/298.257222101" "--input-string" "0 0 60.0832522871723 89.8492185074635"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve97" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 0.00000000 30.00000000 60.08325229 89.84921851 90.00000000 9997769.060 90.00000000 6372797.556 0.0000000000 0.0039524137 42426932221845
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* 42426932221845]
+"GeodSolve97" end time: Jul 07 08:38 +03
+"GeodSolve97" time elapsed: 00:00:00
+----------------------------------------------------------
+
+126/182 Testing: GeodSolve98
+126/182 Test: GeodSolve98
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodSolve" "-E" "-a" "-u" "-f" "-e" "6.4e6" "188/194" "-p" "10" "--input-string" "0 0 45 90"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodSolve98" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.000000000000000 0.000000000000000 45.000000000000000 88.228530259965922 45.137446470749865 90.000000000000000 4545035.2220853139 90.000000000000000 4527647.2648043586 0.00000000000000000 0.99520548089173766 5910062452739.939
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[.* 5910062452739\.9[34].]
+"GeodSolve98" end time: Jul 07 08:38 +03
+"GeodSolve98" time elapsed: 00:00:00
+----------------------------------------------------------
+
+127/182 Testing: Planimeter0
+127/182 Test: Planimeter0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "89 0;89 90;89 180;89 270"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+4 631819.874528 24952305678.0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4 631819\.8745[0-9]+ 2495230567[78]\.[0-9]+]
+"Planimeter0" end time: Jul 07 08:38 +03
+"Planimeter0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+128/182 Testing: Planimeter1
+128/182 Test: Planimeter1
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-r" "--input-string" "-89 0;-89 90;-89 180;-89 270"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter1" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+4 631819.874528 24952305678.0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4 631819\.8745[0-9]+ 2495230567[78]\.[0-9]+]
+"Planimeter1" end time: Jul 07 08:38 +03
+"Planimeter1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+129/182 Testing: Planimeter2
+129/182 Test: Planimeter2
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "0 -1;-1 0;0 1;1 0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter2" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+4 627598.273165 24619419146.9
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4 627598\.2731[0-9]+ 24619419146.[0-9]+]
+"Planimeter2" end time: Jul 07 08:38 +03
+"Planimeter2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+130/182 Testing: Planimeter3
+130/182 Test: Planimeter3
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "90 0; 0 0; 0 90"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter3" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 30022685.630020 63758202715511.1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 30022685\.[0-9]+ 63758202715511\.[0-9]+]
+"Planimeter3" end time: Jul 07 08:38 +03
+"Planimeter3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+131/182 Testing: Planimeter4
+131/182 Test: Planimeter4
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-l" "--input-string" "90 0; 0 0; 0 90"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter4" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 20020719.900707
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 20020719\.[0-9]+]
+"Planimeter4" end time: Jul 07 08:38 +03
+"Planimeter4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+132/182 Testing: Planimeter5
+132/182 Test: Planimeter5
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "89,0.1;89,90.1;89,-179.9"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter5" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 539297.667092 12476152839.0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 539297\.[0-9]+ 1247615283[89]\.[0-9]+]
+"Planimeter5" end time: Jul 07 08:38 +03
+"Planimeter5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+133/182 Testing: Planimeter6
+133/182 Test: Planimeter6
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-p" "8" "--input-string" "9 -0.00000000000001;9 180;9 0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter6" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 36026861.80766834 -0.031
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 36026861\.[0-9]+ -?0.0[0-9]+]
+"Planimeter6" end time: Jul 07 08:38 +03
+"Planimeter6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+134/182 Testing: Planimeter7
+134/182 Test: Planimeter7
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-p" "8" "--input-string" "9  0.00000000000001;9 0;9 180"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter7" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 36026861.80766834 -0.030
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 36026861\.[0-9]+ -?0.0[0-9]+]
+"Planimeter7" end time: Jul 07 08:38 +03
+"Planimeter7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+135/182 Testing: Planimeter8
+135/182 Test: Planimeter8
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-p" "8" "--input-string" "9  0.00000000000001;9 180;9 0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter8" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 36026861.80766834 0.030
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 36026861\.[0-9]+ -?0.0[0-9]+]
+"Planimeter8" end time: Jul 07 08:38 +03
+"Planimeter8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+136/182 Testing: Planimeter9
+136/182 Test: Planimeter9
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-p" "8" "--input-string" "9 -0.00000000000001;9 0;9 180"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter9" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 36026861.80766834 0.031
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 36026861\.[0-9]+ -?0.0[0-9]+]
+"Planimeter9" end time: Jul 07 08:38 +03
+"Planimeter9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+137/182 Testing: Planimeter10
+137/182 Test: Planimeter10
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-R" "--input-string" "41N 111:3W; 41N 104:3W; 45N 104:3W; 45N 111:3W"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter10" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+4 2029616.314952 253588376329.2
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4 2029616\.[0-9]+ 2535883763..\.]
+"Planimeter10" end time: Jul 07 08:38 +03
+"Planimeter10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+138/182 Testing: Planimeter11
+138/182 Test: Planimeter11
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-R" "--input-string" "66:33:44 0; 66:33:44 180; 66:33:44 360"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter11" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 15985058.783250 21208418252304.7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 15985058\.[0-9]+ 212084182523..\.]
+"Planimeter11" end time: Jul 07 08:38 +03
+"Planimeter11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+139/182 Testing: Planimeter12
+139/182 Test: Planimeter12
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "66:33:44 0; 66:33:44 180; 66:33:44 360"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter12" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 10465729.174643 0.0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 10465729\.[0-9]+ -?0.0]
+"Planimeter12" end time: Jul 07 08:38 +03
+"Planimeter12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+140/182 Testing: Planimeter11r
+140/182 Test: Planimeter11r
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "-R" "--input-string" "66:33:44 -0; 66:33:44 -180; 66:33:44 -360"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter11r" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 15985058.783250 -21208418252304.7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 15985058\.[0-9]+ -212084182523..\.]
+"Planimeter11r" end time: Jul 07 08:38 +03
+"Planimeter11r" time elapsed: 00:00:00
+----------------------------------------------------------
+
+141/182 Testing: Planimeter12r
+141/182 Test: Planimeter12r
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "66:33:44 -0; 66:33:44 -180; 66:33:44 -360"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter12r" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 10465729.174643 0.0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3 10465729\.[0-9]+ -?0.0]
+"Planimeter12r" end time: Jul 07 08:38 +03
+"Planimeter12r" time elapsed: 00:00:00
+----------------------------------------------------------
+
+142/182 Testing: Planimeter13
+142/182 Test: Planimeter13
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "89 -360; 89 -240; 89 -120; 89 0; 89 120; 89 240"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter13" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+6 1160741.959502 32415230256.7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[6 1160741\..* 32415230256\.]
+"Planimeter13" end time: Jul 07 08:38 +03
+"Planimeter13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+143/182 Testing: Planimeter14
+143/182 Test: Planimeter14
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "-360 89;-240 89;-120 89;0 89;120 89;240 89" "-w"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter14" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+6 1160741.959502 32415230256.7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[6 1160741\..* 32415230256\.]
+"Planimeter14" end time: Jul 07 08:38 +03
+"Planimeter14" time elapsed: 00:00:00
+----------------------------------------------------------
+
+144/182 Testing: Planimeter15
+144/182 Test: Planimeter15
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "2 1;1 2;3 3"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter15" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 652827.202163 18454562325.5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 18454562325\.5]
+"Planimeter15" end time: Jul 07 08:38 +03
+"Planimeter15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+145/182 Testing: Planimeter16
+145/182 Test: Planimeter16
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "2 1;1 2;3 3" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter16" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 652827.202163 18454562325.5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 18454562325\.5]
+"Planimeter16" end time: Jul 07 08:38 +03
+"Planimeter16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+146/182 Testing: Planimeter17
+146/182 Test: Planimeter17
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "2 1;1 2;3 3" "-r"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter17" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 652827.202163 -18454562325.5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ -18454562325\.5]
+"Planimeter17" end time: Jul 07 08:38 +03
+"Planimeter17" time elapsed: 00:00:00
+----------------------------------------------------------
+
+147/182 Testing: Planimeter18
+147/182 Test: Planimeter18
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "2 1;1 2;3 3" "-r" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter18" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3 652827.202163 510047167161763.0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 510047167161763\.[01]]
+"Planimeter18" end time: Jul 07 08:38 +03
+"Planimeter18" time elapsed: 00:00:00
+----------------------------------------------------------
+
+148/182 Testing: Planimeter19
+148/182 Test: Planimeter19
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "1 1"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter19" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+1 0.000000 0.0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[1 0\.0* 0\.0]
+"Planimeter19" end time: Jul 07 08:38 +03
+"Planimeter19" time elapsed: 00:00:00
+----------------------------------------------------------
+
+149/182 Testing: Planimeter20
+149/182 Test: Planimeter20
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "1 1" "-l"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter20" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+1 0.000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[1 0\.0*]
+"Planimeter20" end time: Jul 07 08:38 +03
+"Planimeter20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+150/182 Testing: Planimeter21
+150/182 Test: Planimeter21
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter21" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+9 75786348.686146 118301654599714.3
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 118301654599714\.[2-5]]
+"Planimeter21" end time: Jul 07 08:38 +03
+"Planimeter21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+151/182 Testing: Planimeter22
+151/182 Test: Planimeter22
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter22" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+9 75786348.686146 118301654599714.3
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 118301654599714\.[2-5]]
+"Planimeter22" end time: Jul 07 08:38 +03
+"Planimeter22" time elapsed: 00:00:00
+----------------------------------------------------------
+
+152/182 Testing: Planimeter23
+152/182 Test: Planimeter23
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60" "-r"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter23" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+9 75786348.686146 -118301654599714.3
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ -118301654599714\.[2-5]]
+"Planimeter23" end time: Jul 07 08:38 +03
+"Planimeter23" time elapsed: 00:00:00
+----------------------------------------------------------
+
+153/182 Testing: Planimeter24
+153/182 Test: Planimeter24
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60" "-r" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter24" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+9 75786348.686146 391763967124374.1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 391763967124374\.[0-3]]
+"Planimeter24" end time: Jul 07 08:38 +03
+"Planimeter24" time elapsed: 00:00:00
+----------------------------------------------------------
+
+154/182 Testing: Planimeter25
+154/182 Test: Planimeter25
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter25" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+12 101048464.914861 157735539466285.8
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 157735539466285\.[6-9]]
+"Planimeter25" end time: Jul 07 08:38 +03
+"Planimeter25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+155/182 Testing: Planimeter26
+155/182 Test: Planimeter26
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter26" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+12 101048464.914861 157735539466285.8
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 157735539466285\.[6-9]]
+"Planimeter26" end time: Jul 07 08:38 +03
+"Planimeter26" time elapsed: 00:00:00
+----------------------------------------------------------
+
+156/182 Testing: Planimeter27
+156/182 Test: Planimeter27
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60" "-r"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter27" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+12 101048464.914861 -157735539466285.8
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ -157735539466285\.[6-9]]
+"Planimeter27" end time: Jul 07 08:38 +03
+"Planimeter27" time elapsed: 00:00:00
+----------------------------------------------------------
+
+157/182 Testing: Planimeter28
+157/182 Test: Planimeter28
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/Planimeter" "--input-string" "45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60;45 60;45 180;45 -60" "-r" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"Planimeter28" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+12 101048464.914861 352330082257802.7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[ 352330082257802\.[5-9]]
+"Planimeter28" end time: Jul 07 08:38 +03
+"Planimeter28" time elapsed: 00:00:00
+----------------------------------------------------------
+
+158/182 Testing: ConicProj0
+158/182 Test: ConicProj0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-a" "40d58" "39d56" "-l" "77d45W" "-r" "--input-string" "220e3 -52e3"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+39.95481374925 -75.17502526723 1.670535759228 0.999996726544
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[39\.95[0-9]+ -75\.17[0-9]+ 1\.67[0-9]+ 0\.99[0-9]+]
+"ConicProj0" end time: Jul 07 08:38 +03
+"ConicProj0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+159/182 Testing: ConicProj1
+159/182 Test: ConicProj1
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-a" "0" "0" "-e" "6.4e6" "-0.5" "-r" "--input-string" "0 8605508"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj1" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+85.00002605400 0.00000000000 0.000000000000 17.174306224675
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^85\.00]
+"ConicProj1" end time: Jul 07 08:38 +03
+"ConicProj1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+160/182 Testing: ConicProj2
+160/182 Test: ConicProj2
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-c" "-30" "-30" "--input-string" "-30 0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj2" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.000000 -0.000000 -0.000000000000 1.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^-?0\.0+ -?0\.0+ -?0\.0+ 1\.0+]
+"ConicProj2" end time: Jul 07 08:38 +03
+"ConicProj2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+161/182 Testing: ConicProj3
+161/182 Test: ConicProj3
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-r" "-c" "0" "0" "--input-string" "1113195 -1e10"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj3" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-90.00000000000 10.00000082705 0.000000000000 20214406524425874319170156363776.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^-90\.0+ 10\.00[0-9]+ ]
+"ConicProj3" end time: Jul 07 08:38 +03
+"ConicProj3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+162/182 Testing: ConicProj4
+162/182 Test: ConicProj4
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-r" "-c" "0" "0" "--input-string" "1113195 inf"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj4" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000000000 10.00000082705 0.000000000000 20214406524425876570969970049024.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^90\.0+ 10\.00[0-9]+ ]
+"ConicProj4" end time: Jul 07 08:38 +03
+"ConicProj4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+163/182 Testing: ConicProj5
+163/182 Test: ConicProj5
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-r" "-c" "45" "45" "--input-string" "0 -1e100"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj5" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-90.00000000000 0.00000000000 0.000000000000 593415006546530957869428790174638201166892621056966656.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^-90\.0+ -?0\.00[0-9]+ ]
+"ConicProj5" end time: Jul 07 08:38 +03
+"ConicProj5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+164/182 Testing: ConicProj6
+164/182 Test: ConicProj6
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-r" "-c" "45" "45" "--input-string" "0 -inf"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj6" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-90.00000000000 0.00000000000 0.000000000000 593415006546530957869428790174638201166892621056966656.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^-90\.0+ -?0\.00[0-9]+ ]
+"ConicProj6" end time: Jul 07 08:38 +03
+"ConicProj6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+165/182 Testing: ConicProj7
+165/182 Test: ConicProj7
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-r" "-c" "90" "90" "--input-string" "0 -1e150"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj7" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-90.00000000000 0.00000000000 0.000000000000 1623571418297993469771590661362371071661943763535161211089846272.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^-90\.0+ -?0\.00[0-9]+ ]
+"ConicProj7" end time: Jul 07 08:38 +03
+"ConicProj7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+166/182 Testing: ConicProj8
+166/182 Test: ConicProj8
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-r" "-c" "90" "90" "--input-string" "0 -inf"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj8" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+-90.00000000000 0.00000000000 0.000000000000 1623571418297993469771590661362371071661943763535161211089846272.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^-90\.0+ -?0\.00[0-9]+ ]
+"ConicProj8" end time: Jul 07 08:38 +03
+"ConicProj8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+167/182 Testing: ConicProj9
+167/182 Test: ConicProj9
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/ConicProj" "-a" "-10" "40" "-e" "6.4e6" "-0.5" "-p" "0" "--input-string" "85 10"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"ConicProj9" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+609861 7566522 1.843834 9.378323
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^609861 7566522 ]
+"ConicProj9" end time: Jul 07 08:38 +03
+"ConicProj9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+168/182 Testing: CartConvert0
+168/182 Test: CartConvert0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/CartConvert" "-e" "6.4e6" "1/100" "-r" "--input-string" "10e3 0 1e3"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"CartConvert0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+85.57605637501 0.00000000000 -6334614.328681
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[85\.57[0-9]+ 0\.0[0]+ -6334614\.[0-9]+]
+"CartConvert0" end time: Jul 07 08:38 +03
+"CartConvert0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+169/182 Testing: CartConvert1
+169/182 Test: CartConvert1
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/CartConvert" "-e" "6.4e6" "-1/100" "-r" "--input-string" "1e3 0 10e3"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"CartConvert1" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+4.42416201020 0.00000000000 -6398614.309565
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[4\.42[0-9]+ 0\.0[0]+ -6398614\.[0-9]+]
+"CartConvert1" end time: Jul 07 08:38 +03
+"CartConvert1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+170/182 Testing: TransverseMercatorProj0
+170/182 Test: TransverseMercatorProj0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-k" "1" "--input-string" "90 75"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.000000 10001965.729313 75.000000000000 1.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^0\.0+ 10001965\.7293[0-9]+ 75\.0+ 1\.0+]
+"TransverseMercatorProj0" end time: Jul 07 08:38 +03
+"TransverseMercatorProj0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+171/182 Testing: TransverseMercatorProj1
+171/182 Test: TransverseMercatorProj1
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-k" "1" "--input-string" "90 75" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj1" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.000000 10001965.729313 75.000000000000 1.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^0\.0+ 10001965\.7293[0-9]+ 75\.0+ 1\.0+]
+"TransverseMercatorProj1" end time: Jul 07 08:38 +03
+"TransverseMercatorProj1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+172/182 Testing: TransverseMercatorProj2
+172/182 Test: TransverseMercatorProj2
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-k" "1" "-r" "--input-string" "0 10001965.7293127228"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj2" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000000000 0.00000000000 0.000000000000 1.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[(90\.0+ 0\.0+ 0\.0+|(90\.0+|89\.99999999999[0-9]+) -?180\.0+ -?180\.0+) (1\.0000+|0\.9999+)]
+"TransverseMercatorProj2" end time: Jul 07 08:38 +03
+"TransverseMercatorProj2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+173/182 Testing: TransverseMercatorProj3
+173/182 Test: TransverseMercatorProj3
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-k" "1" "-r" "--input-string" "0 10001965.7293127228" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj3" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+90.00000000000 180.00000000000 180.000000000000 1.000000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[(90\.0+ 0\.0+ 0\.0+|(90\.0+|89\.99999999999[0-9]+) -?180\.0+ -?180\.0+) (1\.0000+|0\.9999+)]
+"TransverseMercatorProj3" end time: Jul 07 08:38 +03
+"TransverseMercatorProj3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+174/182 Testing: TransverseMercatorProj4
+174/182 Test: TransverseMercatorProj4
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-e" "6.4e6" "1/150" "--input-string" "20 30"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj4" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3266035.453860 2518371.552676 11.207356502141 1.134138960741
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3266035\.453860 2518371\.552676 11\.207356502141 1\.134138960741]
+"TransverseMercatorProj4" end time: Jul 07 08:38 +03
+"TransverseMercatorProj4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+175/182 Testing: TransverseMercatorProj5
+175/182 Test: TransverseMercatorProj5
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-e" "6.4e6" "1/150" "--input-string" "20 30" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj5" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+3266035.453860 2518371.552676 11.207356502141 1.134138960741
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[3266035\.453860 2518371\.552676 11\.207356502141 1\.134138960741]
+"TransverseMercatorProj5" end time: Jul 07 08:38 +03
+"TransverseMercatorProj5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+176/182 Testing: TransverseMercatorProj6
+176/182 Test: TransverseMercatorProj6
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-e" "6.4e6" "1/150" "--input-string" "3.3e6 2.5e6" "-r"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj6" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+19.80370996793 30.24919702282 11.214378172893 1.137025775759
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[19\.80370996793 30\.24919702282 11\.214378172893 1\.137025775759]
+"TransverseMercatorProj6" end time: Jul 07 08:38 +03
+"TransverseMercatorProj6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+177/182 Testing: TransverseMercatorProj7
+177/182 Test: TransverseMercatorProj7
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/TransverseMercatorProj" "-e" "6.4e6" "1/150" "--input-string" "3.3e6 2.5e6" "-r" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"TransverseMercatorProj7" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+19.80370996793 30.24919702282 11.214378172893 1.137025775759
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[19\.80370996793 30\.24919702282 11\.214378172893 1\.137025775759]
+"TransverseMercatorProj7" end time: Jul 07 08:38 +03
+"TransverseMercatorProj7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+178/182 Testing: RhumbSolve0
+178/182 Test: RhumbSolve0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/RhumbSolve" "-p" "3" "-i" "--input-string" "0 0 90 0"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"RhumbSolve0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 10001965.729 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^0\.0+ 10001965\.729 0[
+]]
+"RhumbSolve0" end time: Jul 07 08:38 +03
+"RhumbSolve0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+179/182 Testing: RhumbSolve1
+179/182 Test: RhumbSolve1
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/RhumbSolve" "-p" "3" "-i" "--input-string" "0 0 90 0" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"RhumbSolve1" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.00000000 10001965.729 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^0\.0+ 10001965\.729 0[
+]]
+"RhumbSolve1" end time: Jul 07 08:38 +03
+"RhumbSolve1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+180/182 Testing: RhumbSolve2
+180/182 Test: RhumbSolve2
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/RhumbSolve" "-p" "3" "-i" "--input-string" "0 0 90 30"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"RhumbSolve2" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.41222947 10002224.609 21050634712282
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^0.41222947 10002224.609 21050634712282[
+]]
+"RhumbSolve2" end time: Jul 07 08:38 +03
+"RhumbSolve2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+181/182 Testing: RhumbSolve3
+181/182 Test: RhumbSolve3
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/RhumbSolve" "-p" "3" "-i" "--input-string" "0 0 90 30" "-s"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"RhumbSolve3" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.41222947 10002224.609 21050634712282
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^0.41222947 10002224.609 21050634712282[
+]]
+"RhumbSolve3" end time: Jul 07 08:38 +03
+"RhumbSolve3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+182/182 Testing: GeodesicProj0
+182/182 Test: GeodesicProj0
+Command: "/home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tools/GeodesicProj" "-c" "0" "0" "-p" "3" "--input-string" "90 80"
+Directory: /home/mete/catkin_ws2/src/GeographicLib-2.1/BUILD/tests
+"GeodesicProj0" start time: Jul 07 08:38 +03
+Output:
+----------------------------------------------------------
+0.000 10001965.729 170.00000000 1.000000000
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[^-?0\.0+ [0-9]+\.[0-9]+ 170\.0+ ]
+"GeodesicProj0" end time: Jul 07 08:38 +03
+"GeodesicProj0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 07 08:38 +03

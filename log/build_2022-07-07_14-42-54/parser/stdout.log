@@ -1,0 +1,48 @@
+-- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+-- GeographicLib configuration, version 2.1
+--   ${GeographicLib_LIBRARIES} set to shared library
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mete/catkin_ws2/build/parser
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[ 75%] Built target parser_geo
+[100%] [32m[1mLinking CXX executable local_cartesian[0m
+[100%] Built target local_cartesian
+-- Install configuration: ""
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/lib/parser/parser_geo
+-- Installing: /home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian
+-- Set runtime path of "/home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian" to "/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib"
+-- Installing: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/package_run_dependencies/parser
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/parent_prefix_path/parser
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.sh
+-- Installing: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.sh
+-- Installing: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.dsv
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.bash
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.sh
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.zsh
+-- Installing: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.dsv
+-- Installing: /home/mete/catkin_ws2/install/parser/share/parser/package.dsv
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/packages/parser
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig.cmake
+-- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig-version.cmake
+-- Installing: /home/mete/catkin_ws2/install/parser/share/parser/package.xml

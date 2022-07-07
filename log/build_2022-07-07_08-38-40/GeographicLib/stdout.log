@@ -1,0 +1,287 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of double
+-- Check size of double - done
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Performing Test FLOAT_CONVERSION
+-- Performing Test FLOAT_CONVERSION - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mete/catkin_ws2/build/GeographicLib
+[35m[1mScanning dependencies of target scripts[0m
+[35m[1mScanning dependencies of target GeographicLib_SHARED[0m
+[  4%] [34m[1mGenerating geographiclib-get-magnetic[0m
+[  4%] [34m[1mGenerating geographiclib-get-gravity[0m
+[  4%] [34m[1mGenerating geographiclib-get-geoids[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Accumulator.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/AzimuthalEquidistant.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/CassiniSoldner.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/EllipticFunction.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/AlbersEqualArea.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/CircularEngine.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/DST.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Ellipsoid.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/DMS.cpp.o[0m
+[ 18%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeoCoords.cpp.o[0m
+[ 18%] Built target scripts
+[ 20%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GARS.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geocentric.cpp.o[0m
+[ 22%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geodesic.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeodesicExact.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeodesicLine.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeodesicLineExact.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geohash.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geoid.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Georef.cpp.o[0m
+[ 32%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Gnomonic.cpp.o[0m
+[ 34%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GravityCircle.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GravityModel.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/LambertConformalConic.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/LocalCartesian.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/MGRS.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/MagneticCircle.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/MagneticModel.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Math.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/NormalGravity.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/OSGB.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/PolarStereographic.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/PolygonArea.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Rhumb.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/SphericalEngine.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/TransverseMercator.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/TransverseMercatorExact.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/UTMUPS.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Utility.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libGeographicLib.so[0m
+[ 60%] Built target GeographicLib_SHARED
+[35m[1mScanning dependencies of target TransverseMercatorProj[0m
+[35m[1mScanning dependencies of target CartConvert[0m
+[35m[1mScanning dependencies of target GeoConvert[0m
+[35m[1mScanning dependencies of target GeodSolve[0m
+[35m[1mScanning dependencies of target GeodesicProj[0m
+[35m[1mScanning dependencies of target ConicProj[0m
+[35m[1mScanning dependencies of target GeoidEval[0m
+[35m[1mScanning dependencies of target polygontest[0m
+[35m[1mScanning dependencies of target MagneticField[0m
+[35m[1mScanning dependencies of target Planimeter[0m
+[35m[1mScanning dependencies of target Gravity[0m
+[35m[1mScanning dependencies of target RhumbSolve[0m
+[ 61%] [32mBuilding CXX object tools/CMakeFiles/TransverseMercatorProj.dir/TransverseMercatorProj.cpp.o[0m
+[ 62%] [32mBuilding CXX object tools/CMakeFiles/ConicProj.dir/ConicProj.cpp.o[0m
+[ 65%] [32mBuilding CXX object tools/CMakeFiles/GeoConvert.dir/GeoConvert.cpp.o[0m
+[ 68%] [32mBuilding CXX object tools/CMakeFiles/GeodesicProj.dir/GeodesicProj.cpp.o[0m
+[ 68%] [32mBuilding CXX object tools/CMakeFiles/GeoidEval.dir/GeoidEval.cpp.o[0m
+[ 65%] [32mBuilding CXX object tools/CMakeFiles/CartConvert.dir/CartConvert.cpp.o[0m
+[ 71%] [32mBuilding CXX object tools/CMakeFiles/GeodSolve.dir/GeodSolve.cpp.o[0m
+[ 71%] [32mBuilding CXX object tools/CMakeFiles/MagneticField.dir/MagneticField.cpp.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/polygontest.dir/polygontest.cpp.o[0m
+[ 74%] [32mBuilding CXX object tools/CMakeFiles/Planimeter.dir/Planimeter.cpp.o[0m
+[ 75%] [32mBuilding CXX object tools/CMakeFiles/Gravity.dir/Gravity.cpp.o[0m
+[ 77%] [32mBuilding CXX object tools/CMakeFiles/RhumbSolve.dir/RhumbSolve.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable polygontest[0m
+[ 78%] Built target polygontest
+[35m[1mScanning dependencies of target signtest[0m
+[ 80%] [32mBuilding CXX object tests/CMakeFiles/signtest.dir/signtest.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable GeoConvert[0m
+[ 81%] Built target GeoConvert
+[35m[1mScanning dependencies of target geodtest[0m
+[ 82%] [32mBuilding CXX object tests/CMakeFiles/geodtest.dir/geodtest.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable GeodesicProj[0m
+[ 85%] [32m[1mLinking CXX executable TransverseMercatorProj[0m
+[ 87%] [32m[1mLinking CXX executable Planimeter[0m
+[ 88%] [32m[1mLinking CXX executable CartConvert[0m
+[ 90%] [32m[1mLinking CXX executable ConicProj[0m
+[ 91%] [32m[1mLinking CXX executable GeoidEval[0m
+[ 91%] Built target GeodesicProj
+[ 91%] Built target TransverseMercatorProj
+[ 92%] [32m[1mLinking CXX executable RhumbSolve[0m
+[ 92%] Built target Planimeter
+[ 92%] Built target CartConvert
+[ 92%] Built target ConicProj
+[ 92%] Built target GeoidEval
+[ 92%] Built target RhumbSolve
+[ 94%] [32m[1mLinking CXX executable Gravity[0m
+[ 94%] Built target Gravity
+[ 95%] [32m[1mLinking CXX executable GeodSolve[0m
+[ 97%] [32m[1mLinking CXX executable MagneticField[0m
+[ 98%] [32m[1mLinking CXX executable geodtest[0m
+[ 98%] Built target GeodSolve
+[ 98%] Built target MagneticField
+[ 98%] Built target geodtest
+[35m[1mScanning dependencies of target tools[0m
+[ 98%] Built target tools
+[100%] [32m[1mLinking CXX executable signtest[0m
+[100%] Built target signtest
+-- Install configuration: "Release"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23.0.0
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23.0.0" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Accumulator.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AlbersEqualArea.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AzimuthalEquidistant.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CassiniSoldner.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CircularEngine.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Constants.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DMS.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DST.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Ellipsoid.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/EllipticFunction.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GARS.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeoCoords.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geocentric.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geodesic.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicExact.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLine.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLineExact.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geohash.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geoid.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Georef.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Gnomonic.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityCircle.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityModel.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LambertConformalConic.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MGRS.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticCircle.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticModel.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Math.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NearestNeighbor.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NormalGravity.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/OSGB.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolarStereographic.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolygonArea.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Rhumb.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalEngine.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic1.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic2.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercator.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercatorExact.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/UTMUPS.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Utility.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Config.h
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/CartConvert
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/CartConvert" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/ConicProj
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/ConicProj" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodesicProj
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeodesicProj" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoConvert
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeoConvert" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodSolve
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeodSolve" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoidEval
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeoidEval" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/Gravity
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/Gravity" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/MagneticField
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/MagneticField" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/Planimeter
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/Planimeter" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/RhumbSolve
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/RhumbSolve" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/TransverseMercatorProj
+-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/TransverseMercatorProj" to "$ORIGIN/../lib"
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-geoids
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-gravity
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-magnetic
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/CartConvert.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/ConicProj.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodesicProj.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoConvert.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodSolve.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoidEval.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Gravity.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/MagneticField.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Planimeter.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/RhumbSolve.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/TransverseMercatorProj.1
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-geoids.8
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-gravity.8
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-magnetic.8
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/index.html
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/LICENSE.txt
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/utilities.html
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/CMakeLists.txt
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Accumulator.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AlbersEqualArea.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AzimuthalEquidistant.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CassiniSoldner.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CircularEngine.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Constants.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DMS.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DST.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Ellipsoid.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-EllipticFunction.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GARS.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeoCoords.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geocentric.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic-small.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicExact.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLine.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLineExact.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeographicErr.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geohash.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geoid.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Georef.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Gnomonic.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityCircle.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityModel.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LambertConformalConic.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LocalCartesian.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MGRS.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticCircle.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticModel.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Math.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NearestNeighbor.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NormalGravity.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-OSGB.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolarStereographic.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolygonArea.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Rhumb.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-RhumbLine.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalEngine.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic1.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic2.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercator.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercatorExact.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-UTMUPS.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Utility.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/GeoidToGTX.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/make-egmcof.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.cpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.hpp
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config-version.cmake
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets.cmake
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets-release.cmake
+-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/pkgconfig/geographiclib.pc

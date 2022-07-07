@@ -1,0 +1,48 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.041s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.041s] -- GeographicLib configuration, version 2.1
+[0.042s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.043s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.224s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.273s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.273s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.273s] -- Configured cppcheck include dirs: 
+[0.274s] -- Configured cppcheck exclude dirs and/or files: 
+[0.274s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.274s] -- Configured cpplint exclude dirs and/or files: 
+[0.275s] -- Added test 'lint_cmake' to check CMake code style
+[0.275s] -- Added test 'uncrustify' to check C / C++ code style
+[0.275s] -- Configured uncrustify additional arguments: 
+[0.276s] -- Added test 'xmllint' to check XML markup files
+[0.277s] -- Configuring done
+[0.280s] -- Generating done
+[0.281s] -- Build files have been written to: /home/mete/catkin_ws2/build/parser
+[0.298s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.306s] [ 75%] Built target parser_geo
+[0.307s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[0.516s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.516s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:19:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGeographicLib::LocalCartesian::LocalCartesian(const double&, const double&, double, double)[m[K’
+[0.516s]    19 |     LocalCartesian proj(lat0, lon0, 1.81700869684152, 359.9999998710744[01;31m[K)[m[K;
+[0.516s]       |                                                                        [01;31m[K^[m[K
+[0.516s] In file included from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:7[m[K:
+[0.516s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:77:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KGeographicLib::LocalCartesian::LocalCartesian(const GeographicLib::Geocentric&)[m[K’
+[0.517s]    77 |     explicit [01;36m[KLocalCartesian[m[K(const Geocentric& earth = Geocentric::WGS84())
+[0.517s]       |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.517s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:77:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[0.517s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:64:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KGeographicLib::LocalCartesian::LocalCartesian(GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, const GeographicLib::Geocentric&)[m[K’
+[0.517s]    64 |     [01;36m[KLocalCartesian[m[K(real lat0, real lon0, real h0 = 0,
+[0.517s]       |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.517s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:65:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst GeographicLib::Geocentric&[m[K’
+[0.517s]    65 |                    [01;36m[Kconst Geocentric& earth = Geocentric::WGS84()[m[K)
+[0.517s]       |                    [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.517s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr GeographicLib::LocalCartesian::LocalCartesian(const GeographicLib::LocalCartesian&)[m[K’
+[0.517s]    38 |   class GEOGRAPHICLIB_EXPORT [01;36m[KLocalCartesian[m[K {
+[0.517s]       |                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.517s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[0.517s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr GeographicLib::LocalCartesian::LocalCartesian(GeographicLib::LocalCartesian&&)[m[K’
+[0.517s] [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:38:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[0.543s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[0.543s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/local_cartesian.dir/all] Error 2
+[0.544s] make: *** [Makefile:141: all] Error 2
+[0.545s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

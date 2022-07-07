@@ -1,0 +1,454 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (GeographicLib) JobQueued: {'identifier': 'GeographicLib', 'dependencies': OrderedDict()}
+[0.000132] (gtest) JobQueued: {'identifier': 'gtest', 'dependencies': OrderedDict()}
+[0.000163] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict([('GeographicLib', '/home/mete/catkin_ws2/install/GeographicLib')])}
+[0.000204] (GeographicLib) JobStarted: {'identifier': 'GeographicLib'}
+[0.010179] (gtest) JobStarted: {'identifier': 'gtest'}
+[0.016411] (GeographicLib) JobProgress: {'identifier': 'GeographicLib', 'progress': 'cmake'}
+[0.016887] (GeographicLib) Command: {'cmd': ['/usr/bin/cmake', '/home/mete/catkin_ws2/src/GeographicLib-2.1', '-DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/GeographicLib'], 'cwd': '/home/mete/catkin_ws2/build/GeographicLib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1100'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:46086'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1450,unix/mete:/tmp/.ICE-unix/1450'), ('INVOCATION_ID', '95a5c9909536427c825237d3b80c58e0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b702593_d15a_4a31_8d8f_79aa21fc67d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.474'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/GeographicLib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization')]), 'shell': False}
+[0.021181] (gtest) JobProgress: {'identifier': 'gtest', 'progress': 'cmake'}
+[0.021622] (gtest) JobProgress: {'identifier': 'gtest', 'progress': 'build'}
+[0.023396] (gtest) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws2/build/gtest', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws2/build/gtest', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1100'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:46086'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1450,unix/mete:/tmp/.ICE-unix/1450'), ('INVOCATION_ID', '95a5c9909536427c825237d3b80c58e0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b702593_d15a_4a31_8d8f_79aa21fc67d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.474'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/gtest'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization')]), 'shell': False}
+[0.062191] (gtest) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[0.073025] (GeographicLib) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.079576] (gtest) StdoutLine: {'line': b'[100%] Built target gtest_main\n'}
+[0.087764] (gtest) CommandEnded: {'returncode': 0}
+[0.098931] (-) TimerEvent: {}
+[0.114482] (gtest) JobEnded: {'identifier': 'gtest', 'rc': 0}
+[0.124304] (GeographicLib) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.129984] (GeographicLib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.182990] (GeographicLib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.183737] (GeographicLib) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199035] (-) TimerEvent: {}
+[0.243351] (GeographicLib) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.259683] (GeographicLib) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.260171] (GeographicLib) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.263675] (GeographicLib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299152] (-) TimerEvent: {}
+[0.323254] (GeographicLib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.324168] (GeographicLib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.385776] (GeographicLib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.398652] (GeographicLib) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.399216] (GeographicLib) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399291] (-) TimerEvent: {}
+[0.400540] (GeographicLib) StdoutLine: {'line': b'-- Check size of long double\n'}
+[0.450850] (GeographicLib) StdoutLine: {'line': b'-- Check size of long double - done\n'}
+[0.451124] (GeographicLib) StdoutLine: {'line': b'-- Check size of double\n'}
+[0.499424] (-) TimerEvent: {}
+[0.503832] (GeographicLib) StdoutLine: {'line': b'-- Check size of double - done\n'}
+[0.504578] (GeographicLib) StdoutLine: {'line': b'-- Check if the system is big endian\n'}
+[0.504669] (GeographicLib) StdoutLine: {'line': b'-- Searching 16 bit integer\n'}
+[0.504858] (GeographicLib) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[0.562824] (GeographicLib) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[0.563053] (GeographicLib) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[0.599551] (-) TimerEvent: {}
+[0.620719] (GeographicLib) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[0.620959] (GeographicLib) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[0.680520] (GeographicLib) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[0.680772] (GeographicLib) StdoutLine: {'line': b'-- Check size of unsigned short\n'}
+[0.699663] (-) TimerEvent: {}
+[0.760321] (GeographicLib) StdoutLine: {'line': b'-- Check size of unsigned short - done\n'}
+[0.760766] (GeographicLib) StdoutLine: {'line': b'-- Using unsigned short\n'}
+[0.799866] (-) TimerEvent: {}
+[0.900307] (-) TimerEvent: {}
+[0.914398] (GeographicLib) StdoutLine: {'line': b'-- Check if the system is big endian - little endian\n'}
+[0.916084] (GeographicLib) StdoutLine: {'line': b'-- Performing Test FLOAT_CONVERSION\n'}
+[1.000425] (-) TimerEvent: {}
+[1.016466] (GeographicLib) StdoutLine: {'line': b'-- Performing Test FLOAT_CONVERSION - Success\n'}
+[1.041121] (GeographicLib) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.070819] (GeographicLib) StdoutLine: {'line': b'-- Generating done\n'}
+[1.072574] (GeographicLib) StdoutLine: {'line': b'-- Build files have been written to: /home/mete/catkin_ws2/build/GeographicLib\n'}
+[1.075001] (GeographicLib) CommandEnded: {'returncode': 0}
+[1.075566] (GeographicLib) JobProgress: {'identifier': 'GeographicLib', 'progress': 'build'}
+[1.076772] (GeographicLib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws2/build/GeographicLib', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws2/build/GeographicLib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1100'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:46086'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1450,unix/mete:/tmp/.ICE-unix/1450'), ('INVOCATION_ID', '95a5c9909536427c825237d3b80c58e0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b702593_d15a_4a31_8d8f_79aa21fc67d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.474'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/GeographicLib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization')]), 'shell': False}
+[1.100552] (-) TimerEvent: {}
+[1.105890] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scripts\x1b[0m\n'}
+[1.106149] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target GeographicLib_SHARED\x1b[0m\n'}
+[1.114168] (GeographicLib) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating geographiclib-get-magnetic\x1b[0m\n'}
+[1.114343] (GeographicLib) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating geographiclib-get-gravity\x1b[0m\n'}
+[1.114411] (GeographicLib) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating geographiclib-get-geoids\x1b[0m\n'}
+[1.127464] (GeographicLib) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Accumulator.cpp.o\x1b[0m\n'}
+[1.127796] (GeographicLib) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/AzimuthalEquidistant.cpp.o\x1b[0m\n'}
+[1.128065] (GeographicLib) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/CassiniSoldner.cpp.o\x1b[0m\n'}
+[1.128222] (GeographicLib) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/EllipticFunction.cpp.o\x1b[0m\n'}
+[1.128324] (GeographicLib) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/AlbersEqualArea.cpp.o\x1b[0m\n'}
+[1.128418] (GeographicLib) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/CircularEngine.cpp.o\x1b[0m\n'}
+[1.128579] (GeographicLib) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/DST.cpp.o\x1b[0m\n'}
+[1.128876] (GeographicLib) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Ellipsoid.cpp.o\x1b[0m\n'}
+[1.129001] (GeographicLib) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/DMS.cpp.o\x1b[0m\n'}
+[1.137317] (GeographicLib) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeoCoords.cpp.o\x1b[0m\n'}
+[1.137709] (GeographicLib) StdoutLine: {'line': b'[ 18%] Built target scripts\n'}
+[1.139480] (GeographicLib) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GARS.cpp.o\x1b[0m\n'}
+[1.155704] (GeographicLib) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geocentric.cpp.o\x1b[0m\n'}
+[1.200669] (-) TimerEvent: {}
+[1.301029] (-) TimerEvent: {}
+[1.401375] (-) TimerEvent: {}
+[1.472236] (GeographicLib) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geodesic.cpp.o\x1b[0m\n'}
+[1.494461] (GeographicLib) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeodesicExact.cpp.o\x1b[0m\n'}
+[1.501129] (GeographicLib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeodesicLine.cpp.o\x1b[0m\n'}
+[1.501401] (-) TimerEvent: {}
+[1.558857] (GeographicLib) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GeodesicLineExact.cpp.o\x1b[0m\n'}
+[1.601519] (-) TimerEvent: {}
+[1.641526] (GeographicLib) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geohash.cpp.o\x1b[0m\n'}
+[1.676730] (GeographicLib) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Geoid.cpp.o\x1b[0m\n'}
+[1.701629] (-) TimerEvent: {}
+[1.802061] (-) TimerEvent: {}
+[1.902493] (-) TimerEvent: {}
+[1.925977] (GeographicLib) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Georef.cpp.o\x1b[0m\n'}
+[1.996341] (GeographicLib) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Gnomonic.cpp.o\x1b[0m\n'}
+[2.001346] (GeographicLib) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GravityCircle.cpp.o\x1b[0m\n'}
+[2.002589] (-) TimerEvent: {}
+[2.063103] (GeographicLib) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/GravityModel.cpp.o\x1b[0m\n'}
+[2.102712] (-) TimerEvent: {}
+[2.203172] (-) TimerEvent: {}
+[2.304503] (-) TimerEvent: {}
+[2.405901] (-) TimerEvent: {}
+[2.425679] (GeographicLib) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/LambertConformalConic.cpp.o\x1b[0m\n'}
+[2.429282] (GeographicLib) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/LocalCartesian.cpp.o\x1b[0m\n'}
+[2.471264] (GeographicLib) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/MGRS.cpp.o\x1b[0m\n'}
+[2.486816] (GeographicLib) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/MagneticCircle.cpp.o\x1b[0m\n'}
+[2.505979] (-) TimerEvent: {}
+[2.564706] (GeographicLib) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/MagneticModel.cpp.o\x1b[0m\n'}
+[2.606089] (-) TimerEvent: {}
+[2.632258] (GeographicLib) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Math.cpp.o\x1b[0m\n'}
+[2.665781] (GeographicLib) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/NormalGravity.cpp.o\x1b[0m\n'}
+[2.706199] (-) TimerEvent: {}
+[2.806630] (-) TimerEvent: {}
+[2.890422] (GeographicLib) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/OSGB.cpp.o\x1b[0m\n'}
+[2.906763] (-) TimerEvent: {}
+[2.915677] (GeographicLib) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/PolarStereographic.cpp.o\x1b[0m\n'}
+[2.956682] (GeographicLib) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/PolygonArea.cpp.o\x1b[0m\n'}
+[3.006906] (-) TimerEvent: {}
+[3.108552] (-) TimerEvent: {}
+[3.128727] (GeographicLib) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Rhumb.cpp.o\x1b[0m\n'}
+[3.208733] (-) TimerEvent: {}
+[3.216645] (GeographicLib) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/SphericalEngine.cpp.o\x1b[0m\n'}
+[3.308921] (-) TimerEvent: {}
+[3.330862] (GeographicLib) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/TransverseMercator.cpp.o\x1b[0m\n'}
+[3.338912] (GeographicLib) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/TransverseMercatorExact.cpp.o\x1b[0m\n'}
+[3.377560] (GeographicLib) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/UTMUPS.cpp.o\x1b[0m\n'}
+[3.409047] (-) TimerEvent: {}
+[3.421863] (GeographicLib) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object src/CMakeFiles/GeographicLib_SHARED.dir/Utility.cpp.o\x1b[0m\n'}
+[3.509195] (-) TimerEvent: {}
+[3.609694] (-) TimerEvent: {}
+[3.710137] (-) TimerEvent: {}
+[3.810677] (-) TimerEvent: {}
+[3.911157] (-) TimerEvent: {}
+[4.011625] (-) TimerEvent: {}
+[4.111943] (-) TimerEvent: {}
+[4.212276] (-) TimerEvent: {}
+[4.312555] (-) TimerEvent: {}
+[4.412812] (-) TimerEvent: {}
+[4.513060] (-) TimerEvent: {}
+[4.613310] (-) TimerEvent: {}
+[4.713567] (-) TimerEvent: {}
+[4.813818] (-) TimerEvent: {}
+[4.914091] (-) TimerEvent: {}
+[5.014376] (-) TimerEvent: {}
+[5.114669] (-) TimerEvent: {}
+[5.117477] (GeographicLib) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libGeographicLib.so\x1b[0m\n'}
+[5.198928] (GeographicLib) StdoutLine: {'line': b'[ 60%] Built target GeographicLib_SHARED\n'}
+[5.210847] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target TransverseMercatorProj\x1b[0m\n'}
+[5.211124] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target CartConvert\x1b[0m\n'}
+[5.211266] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target GeoConvert\x1b[0m\n'}
+[5.211403] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target GeodSolve\x1b[0m\n'}
+[5.211497] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target GeodesicProj\x1b[0m\n'}
+[5.211589] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ConicProj\x1b[0m\n'}
+[5.211676] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target GeoidEval\x1b[0m\n'}
+[5.211761] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target polygontest\x1b[0m\n'}
+[5.211854] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target MagneticField\x1b[0m\n'}
+[5.211943] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Planimeter\x1b[0m\n'}
+[5.213448] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Gravity\x1b[0m\n'}
+[5.213660] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target RhumbSolve\x1b[0m\n'}
+[5.214742] (-) TimerEvent: {}
+[5.223232] (GeographicLib) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object tools/CMakeFiles/TransverseMercatorProj.dir/TransverseMercatorProj.cpp.o\x1b[0m\n'}
+[5.224364] (GeographicLib) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object tools/CMakeFiles/ConicProj.dir/ConicProj.cpp.o\x1b[0m\n'}
+[5.224659] (GeographicLib) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object tools/CMakeFiles/GeoConvert.dir/GeoConvert.cpp.o\x1b[0m\n'}
+[5.224849] (GeographicLib) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object tools/CMakeFiles/GeodesicProj.dir/GeodesicProj.cpp.o\x1b[0m\n'}
+[5.224979] (GeographicLib) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object tools/CMakeFiles/GeoidEval.dir/GeoidEval.cpp.o\x1b[0m\n'}
+[5.225089] (GeographicLib) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object tools/CMakeFiles/CartConvert.dir/CartConvert.cpp.o\x1b[0m\n'}
+[5.225498] (GeographicLib) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object tools/CMakeFiles/GeodSolve.dir/GeodSolve.cpp.o\x1b[0m\n'}
+[5.225732] (GeographicLib) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object tools/CMakeFiles/MagneticField.dir/MagneticField.cpp.o\x1b[0m\n'}
+[5.226195] (GeographicLib) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object tests/CMakeFiles/polygontest.dir/polygontest.cpp.o\x1b[0m\n'}
+[5.226396] (GeographicLib) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object tools/CMakeFiles/Planimeter.dir/Planimeter.cpp.o\x1b[0m\n'}
+[5.228881] (GeographicLib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object tools/CMakeFiles/Gravity.dir/Gravity.cpp.o\x1b[0m\n'}
+[5.236024] (GeographicLib) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object tools/CMakeFiles/RhumbSolve.dir/RhumbSolve.cpp.o\x1b[0m\n'}
+[5.314859] (-) TimerEvent: {}
+[5.415189] (-) TimerEvent: {}
+[5.515545] (-) TimerEvent: {}
+[5.615900] (-) TimerEvent: {}
+[5.716283] (-) TimerEvent: {}
+[5.816716] (-) TimerEvent: {}
+[5.917064] (-) TimerEvent: {}
+[6.017484] (-) TimerEvent: {}
+[6.065790] (GeographicLib) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable polygontest\x1b[0m\n'}
+[6.117648] (-) TimerEvent: {}
+[6.218218] (-) TimerEvent: {}
+[6.250950] (GeographicLib) StdoutLine: {'line': b'[ 78%] Built target polygontest\n'}
+[6.267438] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target signtest\x1b[0m\n'}
+[6.287872] (GeographicLib) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object tests/CMakeFiles/signtest.dir/signtest.cpp.o\x1b[0m\n'}
+[6.318437] (-) TimerEvent: {}
+[6.418994] (-) TimerEvent: {}
+[6.428177] (GeographicLib) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable GeoConvert\x1b[0m\n'}
+[6.519203] (-) TimerEvent: {}
+[6.619843] (-) TimerEvent: {}
+[6.632617] (GeographicLib) StdoutLine: {'line': b'[ 81%] Built target GeoConvert\n'}
+[6.650261] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target geodtest\x1b[0m\n'}
+[6.671851] (GeographicLib) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object tests/CMakeFiles/geodtest.dir/geodtest.cpp.o\x1b[0m\n'}
+[6.720007] (-) TimerEvent: {}
+[6.768939] (GeographicLib) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable GeodesicProj\x1b[0m\n'}
+[6.794692] (GeographicLib) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable TransverseMercatorProj\x1b[0m\n'}
+[6.820212] (-) TimerEvent: {}
+[6.850696] (GeographicLib) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable Planimeter\x1b[0m\n'}
+[6.861896] (GeographicLib) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable CartConvert\x1b[0m\n'}
+[6.868340] (GeographicLib) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable ConicProj\x1b[0m\n'}
+[6.920397] (-) TimerEvent: {}
+[6.997781] (GeographicLib) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable GeoidEval\x1b[0m\n'}
+[7.013819] (GeographicLib) StdoutLine: {'line': b'[ 91%] Built target GeodesicProj\n'}
+[7.020580] (-) TimerEvent: {}
+[7.034496] (GeographicLib) StdoutLine: {'line': b'[ 91%] Built target TransverseMercatorProj\n'}
+[7.038331] (GeographicLib) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable RhumbSolve\x1b[0m\n'}
+[7.075449] (GeographicLib) StdoutLine: {'line': b'[ 92%] Built target Planimeter\n'}
+[7.097340] (GeographicLib) StdoutLine: {'line': b'[ 92%] Built target CartConvert\n'}
+[7.112622] (GeographicLib) StdoutLine: {'line': b'[ 92%] Built target ConicProj\n'}
+[7.120752] (-) TimerEvent: {}
+[7.157125] (GeographicLib) StdoutLine: {'line': b'[ 92%] Built target GeoidEval\n'}
+[7.162920] (GeographicLib) StdoutLine: {'line': b'[ 92%] Built target RhumbSolve\n'}
+[7.203188] (GeographicLib) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable Gravity\x1b[0m\n'}
+[7.220901] (-) TimerEvent: {}
+[7.285355] (GeographicLib) StdoutLine: {'line': b'[ 94%] Built target Gravity\n'}
+[7.321040] (-) TimerEvent: {}
+[7.367551] (GeographicLib) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable GeodSolve\x1b[0m\n'}
+[7.421196] (-) TimerEvent: {}
+[7.424616] (GeographicLib) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable MagneticField\x1b[0m\n'}
+[7.429656] (GeographicLib) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable geodtest\x1b[0m\n'}
+[7.440780] (GeographicLib) StdoutLine: {'line': b'[ 98%] Built target GeodSolve\n'}
+[7.510650] (GeographicLib) StdoutLine: {'line': b'[ 98%] Built target MagneticField\n'}
+[7.511341] (GeographicLib) StdoutLine: {'line': b'[ 98%] Built target geodtest\n'}
+[7.519371] (GeographicLib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tools\x1b[0m\n'}
+[7.521267] (-) TimerEvent: {}
+[7.528068] (GeographicLib) StdoutLine: {'line': b'[ 98%] Built target tools\n'}
+[7.621394] (-) TimerEvent: {}
+[7.721710] (-) TimerEvent: {}
+[7.821969] (-) TimerEvent: {}
+[7.922230] (-) TimerEvent: {}
+[8.022502] (-) TimerEvent: {}
+[8.122777] (-) TimerEvent: {}
+[8.223034] (-) TimerEvent: {}
+[8.323289] (-) TimerEvent: {}
+[8.423544] (-) TimerEvent: {}
+[8.523801] (-) TimerEvent: {}
+[8.624080] (-) TimerEvent: {}
+[8.724337] (-) TimerEvent: {}
+[8.824561] (-) TimerEvent: {}
+[8.924819] (-) TimerEvent: {}
+[9.025085] (-) TimerEvent: {}
+[9.125414] (-) TimerEvent: {}
+[9.225711] (-) TimerEvent: {}
+[9.326037] (-) TimerEvent: {}
+[9.426388] (-) TimerEvent: {}
+[9.526667] (-) TimerEvent: {}
+[9.626967] (-) TimerEvent: {}
+[9.727270] (-) TimerEvent: {}
+[9.827569] (-) TimerEvent: {}
+[9.927851] (-) TimerEvent: {}
+[10.028163] (-) TimerEvent: {}
+[10.128471] (-) TimerEvent: {}
+[10.178148] (GeographicLib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable signtest\x1b[0m\n'}
+[10.228595] (-) TimerEvent: {}
+[10.230464] (GeographicLib) StdoutLine: {'line': b'[100%] Built target signtest\n'}
+[10.238875] (GeographicLib) CommandEnded: {'returncode': 0}
+[10.262378] (GeographicLib) JobProgress: {'identifier': 'GeographicLib', 'progress': 'install'}
+[10.270545] (GeographicLib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws2/build/GeographicLib'], 'cwd': '/home/mete/catkin_ws2/build/GeographicLib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1100'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:46086'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1450,unix/mete:/tmp/.ICE-unix/1450'), ('INVOCATION_ID', '95a5c9909536427c825237d3b80c58e0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b702593_d15a_4a31_8d8f_79aa21fc67d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.474'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/GeographicLib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization')]), 'shell': False}
+[10.278112] (GeographicLib) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[10.278387] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23.0.0\n'}
+[10.278981] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23\n'}
+[10.279164] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23.0.0" to "$ORIGIN/../lib"\n'}
+[10.279418] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so\n'}
+[10.279648] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Accumulator.hpp\n'}
+[10.279883] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AlbersEqualArea.hpp\n'}
+[10.279997] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AzimuthalEquidistant.hpp\n'}
+[10.280077] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CassiniSoldner.hpp\n'}
+[10.280145] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CircularEngine.hpp\n'}
+[10.280211] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Constants.hpp\n'}
+[10.280275] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DMS.hpp\n'}
+[10.280338] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DST.hpp\n'}
+[10.280401] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Ellipsoid.hpp\n'}
+[10.280469] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/EllipticFunction.hpp\n'}
+[10.280522] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GARS.hpp\n'}
+[10.280610] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeoCoords.hpp\n'}
+[10.280660] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geocentric.hpp\n'}
+[10.280723] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geodesic.hpp\n'}
+[10.280784] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicExact.hpp\n'}
+[10.280832] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLine.hpp\n'}
+[10.280894] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLineExact.hpp\n'}
+[10.280956] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geohash.hpp\n'}
+[10.281019] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geoid.hpp\n'}
+[10.281082] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Georef.hpp\n'}
+[10.281144] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Gnomonic.hpp\n'}
+[10.281211] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityCircle.hpp\n'}
+[10.281273] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityModel.hpp\n'}
+[10.281333] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LambertConformalConic.hpp\n'}
+[10.281400] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp\n'}
+[10.281570] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MGRS.hpp\n'}
+[10.281645] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticCircle.hpp\n'}
+[10.281713] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticModel.hpp\n'}
+[10.281777] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Math.hpp\n'}
+[10.281856] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NearestNeighbor.hpp\n'}
+[10.281939] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NormalGravity.hpp\n'}
+[10.282012] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/OSGB.hpp\n'}
+[10.282076] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolarStereographic.hpp\n'}
+[10.282143] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolygonArea.hpp\n'}
+[10.282217] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Rhumb.hpp\n'}
+[10.282286] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalEngine.hpp\n'}
+[10.282360] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic.hpp\n'}
+[10.282429] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic1.hpp\n'}
+[10.282498] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic2.hpp\n'}
+[10.282571] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercator.hpp\n'}
+[10.282636] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercatorExact.hpp\n'}
+[10.282703] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/UTMUPS.hpp\n'}
+[10.282782] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Utility.hpp\n'}
+[10.282901] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Config.h\n'}
+[10.283267] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/CartConvert\n'}
+[10.283490] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/CartConvert" to "$ORIGIN/../lib"\n'}
+[10.283561] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/ConicProj\n'}
+[10.283770] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/ConicProj" to "$ORIGIN/../lib"\n'}
+[10.283843] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodesicProj\n'}
+[10.284052] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeodesicProj" to "$ORIGIN/../lib"\n'}
+[10.284125] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoConvert\n'}
+[10.284332] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeoConvert" to "$ORIGIN/../lib"\n'}
+[10.284400] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodSolve\n'}
+[10.284623] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeodSolve" to "$ORIGIN/../lib"\n'}
+[10.284714] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoidEval\n'}
+[10.284931] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/GeoidEval" to "$ORIGIN/../lib"\n'}
+[10.284997] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/Gravity\n'}
+[10.285191] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/Gravity" to "$ORIGIN/../lib"\n'}
+[10.285259] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/MagneticField\n'}
+[10.285639] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/MagneticField" to "$ORIGIN/../lib"\n'}
+[10.285820] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/Planimeter\n'}
+[10.285977] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/Planimeter" to "$ORIGIN/../lib"\n'}
+[10.286040] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/RhumbSolve\n'}
+[10.286172] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/RhumbSolve" to "$ORIGIN/../lib"\n'}
+[10.286330] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/bin/TransverseMercatorProj\n'}
+[10.286463] (GeographicLib) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws2/install/GeographicLib/bin/TransverseMercatorProj" to "$ORIGIN/../lib"\n'}
+[10.286553] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-geoids\n'}
+[10.286624] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-gravity\n'}
+[10.286692] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-magnetic\n'}
+[10.286931] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/CartConvert.1\n'}
+[10.287032] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/ConicProj.1\n'}
+[10.287129] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodesicProj.1\n'}
+[10.287226] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoConvert.1\n'}
+[10.287334] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodSolve.1\n'}
+[10.287434] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoidEval.1\n'}
+[10.287534] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Gravity.1\n'}
+[10.287632] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/MagneticField.1\n'}
+[10.287730] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Planimeter.1\n'}
+[10.287834] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/RhumbSolve.1\n'}
+[10.287933] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/TransverseMercatorProj.1\n'}
+[10.288050] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-geoids.8\n'}
+[10.288117] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-gravity.8\n'}
+[10.288184] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-magnetic.8\n'}
+[10.288338] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html\n'}
+[10.288403] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/index.html\n'}
+[10.288467] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/LICENSE.txt\n'}
+[10.288531] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/utilities.html\n'}
+[10.288795] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/CMakeLists.txt\n'}
+[10.288868] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Accumulator.cpp\n'}
+[10.288935] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AlbersEqualArea.cpp\n'}
+[10.289005] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AzimuthalEquidistant.cpp\n'}
+[10.289068] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CassiniSoldner.cpp\n'}
+[10.289132] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CircularEngine.cpp\n'}
+[10.289194] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Constants.cpp\n'}
+[10.289257] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DMS.cpp\n'}
+[10.289319] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DST.cpp\n'}
+[10.289382] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Ellipsoid.cpp\n'}
+[10.289481] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-EllipticFunction.cpp\n'}
+[10.289572] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GARS.cpp\n'}
+[10.289632] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeoCoords.cpp\n'}
+[10.289694] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geocentric.cpp\n'}
+[10.289768] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic.cpp\n'}
+[10.289834] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic-small.cpp\n'}
+[10.289897] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicExact.cpp\n'}
+[10.289960] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLine.cpp\n'}
+[10.290023] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLineExact.cpp\n'}
+[10.290086] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeographicErr.cpp\n'}
+[10.290146] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geohash.cpp\n'}
+[10.290209] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geoid.cpp\n'}
+[10.290271] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Georef.cpp\n'}
+[10.290334] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Gnomonic.cpp\n'}
+[10.290396] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityCircle.cpp\n'}
+[10.290457] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityModel.cpp\n'}
+[10.290519] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LambertConformalConic.cpp\n'}
+[10.290582] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LocalCartesian.cpp\n'}
+[10.290644] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MGRS.cpp\n'}
+[10.290706] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticCircle.cpp\n'}
+[10.290785] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticModel.cpp\n'}
+[10.290846] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Math.cpp\n'}
+[10.290908] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NearestNeighbor.cpp\n'}
+[10.290969] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NormalGravity.cpp\n'}
+[10.291031] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-OSGB.cpp\n'}
+[10.291093] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolarStereographic.cpp\n'}
+[10.291156] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolygonArea.cpp\n'}
+[10.291216] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Rhumb.cpp\n'}
+[10.291266] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-RhumbLine.cpp\n'}
+[10.291339] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalEngine.cpp\n'}
+[10.291408] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic.cpp\n'}
+[10.291470] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic1.cpp\n'}
+[10.291533] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic2.cpp\n'}
+[10.291595] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercator.cpp\n'}
+[10.291657] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercatorExact.cpp\n'}
+[10.291719] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-UTMUPS.cpp\n'}
+[10.291781] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Utility.cpp\n'}
+[10.291844] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/GeoidToGTX.cpp\n'}
+[10.291906] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/make-egmcof.cpp\n'}
+[10.291955] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.cpp\n'}
+[10.292002] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.hpp\n'}
+[10.292122] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake\n'}
+[10.292225] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config-version.cmake\n'}
+[10.292348] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets.cmake\n'}
+[10.292457] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets-release.cmake\n'}
+[10.292604] (GeographicLib) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws2/install/GeographicLib/lib/pkgconfig/geographiclib.pc\n'}
+[10.295791] (GeographicLib) CommandEnded: {'returncode': 0}
+[10.308759] (GeographicLib) JobEnded: {'identifier': 'GeographicLib', 'rc': 0}
+[10.309141] (localization) JobStarted: {'identifier': 'localization'}
+[10.316326] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[10.317791] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[10.317943] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws2/build/localization', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws2/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1412'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws2/install/GeographicLib/lib:/home/mete/catkin_ws/install/pcl_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1100'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:46086'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1450,unix/mete:/tmp/.ICE-unix/1450'), ('INVOCATION_ID', '95a5c9909536427c825237d3b80c58e0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b702593_d15a_4a31_8d8f_79aa21fc67d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.474'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4f97874fd3a10fdc209b01362c66016'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/opt/ros/foxy')]), 'shell': False}
+[10.328717] (-) TimerEvent: {}
+[10.338886] (localization) StdoutLine: {'line': b'-- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake\n'}
+[10.339088] (localization) StdoutLine: {'line': b'-- GeographicLib configuration, version 2.1\n'}
+[10.340453] (localization) StdoutLine: {'line': b'--   ${GeographicLib_LIBRARIES} set to shared library\n'}
+[10.340710] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[10.357559] (localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.428828] (-) TimerEvent: {}
+[10.494852] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.528938] (-) TimerEvent: {}
+[10.541095] (localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.541915] (localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.542199] (localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.542289] (localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.542907] (localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.542998] (localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.543554] (localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.544219] (localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.544310] (localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.544737] (localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.545831] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.546399] (localization) StderrLine: {'line': b'CMake Error at CMakeLists.txt:29 (add_executable):\n'}
+[10.546495] (localization) StderrLine: {'line': b'  Cannot find source file:\n'}
+[10.546552] (localization) StderrLine: {'line': b'\n'}
+[10.546602] (localization) StderrLine: {'line': b'    example-Geodesic-small.cpp\n'}
+[10.546650] (localization) StderrLine: {'line': b'\n'}
+[10.546717] (localization) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[10.546764] (localization) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[10.546824] (localization) StderrLine: {'line': b'\n'}
+[10.546869] (localization) StderrLine: {'line': b'\n'}
+[10.546915] (localization) StderrLine: {'line': b'CMake Error at CMakeLists.txt:29 (add_executable):\n'}
+[10.546961] (localization) StderrLine: {'line': b'  No SOURCES given to target: localization\n'}
+[10.547007] (localization) StderrLine: {'line': b'\n'}
+[10.547052] (localization) StderrLine: {'line': b'\n'}
+[10.547098] (localization) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[10.547921] (localization) StderrLine: {'line': b'make: *** [Makefile:222: cmake_check_build_system] Error 1\n'}
+[10.549554] (localization) CommandEnded: {'returncode': 2}
+[10.573764] (localization) JobEnded: {'identifier': 'localization', 'rc': 2}
+[10.584536] (-) EventReactorShutdown: {}

@@ -1,0 +1,18 @@
+[0.031s] Invoking command in '/home/mete/catkin_ws2/build/GeographicLib': /usr/bin/cmake --build /home/mete/catkin_ws2/build/GeographicLib -- -j12 -l12
+[0.074s] [  4%] Built target scripts
+[0.076s] [ 60%] Built target GeographicLib_SHARED
+[0.103s] [ 62%] Built target GeoConvert
+[0.103s] [ 65%] Built target GeodesicProj
+[0.103s] [ 68%] Built target RhumbSolve
+[0.104s] [ 71%] Built target TransverseMercatorProj
+[0.104s] [ 74%] Built target GeoidEval
+[0.104s] [ 77%] Built target CartConvert
+[0.105s] [ 80%] Built target GeodSolve
+[0.106s] [ 82%] Built target ConicProj
+[0.108s] [ 85%] Built target polygontest
+[0.108s] [ 88%] Built target Gravity
+[0.109s] [ 91%] Built target MagneticField
+[0.112s] [ 94%] Built target Planimeter
+[0.121s] [100%] Built target signtest
+[0.121s] [100%] Built target geodtest
+[0.129s] [100%] Built target tools

@@ -1,0 +1,4 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws2/build/gtest': /usr/bin/cmake --build /home/mete/catkin_ws2/build/gtest -- -j12 -l12
+[0.052s] [ 50%] Built target gtest
+[0.069s] [100%] Built target gtest_main
+[0.078s] Invoked command in '/home/mete/catkin_ws2/build/gtest' returned '0': /usr/bin/cmake --build /home/mete/catkin_ws2/build/gtest -- -j12 -l12

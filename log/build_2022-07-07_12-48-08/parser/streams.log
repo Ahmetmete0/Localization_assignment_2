@@ -1,0 +1,302 @@
+[0.017s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[0.059s] [ 75%] Built target parser_geo
+[0.316s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.316s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:22:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::basic_ifstream<char>::get(std::string&)[m[K’
+[0.316s]    22 |     while ( dosyaOku.get(karakter[01;31m[K)[m[K ){
+[0.316s]       |                                  [01;31m[K^[m[K
+[0.316s] In file included from [01m[K/usr/include/c++/9/iostream:40[m[K,
+[0.317s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.317s] [01m[K/usr/include/c++/9/istream:302:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::int_type std::basic_istream<_CharT, _Traits>::get() [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::int_type = int][m[K’
+[0.317s]   302 |       [01;36m[Kget[m[K();
+[0.317s]       |       [01;36m[K^~~[m[K
+[0.317s] [01m[K/usr/include/c++/9/istream:302:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[0.317s] [01m[K/usr/include/c++/9/istream:316:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char][m[K’
+[0.318s]   316 |       [01;36m[Kget[m[K(char_type& __c);
+[0.318s]       |       [01;36m[K^~~[m[K
+[0.318s] [01m[K/usr/include/c++/9/istream:316:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::basic_istream<char>::char_type&[m[K’ {aka ‘[01m[Kchar&[m[K’}
+[0.318s]   316 |       get([01;36m[Kchar_type& __c[m[K);
+[0.318s]       |           [01;36m[K~~~~~~~~~~~^~~[m[K
+[0.318s] [01m[K/usr/include/c++/9/istream:343:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int][m[K’
+[0.318s]   343 |       [01;36m[Kget[m[K(char_type* __s, streamsize __n, char_type __delim);
+[0.318s]       |       [01;36m[K^~~[m[K
+[0.318s] [01m[K/usr/include/c++/9/istream:343:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[0.318s] [01m[K/usr/include/c++/9/istream:354:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int][m[K’
+[0.318s]   354 |       [01;36m[Kget[m[K(char_type* __s, streamsize __n)
+[0.318s]       |       [01;36m[K^~~[m[K
+[0.318s] [01m[K/usr/include/c++/9/istream:354:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[0.318s] [01m[K/usr/include/c++/9/istream:377:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>; std::basic_istream<_CharT, _Traits>::char_type = char][m[K’
+[0.318s]   377 |       [01;36m[Kget[m[K(__streambuf_type& __sb, char_type __delim);
+[0.318s]       |       [01;36m[K^~~[m[K
+[0.318s] [01m[K/usr/include/c++/9/istream:377:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[0.318s] [01m[K/usr/include/c++/9/istream:387:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[0.319s]   387 |       [01;36m[Kget[m[K(__streambuf_type& __sb)
+[0.319s]       |       [01;36m[K^~~[m[K
+[0.319s] [01m[K/usr/include/c++/9/istream:387:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::basic_istream<char>::__streambuf_type&[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>&[m[K’}
+[0.319s]   387 |       get([01;36m[K__streambuf_type& __sb[m[K)
+[0.319s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[0.319s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:20:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kchar[m[K’)
+[0.319s]    26 |       if ([32m[Kkarakter[m[K [01;31m[K==[m[K [34m[K','[m[K){
+[0.319s]       |           [32m[K~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~[m[K
+[0.319s]       |           [32m[K|[m[K           [34m[K|[m[K
+[0.319s]       |           [32m[K|[m[K           [34m[Kchar[m[K
+[0.319s]       |           [32m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[0.319s] In file included from [01m[K/usr/include/c++/9/iosfwd:40[m[K,
+[0.319s]                  from [01m[K/usr/include/c++/9/ios:38[m[K,
+[0.319s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.319s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.319s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.319s] [01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+[0.319s]   222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[0.319s]       |     [01;36m[K^~~~~~~~[m[K
+[0.319s] [01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.320s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[0.320s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.320s]       |                       [01;36m[K^~~[m[K
+[0.320s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:64[m[K,
+[0.320s]                  from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+[0.320s]                  from [01m[K/usr/include/c++/9/ios:40[m[K,
+[0.320s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.320s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.320s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.320s] [01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[0.320s]   448 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[0.320s]       |     [01;36m[K^~~~~~~~[m[K
+[0.320s] [01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.320s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[0.320s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.320s]       |                       [01;36m[K^~~[m[K
+[0.320s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[0.320s]                  from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+[0.320s]                  from [01m[K/usr/include/c++/9/ios:40[m[K,
+[0.321s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.321s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.321s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.321s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[0.321s]   325 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[0.321s]       |     [01;36m[K^~~~~~~~[m[K
+[0.321s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.321s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[0.321s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.321s]       |                       [01;36m[K^~~[m[K
+[0.321s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[0.321s]                  from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+[0.321s]                  from [01m[K/usr/include/c++/9/ios:40[m[K,
+[0.321s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.321s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.321s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.321s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[0.321s]   363 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[0.321s]       |     [01;36m[K^~~~~~~~[m[K
+[0.321s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.321s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[0.322s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.322s]       |                       [01;36m[K^~~[m[K
+[0.322s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/ios:40[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.322s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.322s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[0.322s]  1136 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[0.322s]       |     [01;36m[K^~~~~~~~[m[K
+[0.322s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.322s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[0.322s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.322s]       |                       [01;36m[K^~~[m[K
+[0.322s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/ios:40[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.322s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.323s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.323s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[0.323s]  1142 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[0.323s]       |     [01;36m[K^~~~~~~~[m[K
+[0.323s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.323s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[0.323s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.323s]       |                       [01;36m[K^~~[m[K
+[0.323s] In file included from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.323s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.323s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.323s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.323s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.323s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.323s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.323s] [01m[K/usr/include/c++/9/bits/allocator.h:167:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)[m[K’
+[0.323s]   167 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[0.323s]       |     [01;36m[K^~~~~~~~[m[K
+[0.323s] [01m[K/usr/include/c++/9/bits/allocator.h:167:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.323s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::allocator<_CharT>[m[K’
+[0.323s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.324s]       |                       [01;36m[K^~~[m[K
+[0.324s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[0.324s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.324s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.324s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.324s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.324s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.324s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.324s] [01m[K/usr/include/c++/9/bits/basic_string.h:6144:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[0.324s]  6144 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[0.324s]       |     [01;36m[K^~~~~~~~[m[K
+[0.324s] [01m[K/usr/include/c++/9/bits/basic_string.h:6144:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.324s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kchar[m[K’
+[0.324s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.324s]       |                       [01;36m[K^~~[m[K
+[0.324s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[0.324s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.325s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.325s] [01m[K/usr/include/c++/9/bits/basic_string.h:6152:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+[0.325s]  6152 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[0.325s]       |     [01;36m[K^~~~~~~~[m[K
+[0.325s] [01m[K/usr/include/c++/9/bits/basic_string.h:6152:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.325s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’ and ‘[01m[Kchar[m[K’
+[0.325s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.325s]       |                       [01;36m[K^~~[m[K
+[0.325s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.325s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.325s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.326s] [01m[K/usr/include/c++/9/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[0.326s]  6166 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[0.326s]       |     [01;36m[K^~~~~~~~[m[K
+[0.326s] [01m[K/usr/include/c++/9/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.326s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+[0.326s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.326s]       |                       [01;36m[K^~~[m[K
+[0.326s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[0.326s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.326s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.326s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.326s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.326s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.326s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.326s] [01m[K/usr/include/c++/9/bits/basic_string.h:6178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)[m[K’
+[0.326s]  6178 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[0.326s]       |     [01;36m[K^~~~~~~~[m[K
+[0.326s] [01m[K/usr/include/c++/9/bits/basic_string.h:6178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.326s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kchar[m[K’
+[0.326s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.327s]       |                       [01;36m[K^~~[m[K
+[0.327s] In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+[0.327s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.327s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.327s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.327s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.327s] [01m[K/usr/include/c++/9/system_error:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+[0.327s]   292 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[0.327s]       |   [01;36m[K^~~~~~~~[m[K
+[0.327s] [01m[K/usr/include/c++/9/system_error:292:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[0.327s]   292 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[0.327s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.327s] [01m[K/usr/include/c++/9/system_error:297:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+[0.327s]   297 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[0.327s]       |   [01;36m[K^~~~~~~~[m[K
+[0.327s] [01m[K/usr/include/c++/9/system_error:297:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[0.327s]   297 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[0.327s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.327s] [01m[K/usr/include/c++/9/system_error:304:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+[0.327s]   304 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[0.328s]       |   [01;36m[K^~~~~~~~[m[K
+[0.328s] [01m[K/usr/include/c++/9/system_error:304:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[0.328s]   304 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[0.328s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.328s] [01m[K/usr/include/c++/9/system_error:311:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+[0.328s]   311 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[0.328s]       |   [01;36m[K^~~~~~~~[m[K
+[0.328s] [01m[K/usr/include/c++/9/system_error:311:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[0.328s]   311 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[0.328s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.328s] In file included from [01m[K/usr/include/c++/9/bits/locale_facets.h:48[m[K,
+[0.328s]                  from [01m[K/usr/include/c++/9/bits/basic_ios.h:37[m[K,
+[0.328s]                  from [01m[K/usr/include/c++/9/ios:44[m[K,
+[0.328s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.328s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.328s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.328s] [01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[0.328s]   208 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[0.328s]       |     [01;36m[K^~~~~~~~[m[K
+[0.328s] [01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.329s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[0.329s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.329s]       |                       [01;36m[K^~~[m[K
+[0.329s] In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+[0.329s]                  from [01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geocentric.hpp:13[m[K,
+[0.329s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:6[m[K:
+[0.329s] [01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[0.329s]  1888 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[0.329s]       |     [01;36m[K^~~~~~~~[m[K
+[0.329s] [01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.329s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[0.329s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.329s]       |                       [01;36m[K^~~[m[K
+[0.329s] In file included from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.329s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.329s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.329s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.329s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.329s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.329s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.329s] [01m[K/usr/include/c++/9/bits/allocator.h:155:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)[m[K’
+[0.330s]   155 |       [01;36m[Koperator[m[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+[0.330s]       |       [01;36m[K^~~~~~~~[m[K
+[0.330s] [01m[K/usr/include/c++/9/bits/allocator.h:155:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::allocator<char>&[m[K’
+[0.330s]   155 |       operator==([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+[0.330s]       |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.330s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[0.330s]                  from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+[0.330s]                  from [01m[K/usr/include/c++/9/ios:40[m[K,
+[0.330s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.330s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.330s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.330s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:883:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+[0.330s]   883 |     [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+[0.330s]       |     [01;36m[K^~~~~~~~[m[K
+[0.330s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:883:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.330s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+[0.330s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.330s]       |                       [01;36m[K^~~[m[K
+[0.330s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[0.330s]                  from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/ios:40[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.331s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.331s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:890:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+[0.331s]   890 |     [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+[0.331s]       |     [01;36m[K^~~~~~~~[m[K
+[0.331s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:890:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.331s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+[0.331s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.331s]       |                       [01;36m[K^~~[m[K
+[0.331s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.331s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.331s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.331s] [01m[K/usr/include/c++/9/ext/new_allocator.h:166:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+[0.332s]   166 |  [01;36m[Koperator[m[K==(const new_allocator&, const new_allocator<_Up>&)
+[0.332s]       |  [01;36m[K^~~~~~~~[m[K
+[0.332s] [01m[K/usr/include/c++/9/ext/new_allocator.h:166:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.332s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:26:23:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’ and ‘[01m[Kchar[m[K’
+[0.332s]    26 |       if (karakter == [01;36m[K','[m[K){
+[0.332s]       |                       [01;36m[K^~~[m[K
+[0.350s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[0.350s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/local_cartesian.dir/all] Error 2
+[0.350s] make: *** [Makefile:141: all] Error 2
+[0.352s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

@@ -1,0 +1,35 @@
+CMake Warning (dev) at CMakeLists.txt:74 (set):
+  implicitly converting 'Directory containing test data' to 'STRING' type.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:88 (set):
+  implicitly converting 'install directory ' to 'STRING' type.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/colorstyle.h:32[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/colorstyle.cc:28[m[K:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::ColorStyle::AddElement(const ElementPtr&)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/balloonstyle.h:31[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/balloonstyle.cc:28[m[K:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::BalloonStyle::AddElement(const ElementPtr&)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/liststyle.h:32[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/liststyle.cc:26[m[K:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::ListStyle::AddElement(const ElementPtr&)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/overlay.h:34[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/overlay.cc:30[m[K:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::Overlay::AddElement(const ElementPtr&)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+      |                    [01;35m[K^~~~~~~~~~~[m[K

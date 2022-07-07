@@ -1,0 +1,3 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.063s] [100%] Built target parser_geo
+[0.063s] [100%] Built target local_cartesian

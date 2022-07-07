@@ -1,0 +1,13 @@
+[0.025s] Invoking command in '/home/mete/catkin_ws2/build/gtest': /usr/bin/cmake --build /home/mete/catkin_ws2/build/gtest -- -j12 -l12
+[0.066s] -- Configuring done
+[0.070s] -- Generating done
+[0.071s] -- Build files have been written to: /home/mete/catkin_ws2/build/gtest
+[0.099s] [35m[1mScanning dependencies of target gtest[0m
+[0.114s] [ 25%] [32mBuilding CXX object CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.743s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[1.776s] [ 50%] Built target gtest
+[1.784s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.794s] [ 75%] [32mBuilding CXX object CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.199s] [100%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.220s] [100%] Built target gtest_main
+[2.230s] Invoked command in '/home/mete/catkin_ws2/build/gtest' returned '0': /usr/bin/cmake --build /home/mete/catkin_ws2/build/gtest -- -j12 -l12

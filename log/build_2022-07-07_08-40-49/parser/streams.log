@@ -1,0 +1,35 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws2/src/parser -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/parser
+[0.069s] -- The C compiler identification is GNU 9.4.0
+[0.122s] -- The CXX compiler identification is GNU 9.4.0
+[0.126s] -- Check for working C compiler: /usr/bin/cc
+[0.182s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.183s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.319s] -- Detecting CXX compiler ABI info
+[0.387s] -- Detecting CXX compiler ABI info - done
+[0.398s] -- Detecting CXX compile features
+[0.399s] -- Detecting CXX compile features - done
+[0.408s] CMake Error at CMakeLists.txt:21 (find_package):
+[0.408s]   By not providing "FindGeographicLib.cmake" in CMAKE_MODULE_PATH this
+[0.408s]   project has asked CMake to find a package configuration file provided by
+[0.409s]   "GeographicLib", but CMake did not find one.
+[0.409s] 
+[0.409s]   Could not find a package configuration file provided by "GeographicLib"
+[0.409s]   with any of the following names:
+[0.409s] 
+[0.409s]     GeographicLibConfig.cmake
+[0.409s]     geographiclib-config.cmake
+[0.409s] 
+[0.409s]   Add the installation prefix of "GeographicLib" to CMAKE_PREFIX_PATH or set
+[0.409s]   "GeographicLib_DIR" to a directory containing one of the above files.  If
+[0.409s]   "GeographicLib" provides a separate development package or SDK, be sure it
+[0.409s]   has been installed.
+[0.409s] 
+[0.409s] 
+[0.409s] -- Configuring incomplete, errors occurred!
+[0.410s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeOutput.log".
+[0.411s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws2/src/parser -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/parser

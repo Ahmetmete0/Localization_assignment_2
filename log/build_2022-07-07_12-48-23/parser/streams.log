@@ -1,0 +1,42 @@
+[0.017s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.047s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.055s] [ 50%] Built target parser_geo
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[0.306s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.306s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:22:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::basic_ifstream<char>::get(std::string&)[m[K’
+[0.306s]    22 |     while ( dosyaOku.get(karakter[01;31m[K)[m[K ){
+[0.306s]       |                                  [01;31m[K^[m[K
+[0.306s] In file included from [01m[K/usr/include/c++/9/iostream:40[m[K,
+[0.306s]                  from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:3[m[K:
+[0.306s] [01m[K/usr/include/c++/9/istream:302:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::int_type std::basic_istream<_CharT, _Traits>::get() [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::int_type = int][m[K’
+[0.307s]   302 |       [01;36m[Kget[m[K();
+[0.307s]       |       [01;36m[K^~~[m[K
+[0.307s] [01m[K/usr/include/c++/9/istream:302:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[0.307s] [01m[K/usr/include/c++/9/istream:316:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char][m[K’
+[0.307s]   316 |       [01;36m[Kget[m[K(char_type& __c);
+[0.307s]       |       [01;36m[K^~~[m[K
+[0.307s] [01m[K/usr/include/c++/9/istream:316:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::basic_istream<char>::char_type&[m[K’ {aka ‘[01m[Kchar&[m[K’}
+[0.307s]   316 |       get([01;36m[Kchar_type& __c[m[K);
+[0.307s]       |           [01;36m[K~~~~~~~~~~~^~~[m[K
+[0.307s] [01m[K/usr/include/c++/9/istream:343:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int][m[K’
+[0.307s]   343 |       [01;36m[Kget[m[K(char_type* __s, streamsize __n, char_type __delim);
+[0.307s]       |       [01;36m[K^~~[m[K
+[0.307s] [01m[K/usr/include/c++/9/istream:343:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[0.307s] [01m[K/usr/include/c++/9/istream:354:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int][m[K’
+[0.307s]   354 |       [01;36m[Kget[m[K(char_type* __s, streamsize __n)
+[0.307s]       |       [01;36m[K^~~[m[K
+[0.307s] [01m[K/usr/include/c++/9/istream:354:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[0.307s] [01m[K/usr/include/c++/9/istream:377:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>; std::basic_istream<_CharT, _Traits>::char_type = char][m[K’
+[0.307s]   377 |       [01;36m[Kget[m[K(__streambuf_type& __sb, char_type __delim);
+[0.307s]       |       [01;36m[K^~~[m[K
+[0.308s] [01m[K/usr/include/c++/9/istream:377:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[0.308s] [01m[K/usr/include/c++/9/istream:387:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[0.308s]   387 |       [01;36m[Kget[m[K(__streambuf_type& __sb)
+[0.308s]       |       [01;36m[K^~~[m[K
+[0.308s] [01m[K/usr/include/c++/9/istream:387:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::basic_istream<char>::__streambuf_type&[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>&[m[K’}
+[0.308s]   387 |       get([01;36m[K__streambuf_type& __sb[m[K)
+[0.308s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[0.339s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[0.340s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/local_cartesian.dir/all] Error 2
+[0.340s] make: *** [Makefile:141: all] Error 2
+[0.342s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

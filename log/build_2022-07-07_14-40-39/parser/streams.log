@@ -1,0 +1,47 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.041s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.041s] -- GeographicLib configuration, version 2.1
+[0.042s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.045s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.352s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.375s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.498s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.498s] -- Looking for pthread.h
+[0.554s] -- Looking for pthread.h - found
+[0.555s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.621s] -- Looking for pthread_create in pthreads
+[0.699s] -- Looking for pthread_create in pthreads - not found
+[0.699s] -- Looking for pthread_create in pthread
+[0.834s] -- Looking for pthread_create in pthread - found
+[0.836s] -- Found Threads: TRUE  
+[0.991s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.038s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.039s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.039s] -- Configured cppcheck include dirs: 
+[1.039s] -- Configured cppcheck exclude dirs and/or files: 
+[1.039s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.039s] -- Configured cpplint exclude dirs and/or files: 
+[1.040s] -- Added test 'lint_cmake' to check CMake code style
+[1.041s] -- Added test 'uncrustify' to check C / C++ code style
+[1.041s] -- Configured uncrustify additional arguments: 
+[1.041s] -- Added test 'xmllint' to check XML markup files
+[1.043s] -- Configuring done
+[1.046s] -- Generating done
+[1.047s] -- Build files have been written to: /home/mete/catkin_ws2/build/parser
+[1.066s] [35m[1mScanning dependencies of target local_cartesian[0m
+[1.074s] [ 50%] Built target parser_geo
+[1.074s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.119s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.119s]    10 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.119s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.120s] compilation terminated.
+[1.121s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[1.121s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[1.121s] make: *** [Makefile:141: all] Error 2
+[1.124s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
