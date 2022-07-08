@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:25 (find_package):
+  By not providing "Findrapidxml.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "rapidxml",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "rapidxml" with any
+  of the following names:
+
+    rapidxmlConfig.cmake
+    rapidxml-config.cmake
+
+  Add the installation prefix of "rapidxml" to CMAKE_PREFIX_PATH or set
+  "rapidxml_DIR" to a directory containing one of the above files.  If
+  "rapidxml" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+make: *** [Makefile:354: cmake_check_build_system] Error 1

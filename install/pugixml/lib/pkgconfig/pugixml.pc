@@ -1,0 +1,11 @@
+prefix=/home/mete/catkin_ws2/install/pugixml
+exec_prefix=${prefix}
+includedir=/home/mete/catkin_ws2/install/pugixml/include
+libdir=/home/mete/catkin_ws2/install/pugixml/lib
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: https://pugixml.org/
+Version: 1.12
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpugixml

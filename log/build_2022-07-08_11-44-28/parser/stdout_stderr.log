@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klongitude_array[m[K’ was not declared in this scope
+   68 |         [01;31m[Klongitude_array[m[K[counter] = satir;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:75:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klatitude_array[m[K’ was not declared in this scope
+   75 |         [01;31m[Klatitude_array[m[K[counter] = satir;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaltitude_array[m[K’ was not declared in this scope
+   82 |         [01;31m[Kaltitude_array[m[K[counter] = satir;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

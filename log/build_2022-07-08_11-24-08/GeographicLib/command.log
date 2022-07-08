@@ -1,0 +1,2 @@
+Invoking command in '/home/mete/catkin_ws2/build/GeographicLib': /usr/bin/cmake --build /home/mete/catkin_ws2/build/GeographicLib -- -j12 -l12
+Invoked command in '/home/mete/catkin_ws2/build/GeographicLib' returned '0': /usr/bin/cmake --build /home/mete/catkin_ws2/build/GeographicLib -- -j12 -l12

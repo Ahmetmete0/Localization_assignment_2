@@ -1,0 +1,153 @@
+[  4%] Built target scripts
+[ 60%] Built target GeographicLib_SHARED
+[ 62%] Built target CartConvert
+[ 65%] Built target GeoConvert
+[ 72%] Built target Gravity
+[ 72%] Built target RhumbSolve
+[ 74%] Built target GeodSolve
+[ 77%] Built target TransverseMercatorProj
+[ 80%] Built target ConicProj
+[ 82%] Built target GeoidEval
+[ 85%] Built target polygontest
+[ 88%] Built target GeodesicProj
+[ 94%] Built target MagneticField
+[ 94%] Built target Planimeter
+[ 97%] Built target geodtest
+[100%] Built target signtest
+[100%] Built target tools
+-- Install configuration: "Release"
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23.0.0
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Accumulator.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AlbersEqualArea.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AzimuthalEquidistant.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CassiniSoldner.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CircularEngine.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Constants.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DMS.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DST.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Ellipsoid.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/EllipticFunction.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GARS.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeoCoords.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geocentric.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geodesic.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicExact.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLine.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLineExact.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geohash.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geoid.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Georef.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Gnomonic.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityCircle.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityModel.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LambertConformalConic.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MGRS.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticCircle.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticModel.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Math.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NearestNeighbor.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NormalGravity.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/OSGB.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolarStereographic.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolygonArea.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Rhumb.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalEngine.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic1.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic2.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercator.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercatorExact.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/UTMUPS.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Utility.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Config.h
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/CartConvert
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/ConicProj
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodesicProj
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoConvert
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodSolve
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoidEval
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/Gravity
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/MagneticField
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/Planimeter
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/RhumbSolve
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/TransverseMercatorProj
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-geoids
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-gravity
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-magnetic
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/CartConvert.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/ConicProj.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodesicProj.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoConvert.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodSolve.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoidEval.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Gravity.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/MagneticField.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Planimeter.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/RhumbSolve.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/TransverseMercatorProj.1
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-geoids.8
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-gravity.8
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-magnetic.8
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/index.html
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/LICENSE.txt
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/utilities.html
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/CMakeLists.txt
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Accumulator.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AlbersEqualArea.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AzimuthalEquidistant.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CassiniSoldner.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CircularEngine.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Constants.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DMS.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DST.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Ellipsoid.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-EllipticFunction.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GARS.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeoCoords.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geocentric.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic-small.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicExact.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLine.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLineExact.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeographicErr.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geohash.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geoid.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Georef.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Gnomonic.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityCircle.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityModel.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LambertConformalConic.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LocalCartesian.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MGRS.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticCircle.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticModel.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Math.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NearestNeighbor.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NormalGravity.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-OSGB.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolarStereographic.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolygonArea.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Rhumb.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-RhumbLine.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalEngine.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic1.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic2.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercator.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercatorExact.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-UTMUPS.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Utility.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/GeoidToGTX.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/make-egmcof.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.cpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.hpp
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config-version.cmake
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets.cmake
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets-release.cmake
+-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/pkgconfig/geographiclib.pc

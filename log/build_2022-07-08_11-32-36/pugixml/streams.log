@@ -1,0 +1,29 @@
+[0.024s] Invoking command in '/home/mete/catkin_ws2/build/pugixml': /usr/bin/cmake /home/mete/catkin_ws2/src/pugixml-1.12 -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/pugixml
+[0.093s] -- The CXX compiler identification is GNU 9.4.0
+[0.102s] -- Check for working CXX compiler: /usr/bin/c++
+[0.166s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.167s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.256s] -- Configuring done
+[0.260s] -- Generating done
+[0.262s] -- Build files have been written to: /home/mete/catkin_ws2/build/pugixml
+[0.265s] Invoked command in '/home/mete/catkin_ws2/build/pugixml' returned '0': /usr/bin/cmake /home/mete/catkin_ws2/src/pugixml-1.12 -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/pugixml
+[0.267s] Invoking command in '/home/mete/catkin_ws2/build/pugixml': /usr/bin/cmake --build /home/mete/catkin_ws2/build/pugixml -- -j12 -l12
+[0.296s] [35m[1mScanning dependencies of target pugixml-static[0m
+[0.307s] [ 50%] [32mBuilding CXX object CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o[0m
+[1.204s] [100%] [32m[1mLinking CXX static library libpugixml.a[0m
+[1.228s] [100%] Built target pugixml-static
+[1.236s] Invoked command in '/home/mete/catkin_ws2/build/pugixml' returned '0': /usr/bin/cmake --build /home/mete/catkin_ws2/build/pugixml -- -j12 -l12
+[1.268s] Invoking command in '/home/mete/catkin_ws2/build/pugixml': /usr/bin/cmake --install /home/mete/catkin_ws2/build/pugixml
+[1.274s] -- Install configuration: ""
+[1.274s] -- Installing: /home/mete/catkin_ws2/install/pugixml/lib/libpugixml.a
+[1.275s] -- Installing: /home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-targets.cmake
+[1.275s] -- Installing: /home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-targets-noconfig.cmake
+[1.275s] -- Installing: /home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-config-version.cmake
+[1.275s] -- Installing: /home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-config.cmake
+[1.275s] -- Installing: /home/mete/catkin_ws2/install/pugixml/lib/pkgconfig/pugixml.pc
+[1.276s] -- Installing: /home/mete/catkin_ws2/install/pugixml/include/pugiconfig.hpp
+[1.276s] -- Installing: /home/mete/catkin_ws2/install/pugixml/include/pugixml.hpp
+[1.279s] Invoked command in '/home/mete/catkin_ws2/build/pugixml' returned '0': /usr/bin/cmake --install /home/mete/catkin_ws2/build/pugixml

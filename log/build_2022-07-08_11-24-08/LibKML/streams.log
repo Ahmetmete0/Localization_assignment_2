@@ -1,0 +1,7 @@
+[0.023s] Invoking command in '/home/mete/catkin_ws2/build/LibKML': /usr/bin/cmake --build /home/mete/catkin_ws2/build/LibKML -- -j12 -l12
+[0.070s] [ 16%] Built target kmlbase
+[0.103s] [ 23%] Built target kmlxsd
+[0.124s] [ 63%] Built target kmldom
+[0.151s] [ 87%] Built target kmlengine
+[0.173s] [ 97%] Built target kmlconvenience
+[0.191s] [100%] Built target kmlregionator

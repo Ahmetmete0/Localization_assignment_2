@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.060s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.078s] [ 50%] Built target parser_geo
+[0.102s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.197s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.197s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:69:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.197s]    69 |         longitude_array[counter] = [01;31m[Ksatir[m[K;
+[1.197s]       |                                    [01;31m[K^~~~~[m[K
+[1.197s]       |                                    [01;31m[K|[m[K
+[1.197s]       |                                    [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.197s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:76:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.197s]    76 |         latitude_array[counter] = [01;31m[Ksatir[m[K;
+[1.197s]       |                                   [01;31m[K^~~~~[m[K
+[1.197s]       |                                   [01;31m[K|[m[K
+[1.197s]       |                                   [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.197s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:83:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.198s]    83 |         altitude_array[counter] = [01;31m[Ksatir[m[K;
+[1.198s]       |                                   [01;31m[K^~~~~[m[K
+[1.198s]       |                                   [01;31m[K|[m[K
+[1.198s]       |                                   [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.966s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[1.966s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[1.966s] make: *** [Makefile:141: all] Error 2
+[1.968s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

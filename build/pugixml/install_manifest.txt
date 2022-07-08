@@ -1,0 +1,8 @@
+/home/mete/catkin_ws2/install/pugixml/lib/libpugixml.a
+/home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-targets.cmake
+/home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-targets-noconfig.cmake
+/home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-config-version.cmake
+/home/mete/catkin_ws2/install/pugixml/lib/cmake/pugixml/pugixml-config.cmake
+/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig/pugixml.pc
+/home/mete/catkin_ws2/install/pugixml/include/pugiconfig.hpp
+/home/mete/catkin_ws2/install/pugixml/include/pugixml.hpp

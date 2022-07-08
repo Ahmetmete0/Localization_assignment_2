@@ -1,6 +1,0 @@
-uriparser-0.7.5/lib/UriIp4Base.lo: uriparser-0.7.5/lib/UriIp4Base.c \
- /usr/include/stdc-predef.h uriparser-0.7.5/lib/UriIp4Base.h
-
-/usr/include/stdc-predef.h:
-
-uriparser-0.7.5/lib/UriIp4Base.h:

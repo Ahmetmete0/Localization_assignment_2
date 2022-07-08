@@ -1,0 +1,16 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:104:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  104 |       if ([01;31m[Ki[m[K == 0){
+      |           [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:107:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope
+  107 |         longitude_array[[01;31m[Kcounter[m[K] = satir;
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:113:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope
+  113 |         latitude_array[[01;31m[Kcounter[m[K] = satir;
+      |                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:120:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope
+  120 |         altitude_array[[01;31m[Kcounter[m[K] = satir;
+      |                        [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

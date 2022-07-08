@@ -1,0 +1,18 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.066s] [ 50%] Built target parser_geo
+[0.091s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.206s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.206s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klongitude_array[m[K’ was not declared in this scope
+[1.206s]    68 |         [01;31m[Klongitude_array[m[K[counter] = satir;
+[1.206s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.207s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:75:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klatitude_array[m[K’ was not declared in this scope
+[1.208s]    75 |         [01;31m[Klatitude_array[m[K[counter] = satir;
+[1.208s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.209s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaltitude_array[m[K’ was not declared in this scope
+[1.209s]    82 |         [01;31m[Kaltitude_array[m[K[counter] = satir;
+[1.209s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.002s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.002s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.002s] make: *** [Makefile:141: all] Error 2
+[2.006s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

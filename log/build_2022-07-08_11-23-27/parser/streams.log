@@ -1,0 +1,38 @@
+[0.021s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.045s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.045s] -- GeographicLib configuration, version 2.1
+[0.046s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.047s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.261s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.515s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.613s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.663s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.664s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.664s] -- Configured cppcheck include dirs: 
+[0.664s] -- Configured cppcheck exclude dirs and/or files: 
+[0.665s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.665s] -- Configured cpplint exclude dirs and/or files: 
+[0.665s] -- Added test 'lint_cmake' to check CMake code style
+[0.666s] -- Added test 'uncrustify' to check C / C++ code style
+[0.666s] -- Configured uncrustify additional arguments: 
+[0.666s] -- Added test 'xmllint' to check XML markup files
+[0.669s] -- Configuring done
+[0.677s] -- Generating done
+[0.678s] -- Build files have been written to: /home/mete/catkin_ws2/build/parser
+[0.698s] [35m[1mScanning dependencies of target cartesian[0m
+[0.707s] [ 50%] [32mBuilding CXX object CMakeFiles/cartesian.dir/src/cartesian.cpp.o[0m
+[0.707s] [ 50%] Built target parser_geo
+[0.714s] [ 83%] Built target local_cartesian
+[0.738s] [01m[K/home/mete/catkin_ws2/src/parser/src/cartesian.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krapidxml.hpp: No such file or directory
+[0.738s]     4 | #include [01;31m[K"rapidxml.hpp"[m[K
+[0.738s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.738s] compilation terminated.
+[0.739s] make[2]: *** [CMakeFiles/cartesian.dir/build.make:63: CMakeFiles/cartesian.dir/src/cartesian.cpp.o] Error 1
+[0.739s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cartesian.dir/all] Error 2
+[0.739s] make: *** [Makefile:141: all] Error 2
+[0.743s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

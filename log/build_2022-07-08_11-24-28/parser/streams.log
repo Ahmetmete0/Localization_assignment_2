@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.043s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.043s] -- GeographicLib configuration, version 2.1
+[0.045s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.045s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.408s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.409s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.527s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.631s] CMake Error at CMakeLists.txt:25 (find_package):
+[0.631s]   By not providing "Findrapidxml.cmake" in CMAKE_MODULE_PATH this project has
+[0.631s]   asked CMake to find a package configuration file provided by "rapidxml",
+[0.631s]   but CMake did not find one.
+[0.631s] 
+[0.631s]   Could not find a package configuration file provided by "rapidxml" with any
+[0.631s]   of the following names:
+[0.631s] 
+[0.631s]     rapidxmlConfig.cmake
+[0.631s]     rapidxml-config.cmake
+[0.631s] 
+[0.631s]   Add the installation prefix of "rapidxml" to CMAKE_PREFIX_PATH or set
+[0.631s]   "rapidxml_DIR" to a directory containing one of the above files.  If
+[0.631s]   "rapidxml" provides a separate development package or SDK, be sure it has
+[0.631s]   been installed.
+[0.631s] 
+[0.631s] 
+[0.632s] -- Configuring incomplete, errors occurred!
+[0.632s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeOutput.log".
+[0.632s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeError.log".
+[0.636s] make: *** [Makefile:354: cmake_check_build_system] Error 1
+[0.637s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

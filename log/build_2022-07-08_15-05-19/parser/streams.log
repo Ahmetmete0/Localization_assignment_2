@@ -1,0 +1,28 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.065s] [ 50%] Built target parser_geo
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.504s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kvoid split_c(std::string)[m[K’:
+[1.504s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:60:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.504s]    60 |     for (auto [01;35m[Kx[m[K : str)
+[1.504s]       |               [01;35m[K^[m[K
+[1.504s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:76:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[1.504s]    76 |         [01;31m[Kelse[m[K {
+[1.504s]       |         [01;31m[K^~~~[m[K
+[1.505s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:77:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[1.505s]    77 |             w = w + [01;31m[Kx[m[K;
+[1.505s]       |                     [01;31m[K^[m[K
+[1.505s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.505s]    57 |     int [01;35m[Ki[m[K = 0;
+[1.505s]       |         [01;35m[K^[m[K
+[1.505s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:58:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcounter[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.505s]    58 |     int [01;35m[Kcounter[m[K = 0;
+[1.505s]       |         [01;35m[K^~~~~~~[m[K
+[1.505s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K At global scope:
+[1.505s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:88:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.505s]    88 | [01;31m[K}[m[K
+[1.505s]       | [01;31m[K^[m[K
+[2.152s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.152s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.152s] make: *** [Makefile:141: all] Error 2
+[2.154s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

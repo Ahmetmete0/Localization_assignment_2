@@ -1,0 +1,344 @@
+[0.023s] Invoking command in '/home/mete/catkin_ws2/build/LibKML': /usr/bin/cmake --build /home/mete/catkin_ws2/build/LibKML -- -j12 -l12
+[0.046s] -- CMAKE_BUILD_TYPE is not set. setting it to 'Release'
+[0.046s] CMake Warning (dev) at CMakeLists.txt:74 (set):
+[0.046s]   implicitly converting 'Directory containing test data' to 'STRING' type.
+[0.046s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.046s] 
+[0.046s] CMake Warning (dev) at CMakeLists.txt:88 (set):
+[0.047s]   implicitly converting 'install directory ' to 'STRING' type.
+[0.047s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.047s] 
+[0.068s] -- Found Boost: 1.71.0
+[0.085s] -- [SuperFind] EXPAT found from system
+[0.105s] -- [SuperFind] ZLIB found from system
+[0.106s] -- [SuperFind] MiniZip found from system
+[0.106s] -- [SuperFind] UriParser found from system
+[0.115s] -- Configuring done
+[0.148s] -- Generating done
+[0.150s] -- Build files have been written to: /home/mete/catkin_ws2/build/LibKML
+[0.169s] [35m[1mScanning dependencies of target kmlbase[0m
+[0.188s] [  3%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/expat_parser.cc.o[0m
+[0.188s] [  3%] [32mBuilding C object src/kml/base/CMakeFiles/kmlbase.dir/contrib/minizip/unzip.c.o[0m
+[0.189s] [  3%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/csv_splitter.cc.o[0m
+[0.190s] [  3%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/attributes.cc.o[0m
+[0.190s] [  4%] [32mBuilding C object src/kml/base/CMakeFiles/kmlbase.dir/contrib/minizip/iomem_simple.c.o[0m
+[0.191s] [  4%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/expat_handler_ns.cc.o[0m
+[0.191s] [  6%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/date_time.cc.o[0m
+[0.191s] [  6%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/file_posix.cc.o[0m
+[0.191s] [  7%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/file.cc.o[0m
+[0.192s] [  8%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/localec.cc.o[0m
+[0.214s] [  9%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/math_util.cc.o[0m
+[0.214s] [  9%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/mimetypes.cc.o[0m
+[0.252s] [ 10%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/referent.cc.o[0m
+[0.299s] [ 11%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/string_util.cc.o[0m
+[0.304s] [ 12%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/time_util.cc.o[0m
+[0.342s] [ 13%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/uri_parser.cc.o[0m
+[0.386s] [ 13%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/xml_namespaces.cc.o[0m
+[0.403s] [ 14%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/version.cc.o[0m
+[0.489s] [ 15%] [32mBuilding CXX object src/kml/base/CMakeFiles/kmlbase.dir/zip_file.cc.o[0m
+[1.242s] [ 16%] [32m[1mLinking CXX shared library ../../../lib/libkmlbase.so[0m
+[1.322s] [ 16%] Built target kmlbase
+[1.332s] [35m[1mScanning dependencies of target kmlxsd[0m
+[1.336s] [35m[1mScanning dependencies of target kmldom[0m
+[1.345s] [ 18%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_util.cc.o[0m
+[1.346s] [ 18%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_primitive_type.cc.o[0m
+[1.346s] [ 19%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_handler.cc.o[0m
+[1.347s] [ 21%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_complex_type.cc.o[0m
+[1.347s] [ 21%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_element.cc.o[0m
+[1.347s] [ 21%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xsd_file.cc.o[0m
+[1.348s] [ 22%] [32mBuilding CXX object src/kml/xsd/CMakeFiles/kmlxsd.dir/xst_parser.cc.o[0m
+[1.397s] [ 24%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/abstractlatlonbox.cc.o[0m
+[1.397s] [ 25%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/balloonstyle.cc.o[0m
+[1.398s] [ 24%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/abstractview.cc.o[0m
+[1.398s] [ 25%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/atom.cc.o[0m
+[1.409s] [ 26%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/colorstyle.cc.o[0m
+[1.710s] [ 27%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/container.cc.o[0m
+[2.026s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/colorstyle.h:32[m[K,
+[2.026s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/colorstyle.cc:28[m[K:
+[2.026s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::ColorStyle::AddElement(const ElementPtr&)[m[K’:
+[2.026s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.026s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[2.026s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[2.053s] [ 28%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/document.cc.o[0m
+[2.056s] [ 29%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/element.cc.o[0m
+[2.074s] [ 29%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/extendeddata.cc.o[0m
+[2.122s] [ 30%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/feature.cc.o[0m
+[2.158s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/balloonstyle.h:31[m[K,
+[2.158s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/balloonstyle.cc:28[m[K:
+[2.158s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::BalloonStyle::AddElement(const ElementPtr&)[m[K’:
+[2.158s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.158s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[2.158s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[2.158s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.158s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[2.158s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[2.224s] [ 31%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/folder.cc.o[0m
+[2.343s] [ 32%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/geometry.cc.o[0m
+[2.579s] [ 33%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/gx_timeprimitive.cc.o[0m
+[2.994s] [ 34%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/gx_tour.cc.o[0m
+[3.115s] [ 34%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/hotspot.cc.o[0m
+[3.127s] [ 35%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/iconstyle.cc.o[0m
+[3.247s] [ 36%] [32m[1mLinking CXX shared library ../../../lib/libkmlxsd.so[0m
+[3.300s] [ 37%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml.cc.o[0m
+[3.428s] [ 38%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_cast.cc.o[0m
+[3.468s] [ 38%] Built target kmlxsd
+[3.482s] [ 39%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_factory.cc.o[0m
+[3.539s] [ 39%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_handler.cc.o[0m
+[3.619s] [ 40%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/kml_handler_ns.cc.o[0m
+[3.883s] [ 41%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/labelstyle.cc.o[0m
+[4.195s] [ 42%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/linestyle.cc.o[0m
+[4.358s] [ 43%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/link.cc.o[0m
+[4.416s] [ 44%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/liststyle.cc.o[0m
+[4.585s] [ 44%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/model.cc.o[0m
+[4.664s] [ 45%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/networklink.cc.o[0m
+[4.683s] [ 46%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/networklinkcontrol.cc.o[0m
+[4.809s] [ 47%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/object.cc.o[0m
+[4.986s] [ 48%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/overlay.cc.o[0m
+[5.041s] [ 49%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/parser.cc.o[0m
+[5.143s] [ 49%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/placemark.cc.o[0m
+[5.299s] [ 50%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/polystyle.cc.o[0m
+[5.410s] [ 51%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/region.cc.o[0m
+[5.500s] [ 52%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/schema.cc.o[0m
+[5.926s] [ 53%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/serializer.cc.o[0m
+[5.957s] [ 54%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/snippet.cc.o[0m
+[6.077s] [ 54%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/style.cc.o[0m
+[6.207s] [ 55%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/stylemap.cc.o[0m
+[6.229s] [ 56%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/styleselector.cc.o[0m
+[6.317s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/liststyle.h:32[m[K,
+[6.318s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/liststyle.cc:26[m[K:
+[6.318s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::ListStyle::AddElement(const ElementPtr&)[m[K’:
+[6.318s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[6.318s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[6.318s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[6.398s] [ 57%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/substyle.cc.o[0m
+[6.558s] [ 58%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/timeprimitive.cc.o[0m
+[6.573s] [ 58%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/vec2.cc.o[0m
+[6.719s] [ 59%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/visitor.cc.o[0m
+[6.814s] In file included from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/overlay.h:34[m[K,
+[6.814s]                  from [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/dom/overlay.cc:30[m[K:
+[6.815s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:[m[K In member function ‘[01m[Kvirtual void kmldom::Overlay::AddElement(const ElementPtr&)[m[K’:
+[6.815s] [01m[K/home/mete/catkin_ws2/src/libkml/src/kml/base/color32.h:59:20:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.kmlbase::Color32::color_abgr_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[6.815s]    59 |     color_abgr_ = ([01;35m[Kcolor_abgr_[m[K & 0xffffff00) | value;
+[6.815s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[6.888s] [ 60%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/visitor_driver.cc.o[0m
+[6.919s] [ 61%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/xal.cc.o[0m
+[6.987s] [ 62%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/xml_serializer.cc.o[0m
+[7.049s] [ 63%] [32mBuilding CXX object src/kml/dom/CMakeFiles/kmldom.dir/xsd.cc.o[0m
+[8.342s] [ 63%] [32m[1mLinking CXX shared library ../../../lib/libkmldom.so[0m
+[8.432s] [ 63%] Built target kmldom
+[8.445s] [35m[1mScanning dependencies of target kmlengine[0m
+[8.482s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/feature_balloon.cc.o[0m
+[8.482s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/clone.cc.o[0m
+[8.482s] [ 68%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/feature_visitor.cc.o[0m
+[8.482s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/feature_view.cc.o[0m
+[8.482s] [ 70%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/find_xml_namespaces.cc.o[0m
+[8.482s] [ 70%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/href.cc.o[0m
+[8.483s] [ 67%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/entity_mapper.cc.o[0m
+[8.483s] [ 71%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/get_link_parents.cc.o[0m
+[8.483s] [ 68%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/find.cc.o[0m
+[8.483s] [ 72%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/get_links.cc.o[0m
+[8.484s] [ 72%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_cache.cc.o[0m
+[8.493s] [ 73%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/id_mapper.cc.o[0m
+[8.859s] [ 74%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_file.cc.o[0m
+[9.825s] [ 75%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_stream.cc.o[0m
+[9.834s] [ 76%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kml_uri.cc.o[0m
+[9.909s] [ 77%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kmz_cache.cc.o[0m
+[9.953s] [ 77%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/kmz_file.cc.o[0m
+[10.030s] [ 78%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/link_util.cc.o[0m
+[10.132s] [ 79%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/location_util.cc.o[0m
+[10.181s] [ 80%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/merge.cc.o[0m
+[10.209s] [ 81%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/parse_old_schema.cc.o[0m
+[10.243s] [ 82%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_inliner.cc.o[0m
+[10.336s] [ 82%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_merger.cc.o[0m
+[10.528s] [ 83%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_resolver.cc.o[0m
+[10.849s] [ 84%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/style_splitter.cc.o[0m
+[11.472s] [ 85%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/update.cc.o[0m
+[11.608s] [ 86%] [32mBuilding CXX object src/kml/engine/CMakeFiles/kmlengine.dir/update_processor.cc.o[0m
+[12.504s] [ 87%] [32m[1mLinking CXX shared library ../../../lib/libkmlengine.so[0m
+[12.579s] [ 87%] Built target kmlengine
+[12.612s] [35m[1mScanning dependencies of target kmlconvenience[0m
+[12.645s] [ 88%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/atom_util.cc.o[0m
+[12.647s] [ 89%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/convenience.cc.o[0m
+[12.648s] [ 89%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/csv_parser.cc.o[0m
+[12.648s] [ 90%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/csv_file.cc.o[0m
+[12.648s] [ 91%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/feature_list.cc.o[0m
+[12.648s] [ 92%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_doc_list.cc.o[0m
+[12.649s] [ 93%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_maps_data.cc.o[0m
+[12.649s] [ 93%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_spreadsheets.cc.o[0m
+[12.649s] [ 95%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/google_picasa_web.cc.o[0m
+[12.649s] [ 95%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/kmz_check_links.cc.o[0m
+[12.649s] [ 96%] [32mBuilding CXX object src/kml/convenience/CMakeFiles/kmlconvenience.dir/http_client.cc.o[0m
+[14.380s] [ 97%] [32m[1mLinking CXX shared library ../../../lib/libkmlconvenience.so[0m
+[14.446s] [ 97%] Built target kmlconvenience
+[14.456s] [35m[1mScanning dependencies of target kmlregionator[0m
+[14.473s] [ 99%] [32mBuilding CXX object src/kml/regionator/CMakeFiles/kmlregionator.dir/regionator_util.cc.o[0m
+[14.473s] [ 99%] [32mBuilding CXX object src/kml/regionator/CMakeFiles/kmlregionator.dir/regionator.cc.o[0m
+[14.473s] [ 99%] [32mBuilding CXX object src/kml/regionator/CMakeFiles/kmlregionator.dir/feature_list_region_handler.cc.o[0m
+[15.454s] [100%] [32m[1mLinking CXX shared library ../../../lib/libkmlregionator.so[0m
+[15.516s] [100%] Built target kmlregionator
+[15.525s] Invoked command in '/home/mete/catkin_ws2/build/LibKML' returned '0': /usr/bin/cmake --build /home/mete/catkin_ws2/build/LibKML -- -j12 -l12
+[15.544s] Invoking command in '/home/mete/catkin_ws2/build/LibKML': /usr/bin/cmake --install /home/mete/catkin_ws2/build/LibKML
+[15.550s] -- Install configuration: "Release"
+[15.550s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/pkgconfig/libkml.pc
+[15.550s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLConfig.cmake
+[15.550s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLConfigVersion.cmake
+[15.550s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLTargets.cmake
+[15.550s] -- Installing: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLTargets-release.cmake
+[15.551s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom.h
+[15.551s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine.h
+[15.551s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/attributes.h
+[15.551s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/csv_splitter.h
+[15.551s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/date_time.h
+[15.551s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/color32.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/expat_handler.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/expat_handler_ns.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/expat_parser.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/file.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/math_util.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/memory_file.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/mimetypes.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/net_cache.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/referent.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/string_util.h
+[15.552s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/tempfile.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/time_util.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/util.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/vec3.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/version.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xml_element.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xml_file.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xml_namespaces.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xmlns.h
+[15.553s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/base/zip_file.h
+[15.554s] -- Installing: /home/mete/catkin_ws2/install/LibKML/lib/libkmlbase.so.1.3.1
+[15.554s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlbase.so.1
+[15.554s] -- Set runtime path of "/home/mete/catkin_ws2/install/LibKML/lib/libkmlbase.so.1.3.1" to ""
+[15.554s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlbase.so
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/abstractlatlonbox.h
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/abstractview.h
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/atom.h
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/balloonstyle.h
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/colorstyle.h
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/container.h
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/document.h
+[15.555s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/element.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/extendeddata.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/feature.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/folder.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/geometry.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/hotspot.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/iconstyle.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml22.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml22.cc
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_cast.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_factory.h
+[15.556s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_funcs.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_ptr.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kmldom.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/labelstyle.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/linestyle.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/link.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/liststyle.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/model.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/networklink.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/networklinkcontrol.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/object.h
+[15.557s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/overlay.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/parser.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/parser_observer.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/placemark.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/polystyle.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/region.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/schema.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/snippet.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/style.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/stylemap.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/styleselector.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/substyle.h
+[15.558s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/timeprimitive.h
+[15.559s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/gx_timeprimitive.h
+[15.559s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/gx_tour.h
+[15.559s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/vec2.h
+[15.559s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/xal.h
+[15.559s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/xsd.h
+[15.559s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/visitor.h
+[15.559s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/visitor_driver.h
+[15.560s] -- Installing: /home/mete/catkin_ws2/install/LibKML/lib/libkmldom.so.1.3.1
+[15.561s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmldom.so.1
+[15.561s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmldom.so
+[15.561s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_complex_type.h
+[15.561s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_element.h
+[15.561s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_file.h
+[15.561s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_handler.h
+[15.561s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_primitive_type.h
+[15.561s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_schema.h
+[15.561s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_simple_type.h
+[15.562s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_type.h
+[15.562s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_util.h
+[15.562s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xst_parser.h
+[15.562s] -- Installing: /home/mete/catkin_ws2/install/LibKML/lib/libkmlxsd.so.1.3.1
+[15.562s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlxsd.so.1
+[15.563s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlxsd.so
+[15.563s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/bbox.h
+[15.563s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/clone.h
+[15.563s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/engine_types.h
+[15.563s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/entity_mapper.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/feature_balloon.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/feature_view.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/feature_visitor.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/find.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/find_xml_namespaces.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/get_link_parents.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/get_links.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/href.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/id_mapper.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_cache.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_file.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_stream.h
+[15.564s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_uri.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kmz_cache.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kmz_file.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/link_util.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/location_util.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/merge.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/object_id_parser_observer.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/old_schema_parser_observer.h
+[15.565s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/parse_old_schema.h
+[15.566s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/schema_parser_observer.h
+[15.566s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/shared_style_parser_observer.h
+[15.566s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_inliner.h
+[15.566s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_merger.h
+[15.566s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_resolver.h
+[15.566s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_splitter.h
+[15.566s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/update.h
+[15.567s] -- Installing: /home/mete/catkin_ws2/install/LibKML/lib/libkmlengine.so.1.3.1
+[15.567s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlengine.so.1
+[15.567s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlengine.so
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/atom_util.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/convenience.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/csv_file.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/csv_parser.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/element_counter.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/feature_list.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_doc_list.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_maps_data.h
+[15.568s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_picasa_web.h
+[15.569s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_spreadsheets.h
+[15.569s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/gpx_trk_pt_handler.h
+[15.569s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/http_client.h
+[15.569s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/kml_feature_list_saver.h
+[15.569s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/kmz_check_links.h
+[15.570s] -- Installing: /home/mete/catkin_ws2/install/LibKML/lib/libkmlconvenience.so.1.3.1
+[15.570s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlconvenience.so.1
+[15.570s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlconvenience.so
+[15.570s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/feature_list_region_handler.h
+[15.570s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/feature_list_regionator.h
+[15.571s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/region_handler.h
+[15.571s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/regionator.h
+[15.571s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/regionator_qid.h
+[15.571s] -- Installing: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/regionator_util.h
+[15.572s] -- Installing: /home/mete/catkin_ws2/install/LibKML/lib/libkmlregionator.so.1.3.1
+[15.572s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlregionator.so.1
+[15.572s] -- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlregionator.so
+[15.576s] Invoked command in '/home/mete/catkin_ws2/build/LibKML' returned '0': /usr/bin/cmake --install /home/mete/catkin_ws2/build/LibKML

@@ -1,0 +1,6 @@
+Invoking command in '/home/mete/catkin_ws2/build/pugixml': /usr/bin/cmake /home/mete/catkin_ws2/src/pugixml-1.12 -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/pugixml
+Invoked command in '/home/mete/catkin_ws2/build/pugixml' returned '0': /usr/bin/cmake /home/mete/catkin_ws2/src/pugixml-1.12 -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws2/install/pugixml
+Invoking command in '/home/mete/catkin_ws2/build/pugixml': /usr/bin/cmake --build /home/mete/catkin_ws2/build/pugixml -- -j12 -l12
+Invoked command in '/home/mete/catkin_ws2/build/pugixml' returned '0': /usr/bin/cmake --build /home/mete/catkin_ws2/build/pugixml -- -j12 -l12
+Invoking command in '/home/mete/catkin_ws2/build/pugixml': /usr/bin/cmake --install /home/mete/catkin_ws2/build/pugixml
+Invoked command in '/home/mete/catkin_ws2/build/pugixml' returned '0': /usr/bin/cmake --install /home/mete/catkin_ws2/build/pugixml
