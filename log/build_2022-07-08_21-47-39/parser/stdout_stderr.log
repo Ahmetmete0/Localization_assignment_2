@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:57:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kposes[m[K’
+   57 |       path_message.poses.[01;31m[Kposes[m[K.position.x = x_array[counter];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:58:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kposes[m[K’
+   58 |       path_message.poses.[01;31m[Kposes[m[K.position.y = y_array[counter];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:59:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kposes[m[K’
+   59 |       path_message.poses.[01;31m[Kposes[m[K.position.z = z_array[counter];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:61:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   61 |       path_message.poses.[01;31m[Korientation[m[K.x = 0;
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:62:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   62 |    path_message.poses.[01;31m[Korientation[m[K.y = 0;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:63:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   63 |    path_message.poses.[01;31m[Korientation[m[K.z = 0;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:64:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+   64 |    path_message.poses.[01;31m[Korientation[m[K.w = 1;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

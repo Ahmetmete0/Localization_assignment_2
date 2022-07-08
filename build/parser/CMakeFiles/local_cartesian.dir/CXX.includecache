@@ -71,8 +71,6 @@ bits/stdc++.h
 -
 nav_msgs/msg/path.hpp
 -
-geometry_msgs/msg/PoseStamped.hpp
--
 rclcpp/rclcpp.hpp
 /home/mete/catkin_ws2/src/parser/src/rclcpp/rclcpp.hpp
 kml/dom.h

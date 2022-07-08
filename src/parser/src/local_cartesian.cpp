@@ -12,10 +12,8 @@
 #include <vector>
 #include <bits/stdc++.h>
 
-
-
 #include <nav_msgs/msg/path.hpp>
-#include <geometry_msgs/msg/PoseStamped.hpp>
+//#include "geometry_msgs/PoseStamped.h"
 #include "rclcpp/rclcpp.hpp"
 
 #include "kml/dom.h"  // The KML DOM header.
@@ -28,33 +26,57 @@ vector<string> v;
 vector<string> longitude_array;
 vector<string> latitude_array;
 vector<string> altitude_array;
+vector<double> x_array;
+vector<double> y_array;
+vector<double> z_array;
+
+double x, y, z;
+
 
 
 class MinimalPublisher : public rclcpp::Node
 {
- 
-
-
   public:
-  
-    MinimalPublisher(): Node("minimal_publisher")
+    MinimalPublisher(): Node("minimal_publisher"), count_(0)
     {
-      publisher_ = this->create_publisher<nav_msgs::msg::Path>("topic", 10);
+      publisher_ = this->create_publisher<nav_msgs::msg::Path>("path_topic", 10);
       timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
+      
     }
 
   private:
+    int counter = -1;
+    int size = latitude_array.size();
     void timer_callback()
     {
-      auto message = nav_msgs::msg::Path();
+      auto path_message = nav_msgs::msg::Path();
+      auto this_pose_stamped = geometry_msgs::msg::PoseStamped();
+      path_message.header.frame_id="/base_link";
+      this_pose_stamped.pose.position.x = x_array[counter];
+      this_pose_stamped.pose.position.y = y_array[counter];
+      this_pose_stamped.pose.position.z = z_array[counter];
+
+      this_pose_stamped.pose.orientation.x = 0;
+			this_pose_stamped.pose.orientation.y = 0;
+			this_pose_stamped.pose.orientation.z = 0;
+			this_pose_stamped.pose.orientation.w = 1;
+
+      if (counter == size){
+        counter = 0;
+      }
+
+      path_message.poses.push_back(this_pose_stamped);
       //message.data = "Hello, world! " + std::to_string(count_++);
-      RCLCPP_INFO(this->get_logger(), "Denemeeee");
-      publisher_->publish(message);
+      RCLCPP_INFO(this->get_logger(), "Publish Success");
+      publisher_->publish(path_message);
+      counter = counter + 1;
     }
+    
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr publisher_;
     size_t count_;
+    
 };
 
 
@@ -139,9 +161,12 @@ int main(int argc, char * argv[]) {
         //cout << longitude_array[i] << endl;
         //cout << latitude_array[i] << endl;
         //cout << altitude_array[i] << endl;
-        double x, y, z;
+        
         proj.Forward(stod(latitude_array[i]), stod(longitude_array[i]), stod(altitude_array[i]), x, y, z);
-        cout << x << " " << y << " " << z << "\n";    
+        x_array.push_back(x);
+        y_array.push_back(y);
+        z_array.push_back(z);
+        cout << x_array[i] << " " << y_array[i] << " " << z_array[i] << "\n";    
       }
       //double lat = 50.9, lon = 1.8, h = 0; // Calais
     }
@@ -162,8 +187,6 @@ int main(int argc, char * argv[]) {
     return 1;
   }
 
-    //rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<MinimalPublisher>());
-    rclcpp::shutdown();
+    
   
 }

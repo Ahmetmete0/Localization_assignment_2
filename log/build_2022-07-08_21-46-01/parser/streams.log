@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.056s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.066s] [ 50%] Built target parser_geo
+[0.091s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.518s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.518s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:57:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[1.518s]    57 |       path_message.[01;31m[Kpose[m[K.position.x = x_array[counter];
+[1.518s]       |                    [01;31m[K^~~~[m[K
+[1.518s]       |                    [32m[Kposes[m[K
+[1.518s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:58:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[1.518s]    58 |       path_message.[01;31m[Kpose[m[K.position.y = y_array[counter];
+[1.518s]       |                    [01;31m[K^~~~[m[K
+[1.518s]       |                    [32m[Kposes[m[K
+[1.518s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:59:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[1.518s]    59 |       path_message.[01;31m[Kpose[m[K.position.z = z_array[counter];
+[1.519s]       |                    [01;31m[K^~~~[m[K
+[1.519s]       |                    [32m[Kposes[m[K
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:61:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[1.519s]    61 |       path_message.[01;31m[Kpose[m[K.orientation.x = 0;
+[1.519s]       |                    [01;31m[K^~~~[m[K
+[1.519s]       |                    [32m[Kposes[m[K
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:62:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[1.519s]    62 |    path_message.[01;31m[Kpose[m[K.orientation.y = 0;
+[1.519s]       |                 [01;31m[K^~~~[m[K
+[1.519s]       |                 [32m[Kposes[m[K
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:63:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[1.519s]    63 |    path_message.[01;31m[Kpose[m[K.orientation.z = 0;
+[1.519s]       |                 [01;31m[K^~~~[m[K
+[1.519s]       |                 [32m[Kposes[m[K
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:64:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[1.519s]    64 |    path_message.[01;31m[Kpose[m[K.orientation.w = 1;
+[1.519s]       |                 [01;31m[K^~~~[m[K
+[1.519s]       |                 [32m[Kposes[m[K
+[2.234s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.235s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.235s] make: *** [Makefile:141: all] Error 2
+[2.236s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

@@ -1,0 +1,12 @@
+[0.023s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.067s] [ 50%] Built target parser_geo
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.507s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.507s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:60:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[1.507s]    60 |       this_pose_stamped.pose.position.x = x_array[[01;31m[Ki[m[K];
+[1.507s]       |                                                   [01;31m[K^[m[K
+[2.200s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.200s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.201s] make: *** [Makefile:141: all] Error 2
+[2.202s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

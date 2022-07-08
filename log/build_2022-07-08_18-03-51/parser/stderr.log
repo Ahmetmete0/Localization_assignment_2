@@ -1,0 +1,18 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:59:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs[m[K’; did you mean ‘[01m[Knav_msgs::msg::Path[m[K’?
+   59 |       nav_msgs::[01;31m[KPath[m[K path;
+      |                 [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/nav_msgs/msg/detail/path__struct.hpp:132:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav_msgs::msg::Path[m[K’ declared here
+  132 | using [01;36m[KPath[m[K =
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:61:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ was not declared in this scope
+   61 |       [01;31m[Kpath[m[K.header.frame_id="/base_link";
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:73:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_message[m[K’ was not declared in this scope
+   73 |       publisher_->publish([01;31m[Kpath_message[m[K);
+      |                           [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

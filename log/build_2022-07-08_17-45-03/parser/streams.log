@@ -1,0 +1,12 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.068s] [ 50%] Built target parser_geo
+[0.093s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.541s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.541s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:59:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _poses_type = class std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[1.541s]    59 |       path_message.poses.[01;31m[Kheader[m[K.frame_id="/map";
+[1.541s]       |                          [01;31m[K^~~~~~[m[K
+[2.260s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.260s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.260s] make: *** [Makefile:141: all] Error 2
+[2.263s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

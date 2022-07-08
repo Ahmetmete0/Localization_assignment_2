@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.065s] [ 50%] Built target parser_geo
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.507s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ does not name a type
+[1.507s]    65 |     [01;31m[Kcounter[m[K = counter + 1;
+[1.507s]       |     [01;31m[K^~~~~~~[m[K
+[2.220s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.221s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.221s] make: *** [Makefile:141: all] Error 2
+[2.224s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

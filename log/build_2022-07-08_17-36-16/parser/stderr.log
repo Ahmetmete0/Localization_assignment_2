@@ -1,0 +1,10 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ does not name a type
+   68 |     [01;31m[Kcounter[m[K++;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:56:65:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   56 |       this_pose_stamped.pose.position.x = latitude_array[counter[01;31m[K][m[K;
+      |                                                                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,19 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.070s] [ 50%] Built target parser_geo
+[0.095s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.481s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:56:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvoid[m[K’
+[1.482s]    56 |     [01;31m[Kvoid[m[K timer_callback()
+[1.482s]       |     [01;31m[K^~~~[m[K
+[1.484s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[1.484s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:49:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.484s]    49 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.484s]       |       [01;31m[K^~~~~~[m[K
+[1.484s]       |       [32m[Ktimer_t[m[K
+[1.484s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:50:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalPublisher[m[K’
+[1.484s]    50 |       500ms, std::bind(&MinimalPublisher::[01;31m[Ktimer_callback[m[K, this));
+[1.484s]       |                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.139s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.139s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.140s] make: *** [Makefile:141: all] Error 2
+[2.143s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
