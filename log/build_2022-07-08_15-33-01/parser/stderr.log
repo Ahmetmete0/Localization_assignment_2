@@ -1,0 +1,7 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:121:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klat0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  121 |     const double [01;35m[Klat0[m[K = 28.98113386763581, lon0 = 41.02535119363602; // Paris
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:121:44:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klon0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  121 |     const double lat0 = 28.98113386763581, [01;35m[Klon0[m[K = 41.02535119363602; // Paris
+      |                                            [01;35m[K^~~~[m[K

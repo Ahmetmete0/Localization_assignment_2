@@ -1,0 +1,22 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:18:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Korigin_long[m[K’ [[01;31m[K-fpermissive[m[K]
+  122 |     const double [01;31m[Korigin_long[m[K, origin_lat, origin_alt;
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:31:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Korigin_lat[m[K’ [[01;31m[K-fpermissive[m[K]
+  122 |     const double origin_long, [01;31m[Korigin_lat[m[K, origin_alt;
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:43:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Korigin_alt[m[K’ [[01;31m[K-fpermissive[m[K]
+  122 |     const double origin_long, origin_lat, [01;31m[Korigin_alt[m[K;
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:124:16:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[Korigin_lat[m[K’
+  124 |     [01;31m[Korigin_lat = stod(latitude_array[0])[m[K;
+      |     [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:125:17:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[Korigin_long[m[K’
+  125 |     [01;31m[Korigin_long = stod(longitude_array[0])[m[K;
+      |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:126:16:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[Korigin_alt[m[K’
+  126 |     [01;31m[Korigin_alt = stod(altitude_array[0])[m[K;
+      |     [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

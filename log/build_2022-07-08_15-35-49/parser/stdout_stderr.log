@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:139:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGeographicLib::LocalCartesian::Forward(__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type&, __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type&, __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type&, double&, double&, double&)[m[K’
+  139 | tude_array[i], longitude_array[i], altitude_array[i], x, y, z[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:7[m[K:
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:104:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GeographicLib::LocalCartesian::Forward(GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real&, GeographicLib::LocalCartesian::real&, GeographicLib::LocalCartesian::real&) const[m[K’
+  104 |     void [01;36m[KForward[m[K(real lat, real lon, real h, real& x, real& y, real& z)
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:104:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[KGeographicLib::LocalCartesian::real[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  104 |     void Forward([01;36m[Kreal lat[m[K, real lon, real h, real& x, real& y, real& z)
+      |                  [01;36m[K~~~~~^~~[m[K
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:135:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GeographicLib::LocalCartesian::Forward(GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real, GeographicLib::LocalCartesian::real&, GeographicLib::LocalCartesian::real&, GeographicLib::LocalCartesian::real&, std::vector<double>&) const[m[K’
+  135 |     void [01;36m[KForward[m[K(real lat, real lon, real h, real& x, real& y, real& z,
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp:135:10:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 6 provided
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:121:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klat0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  121 |     const double [01;35m[Klat0[m[K = 28.98113386763581, lon0 = 41.02535119363602; // Paris
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:121:44:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klon0[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  121 |     const double lat0 = 28.98113386763581, [01;35m[Klon0[m[K = 41.02535119363602; // Paris
+      |                                            [01;35m[K^~~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,12 @@
+[0.021s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.069s] [ 50%] Built target parser_geo
+[0.091s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[0.189s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseStamped.hpp: No such file or directory
+[0.189s]    18 | #include [01;31m[K<geometry_msgs/msg/PoseStamped.hpp>[m[K
+[0.189s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.190s] compilation terminated.
+[0.190s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[0.190s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[0.190s] make: *** [Makefile:141: all] Error 2
+[0.200s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

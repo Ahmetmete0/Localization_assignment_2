@@ -22,9 +22,11 @@ include_directories (${GeographicLib_INCLUDE_DIRS})
 
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 set(dependencies
   nav_msgs
+  geometry_msgs
   rclcpp
 )
 

@@ -1,0 +1,10 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Korigin_long[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  122 |     double [01;35m[Korigin_long[m[K, origin_lat, origin_alt;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Korigin_lat[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  122 |     double origin_long, [01;35m[Korigin_lat[m[K, origin_alt;
+      |                         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:37:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Korigin_alt[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  122 |     double origin_long, origin_lat, [01;35m[Korigin_alt[m[K;
+      |                                     [01;35m[K^~~~~~~~~~[m[K

@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcont[m[K’ was not declared in this scope
+  122 |     [01;31m[Kcont[m[K double origin_long, origin_lat, origin_alt;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_lat[m[K’ was not declared in this scope
+  124 |     [01;31m[Korigin_lat[m[K = stod(latitude_array[0]);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:125:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_long[m[K’ was not declared in this scope
+  125 |     [01;31m[Korigin_long[m[K = stod(longitude_array[0]);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:126:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_alt[m[K’ was not declared in this scope
+  126 |     [01;31m[Korigin_alt[m[K = stod(altitude_array[0]);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:128:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klat0[m[K’ was not declared in this scope
+  128 |     LocalCartesian proj([01;31m[Klat0[m[K, lon0, 1.81700869684152, earth);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:128:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klon0[m[K’ was not declared in this scope; did you mean ‘[01m[Klong[m[K’?
+  128 |     LocalCartesian proj(lat0, [01;31m[Klon0[m[K, 1.81700869684152, earth);
+      |                               [01;31m[K^~~~[m[K
+      |                               [32m[Klong[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,27 @@
+[0.021s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.066s] [ 50%] Built target parser_geo
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:18:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Korigin_long[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.519s]   122 |     const double [01;31m[Korigin_long[m[K, origin_lat, origin_alt;
+[1.519s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:31:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Korigin_lat[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.519s]   122 |     const double origin_long, [01;31m[Korigin_lat[m[K, origin_alt;
+[1.519s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[1.519s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:43:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Korigin_alt[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.519s]   122 |     const double origin_long, origin_lat, [01;31m[Korigin_alt[m[K;
+[1.519s]       |                                           [01;31m[K^~~~~~~~~~[m[K
+[1.520s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:124:16:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[Korigin_lat[m[K’
+[1.520s]   124 |     [01;31m[Korigin_lat = stod(latitude_array[0])[m[K;
+[1.520s]       |     [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.520s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:125:17:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[Korigin_long[m[K’
+[1.520s]   125 |     [01;31m[Korigin_long = stod(longitude_array[0])[m[K;
+[1.520s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.520s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:126:16:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[Korigin_alt[m[K’
+[1.520s]   126 |     [01;31m[Korigin_alt = stod(altitude_array[0])[m[K;
+[1.520s]       |     [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.203s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.203s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.203s] make: *** [Makefile:141: all] Error 2
+[2.205s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

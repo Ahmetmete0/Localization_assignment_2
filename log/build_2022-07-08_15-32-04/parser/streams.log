@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.058s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.070s] [ 50%] Built target parser_geo
+[0.100s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[1.522s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.522s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:122:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcont[m[K’ was not declared in this scope
+[1.522s]   122 |     [01;31m[Kcont[m[K double origin_long, origin_lat, origin_alt;
+[1.522s]       |     [01;31m[K^~~~[m[K
+[1.523s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_lat[m[K’ was not declared in this scope
+[1.523s]   124 |     [01;31m[Korigin_lat[m[K = stod(latitude_array[0]);
+[1.523s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.525s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:125:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_long[m[K’ was not declared in this scope
+[1.525s]   125 |     [01;31m[Korigin_long[m[K = stod(longitude_array[0]);
+[1.525s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.526s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:126:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_alt[m[K’ was not declared in this scope
+[1.526s]   126 |     [01;31m[Korigin_alt[m[K = stod(altitude_array[0]);
+[1.526s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.220s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.220s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.220s] make: *** [Makefile:141: all] Error 2
+[2.222s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
