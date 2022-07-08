@@ -45,8 +45,6 @@ class MinimalPublisher : public rclcpp::Node
  
 int main(int argc, char * argv[]) {
 
-
-
   try {
     Geocentric earth(Constants::WGS84_a(), Constants::WGS84_f());
     // Alternatively: const Geocentric& earth = Geocentric::WGS84();

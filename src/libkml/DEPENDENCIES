@@ -1,0 +1,26 @@
+This file records the source URL and latest version of each external package
+used by libkml. Other versions may work fine. The given version are based on the official linux packages on Fedora 21.
+
+If you have trouble building, create an issue on github.com/libkml/libkml
+
+
+Required:
+cmake: www.cmake.org >= 2.8
+g++: version >= 4.4
+expat: expat.sourceforge.net version >= 2.1.0 (optional)
+zlib: www.zlib.net version >= 1.2.8  (optional)
+boost: www.boost.org   version >= 1.55.0  (optional)
+uriparser >= 0.7.5  (optional)
+minizip: >= 1.2.8  (optional)
+googletest: http://googletest.googlecode.com >= 1.7.0  (optional. if testing is enabled)
+
+Optional:
+java: java.sun.com 1.5.0_13, 1.6.0_04
+python: www.python.org 2.7
+swig: www.swig.org 3.0
+
+Development:
+cmake: www.cmake.org >= 2.8
+
+
+NOTE: This file will be changed to markdown or RST soon..
