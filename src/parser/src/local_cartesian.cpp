@@ -53,6 +53,9 @@ class MinimalPublisher : public rclcpp::Node
       auto path_message = nav_msgs::msg::Path();
       auto this_pose_stamped = geometry_msgs::msg::PoseStamped();
       path_message.header.frame_id="/base_link";
+      this_pose_stamped.header.frame_id="/base_link";
+      //path_message.header.stamp=rclcpp::Time::now();
+
       this_pose_stamped.pose.position.x = x_array[counter];
       this_pose_stamped.pose.position.y = y_array[counter];
       this_pose_stamped.pose.position.z = z_array[counter];
@@ -60,14 +63,13 @@ class MinimalPublisher : public rclcpp::Node
       this_pose_stamped.pose.orientation.x = 0;
 			this_pose_stamped.pose.orientation.y = 0;
 			this_pose_stamped.pose.orientation.z = 0;
-			this_pose_stamped.pose.orientation.w = 1;
+			this_pose_stamped.pose.orientation.w = 0;
 
       if (counter == size){
         counter = 0;
       }
 
       path_message.poses.push_back(this_pose_stamped);
-      //message.data = "Hello, world! " + std::to_string(count_++);
       RCLCPP_INFO(this->get_logger(), "Publish Success");
       publisher_->publish(path_message);
       counter = counter + 1;
