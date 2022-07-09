@@ -20,3 +20,14 @@ GeographicLib::LocalCartesian sınıfı kullanıldı. Görselde verilen "proj.fo
 
 
 - ### Visualize converted coordinates by using “nav_msgs/Path”
+
+Path publisher kodu
+![publisher](https://user-images.githubusercontent.com/58399721/178097297-ec4d0e4e-75bc-4966-aaf1-3cc4818dd171.png)
+
+Path türündeki publisher'ın terminal çıktısı
+![path](https://user-images.githubusercontent.com/58399721/178097291-7d6ee2be-6d22-4fe7-ae0c-10588299b75d.png)
+
+Koordinatlar publishleniyor ancak RVIZ2 üzerinde gösteriminde hata olmakta bu sebeple RVIZ çıktısını gösterememekteyim.
+
+
+
