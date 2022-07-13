@@ -1,0 +1,47 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.070s] [ 50%] Built target parser_geo
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[0.238s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:94:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.238s]    94 |       kmlfile += [01;35m[K'../catkin_ws2/'[m[K;
+[0.238s]       |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[0.238s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:95:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.238s]    95 |       kmlfile += [01;35m[K'src/parser/doc/'[m[K;
+[0.238s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.238s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:96:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.238s]    96 |       kmlfile += [01;35m[K'Localization_Assignment_Test_Route.kml'[m[K;
+[0.238s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.550s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[1.550s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:94:18:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K2004038191[m[K’ to ‘[01m[K'/'[m[K’ [[01;35m[K-Woverflow[m[K]
+[1.551s]    94 |       kmlfile += [01;35m[K'../catkin_ws2/'[m[K;
+[1.551s]       |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.551s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:95:18:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K1685021487[m[K’ to ‘[01m[K'/'[m[K’ [[01;35m[K-Woverflow[m[K]
+[1.551s]    95 |       kmlfile += [01;35m[K'src/parser/doc/'[m[K;
+[1.551s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.551s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:96:18:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K778792300[m[K’ to ‘[01m[K'l'[m[K’ [[01;35m[K-Woverflow[m[K]
+[1.551s]    96 |       kmlfile += [01;35m[K'Localization_Assignment_Test_Route.kml'[m[K;
+[1.551s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.007s] [100%] [32m[1mLinking CXX executable local_cartesian[0m
+[3.147s] [100%] Built target local_cartesian
+[3.157s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[3.176s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws2/build/parser
+[3.183s] -- Install configuration: ""
+[3.183s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/lib/parser/parser_geo
+[3.183s] -- Installing: /home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian
+[3.184s] -- Set runtime path of "/home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian" to "/home/mete/catkin_ws2/install/LibKML/lib:/opt/ros/foxy/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib/x86_64-linux-gnu"
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/package_run_dependencies/parser
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/parent_prefix_path/parser
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.sh
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/ament_prefix_path.dsv
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.sh
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/environment/path.dsv
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.bash
+[3.184s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.sh
+[3.185s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.zsh
+[3.185s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/local_setup.dsv
+[3.185s] -- Installing: /home/mete/catkin_ws2/install/parser/share/parser/package.dsv
+[3.185s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/packages/parser
+[3.185s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig.cmake
+[3.185s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/cmake/parserConfig-version.cmake
+[3.185s] -- Up-to-date: /home/mete/catkin_ws2/install/parser/share/parser/package.xml
+[3.188s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws2/build/parser

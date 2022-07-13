@@ -1,0 +1,19 @@
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:94:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   94 |       kmlfile += [01;35m[K'../catkin_ws2/'[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:95:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   95 |       kmlfile += [01;35m[K'src/parser/doc/'[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:96:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   96 |       kmlfile += [01;35m[K'Localization_Assignment_Test_Route.kml'[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:94:18:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K2004038191[m[K’ to ‘[01m[K'/'[m[K’ [[01;35m[K-Woverflow[m[K]
+   94 |       kmlfile += [01;35m[K'../catkin_ws2/'[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:95:18:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K1685021487[m[K’ to ‘[01m[K'/'[m[K’ [[01;35m[K-Woverflow[m[K]
+   95 |       kmlfile += [01;35m[K'src/parser/doc/'[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:96:18:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K778792300[m[K’ to ‘[01m[K'l'[m[K’ [[01;35m[K-Woverflow[m[K]
+   96 |       kmlfile += [01;35m[K'Localization_Assignment_Test_Route.kml'[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

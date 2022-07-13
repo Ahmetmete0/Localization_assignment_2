@@ -62,15 +62,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/parser/local_cartesian")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/parser/local_cartesian"
-         RPATH "/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib")
+         RPATH "/home/mete/catkin_ws2/install/LibKML/lib:/opt/ros/foxy/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib/x86_64-linux-gnu")
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/parser" TYPE EXECUTABLE FILES "/home/mete/catkin_ws2/build/parser/local_cartesian")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/parser/local_cartesian" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/parser/local_cartesian")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/parser/local_cartesian"
-         OLD_RPATH "/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib:"
-         NEW_RPATH "/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib")
+         OLD_RPATH "/home/mete/catkin_ws2/install/LibKML/lib:/opt/ros/foxy/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:"
+         NEW_RPATH "/home/mete/catkin_ws2/install/LibKML/lib:/opt/ros/foxy/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/lib/x86_64-linux-gnu")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/parser/local_cartesian")
     endif()

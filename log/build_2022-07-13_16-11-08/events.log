@@ -1,0 +1,380 @@
+[0.000000] (-) TimerEvent: {}
+[0.001116] (GeographicLib) JobQueued: {'identifier': 'GeographicLib', 'dependencies': OrderedDict()}
+[0.001186] (LibKML) JobQueued: {'identifier': 'LibKML', 'dependencies': OrderedDict()}
+[0.001235] (parser) JobQueued: {'identifier': 'parser', 'dependencies': OrderedDict()}
+[0.001294] (GeographicLib) JobStarted: {'identifier': 'GeographicLib'}
+[0.014178] (LibKML) JobStarted: {'identifier': 'LibKML'}
+[0.023432] (parser) JobStarted: {'identifier': 'parser'}
+[0.032383] (GeographicLib) JobProgress: {'identifier': 'GeographicLib', 'progress': 'cmake'}
+[0.032953] (GeographicLib) JobProgress: {'identifier': 'GeographicLib', 'progress': 'build'}
+[0.033724] (GeographicLib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws2/build/GeographicLib', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws2/build/GeographicLib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77095efb_29ad_4b00_bb8e_4d2521def27d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.859'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/GeographicLib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib')]), 'shell': False}
+[0.037779] (LibKML) JobProgress: {'identifier': 'LibKML', 'progress': 'cmake'}
+[0.039184] (LibKML) JobProgress: {'identifier': 'LibKML', 'progress': 'build'}
+[0.039404] (LibKML) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws2/build/LibKML', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws2/build/LibKML', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77095efb_29ad_4b00_bb8e_4d2521def27d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.859'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/LibKML'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib')]), 'shell': False}
+[0.041794] (parser) JobProgress: {'identifier': 'parser', 'progress': 'cmake'}
+[0.042487] (parser) JobProgress: {'identifier': 'parser', 'progress': 'build'}
+[0.044277] (parser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws2/build/parser', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws2/build/parser', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77095efb_29ad_4b00_bb8e_4d2521def27d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.859'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/parser'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.070074] (parser) StdoutLine: {'line': b'-- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake\n'}
+[0.070263] (parser) StdoutLine: {'line': b'-- GeographicLib configuration, version 2.1\n'}
+[0.071734] (parser) StdoutLine: {'line': b'--   ${GeographicLib_LIBRARIES} set to shared library\n'}
+[0.071939] (parser) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.082832] (GeographicLib) StdoutLine: {'line': b'[  4%] Built target scripts\n'}
+[0.086072] (GeographicLib) StdoutLine: {'line': b'[ 60%] Built target GeographicLib_SHARED\n'}
+[0.089425] (LibKML) StdoutLine: {'line': b'[ 16%] Built target kmlbase\n'}
+[0.095032] (parser) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099982] (-) TimerEvent: {}
+[0.115819] (GeographicLib) StdoutLine: {'line': b'[ 65%] Built target GeodesicProj\n'}
+[0.116193] (GeographicLib) StdoutLine: {'line': b'[ 65%] Built target ConicProj\n'}
+[0.117717] (GeographicLib) StdoutLine: {'line': b'[ 68%] Built target RhumbSolve\n'}
+[0.123479] (GeographicLib) StdoutLine: {'line': b'[ 71%] Built target GeodSolve\n'}
+[0.124324] (GeographicLib) StdoutLine: {'line': b'[ 74%] Built target MagneticField\n'}
+[0.125043] (GeographicLib) StdoutLine: {'line': b'[ 77%] Built target CartConvert\n'}
+[0.125553] (GeographicLib) StdoutLine: {'line': b'[ 80%] Built target GeoidEval\n'}
+[0.125864] (GeographicLib) StdoutLine: {'line': b'[ 82%] Built target Gravity\n'}
+[0.129083] (GeographicLib) StdoutLine: {'line': b'[ 85%] Built target polygontest\n'}
+[0.129385] (LibKML) StdoutLine: {'line': b'[ 23%] Built target kmlxsd\n'}
+[0.129601] (GeographicLib) StdoutLine: {'line': b'[ 88%] Built target GeoConvert\n'}
+[0.130189] (GeographicLib) StdoutLine: {'line': b'[ 91%] Built target Planimeter\n'}
+[0.135288] (GeographicLib) StdoutLine: {'line': b'[ 94%] Built target TransverseMercatorProj\n'}
+[0.139380] (LibKML) StdoutLine: {'line': b'[ 63%] Built target kmldom\n'}
+[0.145429] (GeographicLib) StdoutLine: {'line': b'[100%] Built target signtest\n'}
+[0.145666] (GeographicLib) StdoutLine: {'line': b'[100%] Built target geodtest\n'}
+[0.154567] (GeographicLib) StdoutLine: {'line': b'[100%] Built target tools\n'}
+[0.164507] (GeographicLib) CommandEnded: {'returncode': 0}
+[0.168077] (LibKML) StdoutLine: {'line': b'[ 87%] Built target kmlengine\n'}
+[0.190619] (LibKML) StdoutLine: {'line': b'[ 97%] Built target kmlconvenience\n'}
+[0.194488] (GeographicLib) JobProgress: {'identifier': 'GeographicLib', 'progress': 'install'}
+[0.200089] (-) TimerEvent: {}
+[0.203062] (GeographicLib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws2/build/GeographicLib'], 'cwd': '/home/mete/catkin_ws2/build/GeographicLib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77095efb_29ad_4b00_bb8e_4d2521def27d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.859'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/GeographicLib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib')]), 'shell': False}
+[0.210071] (LibKML) StdoutLine: {'line': b'[100%] Built target kmlregionator\n'}
+[0.210321] (GeographicLib) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.210628] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23.0.0\n'}
+[0.210778] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so.23\n'}
+[0.210965] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/libGeographicLib.so\n'}
+[0.211183] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Accumulator.hpp\n'}
+[0.211267] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AlbersEqualArea.hpp\n'}
+[0.211417] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/AzimuthalEquidistant.hpp\n'}
+[0.211606] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CassiniSoldner.hpp\n'}
+[0.211757] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/CircularEngine.hpp\n'}
+[0.211817] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Constants.hpp\n'}
+[0.211871] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DMS.hpp\n'}
+[0.211922] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/DST.hpp\n'}
+[0.211970] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Ellipsoid.hpp\n'}
+[0.212019] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/EllipticFunction.hpp\n'}
+[0.212067] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GARS.hpp\n'}
+[0.212114] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeoCoords.hpp\n'}
+[0.212177] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geocentric.hpp\n'}
+[0.212225] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geodesic.hpp\n'}
+[0.212273] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicExact.hpp\n'}
+[0.212321] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLine.hpp\n'}
+[0.212369] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GeodesicLineExact.hpp\n'}
+[0.212417] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geohash.hpp\n'}
+[0.212483] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Geoid.hpp\n'}
+[0.212531] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Georef.hpp\n'}
+[0.212578] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Gnomonic.hpp\n'}
+[0.212625] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityCircle.hpp\n'}
+[0.212673] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/GravityModel.hpp\n'}
+[0.212731] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LambertConformalConic.hpp\n'}
+[0.212779] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/LocalCartesian.hpp\n'}
+[0.212831] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MGRS.hpp\n'}
+[0.212879] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticCircle.hpp\n'}
+[0.212926] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/MagneticModel.hpp\n'}
+[0.212974] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Math.hpp\n'}
+[0.213021] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NearestNeighbor.hpp\n'}
+[0.213093] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/NormalGravity.hpp\n'}
+[0.213142] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/OSGB.hpp\n'}
+[0.213189] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolarStereographic.hpp\n'}
+[0.213283] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/PolygonArea.hpp\n'}
+[0.213340] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Rhumb.hpp\n'}
+[0.213389] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalEngine.hpp\n'}
+[0.213437] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic.hpp\n'}
+[0.213485] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic1.hpp\n'}
+[0.213538] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/SphericalHarmonic2.hpp\n'}
+[0.213587] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercator.hpp\n'}
+[0.213640] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/TransverseMercatorExact.hpp\n'}
+[0.213726] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/UTMUPS.hpp\n'}
+[0.213775] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Utility.hpp\n'}
+[0.213824] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/include/GeographicLib/Config.h\n'}
+[0.213873] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/CartConvert\n'}
+[0.213938] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/ConicProj\n'}
+[0.213989] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodesicProj\n'}
+[0.214037] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoConvert\n'}
+[0.214085] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeodSolve\n'}
+[0.214134] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/GeoidEval\n'}
+[0.214182] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/Gravity\n'}
+[0.214244] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/MagneticField\n'}
+[0.214481] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/Planimeter\n'}
+[0.214820] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/RhumbSolve\n'}
+[0.215066] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/bin/TransverseMercatorProj\n'}
+[0.215302] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-geoids\n'}
+[0.215393] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-gravity\n'}
+[0.215450] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/sbin/geographiclib-get-magnetic\n'}
+[0.215520] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/CartConvert.1\n'}
+[0.215611] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/ConicProj.1\n'}
+[0.215699] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodesicProj.1\n'}
+[0.215771] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoConvert.1\n'}
+[0.215833] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeodSolve.1\n'}
+[0.215905] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/GeoidEval.1\n'}
+[0.215977] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Gravity.1\n'}
+[0.216044] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/MagneticField.1\n'}
+[0.216092] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/Planimeter.1\n'}
+[0.216163] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/RhumbSolve.1\n'}
+[0.216230] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man1/TransverseMercatorProj.1\n'}
+[0.216278] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-geoids.8\n'}
+[0.216326] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-gravity.8\n'}
+[0.216373] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/man/man8/geographiclib-get-magnetic.8\n'}
+[0.216465] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html\n'}
+[0.216584] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/index.html\n'}
+[0.216699] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/LICENSE.txt\n'}
+[0.216805] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib/html/utilities.html\n'}
+[0.216909] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/CMakeLists.txt\n'}
+[0.217029] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Accumulator.cpp\n'}
+[0.217096] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AlbersEqualArea.cpp\n'}
+[0.217152] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-AzimuthalEquidistant.cpp\n'}
+[0.217230] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CassiniSoldner.cpp\n'}
+[0.217322] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-CircularEngine.cpp\n'}
+[0.217373] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Constants.cpp\n'}
+[0.217432] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DMS.cpp\n'}
+[0.217493] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-DST.cpp\n'}
+[0.217556] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Ellipsoid.cpp\n'}
+[0.217605] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-EllipticFunction.cpp\n'}
+[0.217653] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GARS.cpp\n'}
+[0.217702] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeoCoords.cpp\n'}
+[0.217750] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geocentric.cpp\n'}
+[0.217801] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic.cpp\n'}
+[0.217849] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geodesic-small.cpp\n'}
+[0.217897] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicExact.cpp\n'}
+[0.217945] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLine.cpp\n'}
+[0.217993] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeodesicLineExact.cpp\n'}
+[0.218042] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GeographicErr.cpp\n'}
+[0.218091] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geohash.cpp\n'}
+[0.218167] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Geoid.cpp\n'}
+[0.218244] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Georef.cpp\n'}
+[0.218304] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Gnomonic.cpp\n'}
+[0.218389] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityCircle.cpp\n'}
+[0.218581] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-GravityModel.cpp\n'}
+[0.218659] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LambertConformalConic.cpp\n'}
+[0.218844] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-LocalCartesian.cpp\n'}
+[0.218902] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MGRS.cpp\n'}
+[0.218958] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticCircle.cpp\n'}
+[0.219144] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-MagneticModel.cpp\n'}
+[0.219872] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Math.cpp\n'}
+[0.220710] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NearestNeighbor.cpp\n'}
+[0.220930] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-NormalGravity.cpp\n'}
+[0.221021] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-OSGB.cpp\n'}
+[0.221164] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolarStereographic.cpp\n'}
+[0.221313] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-PolygonArea.cpp\n'}
+[0.221453] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Rhumb.cpp\n'}
+[0.221573] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-RhumbLine.cpp\n'}
+[0.221651] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalEngine.cpp\n'}
+[0.221761] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic.cpp\n'}
+[0.222206] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic1.cpp\n'}
+[0.222337] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-SphericalHarmonic2.cpp\n'}
+[0.222455] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercator.cpp\n'}
+[0.222528] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-TransverseMercatorExact.cpp\n'}
+[0.222648] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-UTMUPS.cpp\n'}
+[0.222743] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/example-Utility.cpp\n'}
+[0.222847] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/GeoidToGTX.cpp\n'}
+[0.222955] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/make-egmcof.cpp\n'}
+[0.223315] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.cpp\n'}
+[0.223425] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/share/doc/GeographicLib-dev/JacobiConformal.hpp\n'}
+[0.223511] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake\n'}
+[0.223865] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config-version.cmake\n'}
+[0.223979] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets.cmake\n'}
+[0.224581] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-targets-release.cmake\n'}
+[0.224714] (GeographicLib) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/GeographicLib/lib/pkgconfig/geographiclib.pc\n'}
+[0.224786] (GeographicLib) CommandEnded: {'returncode': 0}
+[0.239459] (GeographicLib) JobEnded: {'identifier': 'GeographicLib', 'rc': 0}
+[0.241604] (LibKML) CommandEnded: {'returncode': 0}
+[0.259234] (LibKML) JobProgress: {'identifier': 'LibKML', 'progress': 'install'}
+[0.260658] (LibKML) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws2/build/LibKML'], 'cwd': '/home/mete/catkin_ws2/build/LibKML', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77095efb_29ad_4b00_bb8e_4d2521def27d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.859'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws2/build/LibKML'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib')]), 'shell': False}
+[0.267786] (LibKML) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.267911] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/pkgconfig/libkml.pc\n'}
+[0.268070] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLConfig.cmake\n'}
+[0.268131] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLConfigVersion.cmake\n'}
+[0.268186] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLTargets.cmake\n'}
+[0.268239] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/cmake/libkml/LibKMLTargets-release.cmake\n'}
+[0.268314] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom.h\n'}
+[0.268365] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine.h\n'}
+[0.268547] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/attributes.h\n'}
+[0.268723] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/csv_splitter.h\n'}
+[0.268821] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/date_time.h\n'}
+[0.268896] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/color32.h\n'}
+[0.268948] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/expat_handler.h\n'}
+[0.268999] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/expat_handler_ns.h\n'}
+[0.269048] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/expat_parser.h\n'}
+[0.269116] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/file.h\n'}
+[0.269166] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/math_util.h\n'}
+[0.269257] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/memory_file.h\n'}
+[0.269310] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/mimetypes.h\n'}
+[0.269363] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/net_cache.h\n'}
+[0.269415] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/referent.h\n'}
+[0.269487] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/string_util.h\n'}
+[0.269538] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/tempfile.h\n'}
+[0.269587] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/time_util.h\n'}
+[0.269637] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/util.h\n'}
+[0.269687] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/vec3.h\n'}
+[0.269786] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/version.h\n'}
+[0.269935] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xml_element.h\n'}
+[0.270047] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xml_file.h\n'}
+[0.270154] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xml_namespaces.h\n'}
+[0.270255] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/xmlns.h\n'}
+[0.270353] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/base/zip_file.h\n'}
+[0.270440] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlbase.so.1.3.1\n'}
+[0.270491] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlbase.so.1\n'}
+[0.270540] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlbase.so\n'}
+[0.270590] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/abstractlatlonbox.h\n'}
+[0.270658] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/abstractview.h\n'}
+[0.270708] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/atom.h\n'}
+[0.270759] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/balloonstyle.h\n'}
+[0.270827] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/colorstyle.h\n'}
+[0.270879] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/container.h\n'}
+[0.270933] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/document.h\n'}
+[0.270983] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/element.h\n'}
+[0.271062] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/extendeddata.h\n'}
+[0.271169] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/feature.h\n'}
+[0.271221] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/folder.h\n'}
+[0.271271] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/geometry.h\n'}
+[0.271320] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/hotspot.h\n'}
+[0.271389] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/iconstyle.h\n'}
+[0.271439] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml.h\n'}
+[0.271495] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml22.h\n'}
+[0.271564] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml22.cc\n'}
+[0.271614] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_cast.h\n'}
+[0.271663] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_factory.h\n'}
+[0.271713] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_funcs.h\n'}
+[0.271762] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kml_ptr.h\n'}
+[0.271822] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/kmldom.h\n'}
+[0.271932] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/labelstyle.h\n'}
+[0.272038] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/linestyle.h\n'}
+[0.272143] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/link.h\n'}
+[0.272195] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/liststyle.h\n'}
+[0.272290] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/model.h\n'}
+[0.272340] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/networklink.h\n'}
+[0.272391] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/networklinkcontrol.h\n'}
+[0.272440] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/object.h\n'}
+[0.272489] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/overlay.h\n'}
+[0.272556] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/parser.h\n'}
+[0.272605] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/parser_observer.h\n'}
+[0.272654] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/placemark.h\n'}
+[0.272716] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/polystyle.h\n'}
+[0.272766] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/region.h\n'}
+[0.272815] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/schema.h\n'}
+[0.272864] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/snippet.h\n'}
+[0.272935] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/style.h\n'}
+[0.273049] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/stylemap.h\n'}
+[0.273117] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/styleselector.h\n'}
+[0.273168] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/substyle.h\n'}
+[0.273262] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/timeprimitive.h\n'}
+[0.273314] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/gx_timeprimitive.h\n'}
+[0.273383] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/gx_tour.h\n'}
+[0.273434] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/vec2.h\n'}
+[0.273484] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/xal.h\n'}
+[0.273546] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/xsd.h\n'}
+[0.273596] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/visitor.h\n'}
+[0.273645] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/dom/visitor_driver.h\n'}
+[0.273694] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmldom.so.1.3.1\n'}
+[0.273770] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmldom.so.1\n'}
+[0.273849] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmldom.so\n'}
+[0.273899] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_complex_type.h\n'}
+[0.273950] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_element.h\n'}
+[0.273999] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_file.h\n'}
+[0.274067] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_handler.h\n'}
+[0.274117] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_primitive_type.h\n'}
+[0.274167] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_schema.h\n'}
+[0.274229] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_simple_type.h\n'}
+[0.274278] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_type.h\n'}
+[0.274329] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xsd_util.h\n'}
+[0.274379] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/xsd/xst_parser.h\n'}
+[0.274429] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlxsd.so.1.3.1\n'}
+[0.274479] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlxsd.so.1\n'}
+[0.274529] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlxsd.so\n'}
+[0.274584] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/bbox.h\n'}
+[0.274633] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/clone.h\n'}
+[0.274682] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/engine_types.h\n'}
+[0.274732] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/entity_mapper.h\n'}
+[0.274782] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/feature_balloon.h\n'}
+[0.274836] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/feature_view.h\n'}
+[0.274886] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/feature_visitor.h\n'}
+[0.274936] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/find.h\n'}
+[0.274988] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/find_xml_namespaces.h\n'}
+[0.275040] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/get_link_parents.h\n'}
+[0.275091] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/get_links.h\n'}
+[0.275233] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/href.h\n'}
+[0.275289] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/id_mapper.h\n'}
+[0.275343] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_cache.h\n'}
+[0.275396] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_file.h\n'}
+[0.275448] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_stream.h\n'}
+[0.275522] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kml_uri.h\n'}
+[0.275574] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kmz_cache.h\n'}
+[0.275804] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/kmz_file.h\n'}
+[0.278094] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/link_util.h\n'}
+[0.278539] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/location_util.h\n'}
+[0.278646] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/merge.h\n'}
+[0.278736] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/object_id_parser_observer.h\n'}
+[0.278882] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/old_schema_parser_observer.h\n'}
+[0.278966] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/parse_old_schema.h\n'}
+[0.279082] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/schema_parser_observer.h\n'}
+[0.280354] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/shared_style_parser_observer.h\n'}
+[0.280591] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_inliner.h\n'}
+[0.280701] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_merger.h\n'}
+[0.280912] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_resolver.h\n'}
+[0.281065] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/style_splitter.h\n'}
+[0.281169] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/engine/update.h\n'}
+[0.281431] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlengine.so.1.3.1\n'}
+[0.281632] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlengine.so.1\n'}
+[0.281861] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlengine.so\n'}
+[0.281942] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/atom_util.h\n'}
+[0.282157] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/convenience.h\n'}
+[0.283369] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/csv_file.h\n'}
+[0.283548] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/csv_parser.h\n'}
+[0.283633] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/element_counter.h\n'}
+[0.283791] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/feature_list.h\n'}
+[0.283920] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_doc_list.h\n'}
+[0.284078] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_maps_data.h\n'}
+[0.284232] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_picasa_web.h\n'}
+[0.284361] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/google_spreadsheets.h\n'}
+[0.284547] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/gpx_trk_pt_handler.h\n'}
+[0.284703] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/http_client.h\n'}
+[0.285052] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/kml_feature_list_saver.h\n'}
+[0.286809] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/convenience/kmz_check_links.h\n'}
+[0.287029] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlconvenience.so.1.3.1\n'}
+[0.287276] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlconvenience.so.1\n'}
+[0.287432] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlconvenience.so\n'}
+[0.287565] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/feature_list_region_handler.h\n'}
+[0.287799] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/feature_list_regionator.h\n'}
+[0.287957] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/region_handler.h\n'}
+[0.288092] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/regionator.h\n'}
+[0.288256] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/regionator_qid.h\n'}
+[0.288416] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/include/kml/regionator/regionator_util.h\n'}
+[0.288609] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlregionator.so.1.3.1\n'}
+[0.288701] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlregionator.so.1\n'}
+[0.288866] (LibKML) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws2/install/LibKML/lib/libkmlregionator.so\n'}
+[0.288975] (LibKML) CommandEnded: {'returncode': 0}
+[0.289396] (LibKML) JobEnded: {'identifier': 'LibKML', 'rc': 0}
+[0.290547] (parser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.293364] (parser) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300155] (-) TimerEvent: {}
+[0.389658] (parser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400258] (-) TimerEvent: {}
+[0.430073] (parser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.431345] (parser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500358] (-) TimerEvent: {}
+[0.545628] (parser) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.600462] (-) TimerEvent: {}
+[0.642097] (parser) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.700564] (-) TimerEvent: {}
+[0.716732] (parser) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[0.716827] (parser) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'tf2' was not found\n"}
+[0.716881] (parser) StderrLine: {'line': b'  before\n'}
+[0.716930] (parser) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.716976] (parser) StderrLine: {'line': b'  CMakeLists.txt:119 (ament_target_dependencies)\n'}
+[0.717022] (parser) StderrLine: {'line': b'\n'}
+[0.717087] (parser) StderrLine: {'line': b'\n'}
+[0.717984] (parser) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.718073] (parser) StdoutLine: {'line': b'See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeOutput.log".\n'}
+[0.718126] (parser) StdoutLine: {'line': b'See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeError.log".\n'}
+[0.722017] (parser) StderrLine: {'line': b'make: *** [Makefile:310: cmake_check_build_system] Error 1\n'}
+[0.723654] (parser) CommandEnded: {'returncode': 2}
+[0.753994] (parser) JobEnded: {'identifier': 'parser', 'rc': 2}
+[0.764608] (-) EventReactorShutdown: {}

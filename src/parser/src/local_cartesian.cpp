@@ -16,7 +16,10 @@
 //#include "geometry_msgs/PoseStamped.h"
 #include "rclcpp/rclcpp.hpp"
 
-#include "kml/dom.h"  // The KML DOM header.
+
+#include <kml/base/file.h>
+#include <kml/engine.h>
+#include <kml/dom.h>
 
  
 using namespace std;
@@ -32,47 +35,138 @@ vector<double> z_array;
 
 double x, y, z;
 
+typedef std::vector<kmldom::LineStringPtr> LineStringVector;
+
 
 
 class MinimalPublisher : public rclcpp::Node
 {
   public:
+
+    nav_msgs::msg::Path kml_path;
+    geometry_msgs::msg::PoseStamped kml_pose;
+    std::string kmlfile;
+    std::string file_data;
+    kmlbase::File kmlbase;
+    std::string kml;
+    std::string kmldata;
+    std::string errors;
+
+    kmlengine::KmlFilePtr kml_file;
+    kmldom::FeaturePtr root;
+    kmldom::KmlDomType type;
+    kmldom::ContainerPtr cont;
+    kmldom::FeaturePtr inner_feature;
+    kmldom::PlacemarkPtr placemark;
+    kmldom::GeometryPtr geometry;
+    kmldom::LineStringPtr line_string;
+    kmldom::CoordinatesPtr coordinates;
+
+    LineStringVector line_string_vector;
+
+    GeographicLib::LocalCartesian locart;
+    double kml_x, kml_y, kml_z;
+    double init_x, init_y, init_z;
+
+    void line_string_extract(const kmlengine::KmlFilePtr &kml_file, LineStringVector *line_string_vector)
+    // Gets the string line in the kml file and extracts the data that needed.
+    {
+        // make a placemark for get the data
+        placemark = kmldom::AsPlacemark(kml_file->GetObjectById("0C11468A89207A6E17BE"));
+
+        // get the geometry
+        geometry = placemark->get_geometry();
+
+        // make a string the geometry
+        line_string = kmldom::AsLineString(geometry);
+
+        // push
+        line_string_vector->push_back(line_string);
+    }
+
+
     MinimalPublisher(): Node("minimal_publisher"), count_(0)
     {
-      publisher_ = this->create_publisher<nav_msgs::msg::Path>("path_topic", 10);
+      publisher_ = this->create_publisher<nav_msgs::msg::Path>("path_topic", 1);
       timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
+
+      kmlfile = to_string('../catkin_ws2/src/parser/doc/Localization_Assignment_Test_Route.kml');
+
+      if (!kmlbase::File::ReadFileToString(kmlfile, &file_data))
+        {
+            RCLCPP_WARN_STREAM(this->get_logger(), kmlfile << " read failedd");
+        }
+
+      kml_file = kmlengine::KmlFile::CreateFromParse(file_data, &errors);
+      if (!kml_file)
+      {
+          RCLCPP_INFO_STREAM(this->get_logger(), errors);
+      }
+
+      line_string_extract(kml_file, &line_string_vector);
+
+              GeographicLib::Geocentric earth(GeographicLib::Constants::WGS84_a(), GeographicLib::Constants::WGS84_f());
+
+      coordinates = line_string_vector[0]->get_coordinates();
+      kmlbase::Vec3 coord = coordinates->get_coordinates_array_at(0);
+      GeographicLib::LocalCartesian locart(coord.get_latitude(), coord.get_longitude(), coord.get_altitude(), earth);
+        RCLCPP_INFO_STREAM(this->get_logger(), "Lat: " << coord.get_latitude()
+                                    << " Lng: " << coord.get_longitude());
+
+        for (uint i = 0; i < line_string_vector.size(); i++)
+        {
+            line_string = line_string_vector[i];
+            coordinates = line_string->get_coordinates();
+            for (uint j = 0; j < coordinates->get_coordinates_array_size(); j++)
+            {
+                kmlbase::Vec3 coord = coordinates->get_coordinates_array_at(j);
+                // RCLCPP_INFO_STREAM(this->get_logger(), "Lat: " << coord.get_latitude()
+                //                                                << " Lng: " << coord.get_longitude());
+
+                locart.Forward(coord.get_latitude(), coord.get_longitude(), coord.get_altitude(), x, y, z);
+                // RCLCPP_INFO_STREAM(this->get_logger(), "x: " << j << " " << x
+                //                                              << " y: " << y
+                //                                              << " z: " << z);
+                // RCLCPP_INFO_STREAM(this->get_logger(), "init_x: " << init_x
+                //                                                   << " init_y: " << init_y
+                //                                                   << " init_z: " << init_z);
+                kml_pose.pose.position.x = x;
+                kml_pose.pose.position.y = y;
+                kml_pose.pose.position.z = z;
+
+                kml_pose.pose.orientation.x = 0;
+                kml_pose.pose.orientation.y = 0;
+                kml_pose.pose.orientation.z = 0;
+                kml_pose.pose.orientation.w = 1;
+
+                kml_path.poses.push_back(kml_pose);
+            }
+        }
+
+        
+      
+      
       
     }
 
+
+
+  
+
   private:
-    int counter = -1;
-    int size = latitude_array.size();
     void timer_callback()
     {
-      auto path_message = nav_msgs::msg::Path();
-      auto this_pose_stamped = geometry_msgs::msg::PoseStamped();
-      path_message.header.frame_id="/base_link";
-      this_pose_stamped.header.frame_id="/base_link";
+      kml_path.header.frame_id="map";
+      kml_path.header.stamp = this->get_clock()->now();
+
+      kml_pose.header.stamp = this->get_clock()->now();
+      kml_pose.header.frame_id="map";
       //path_message.header.stamp=rclcpp::Time::now();
 
-      this_pose_stamped.pose.position.x = x_array[counter];
-      this_pose_stamped.pose.position.y = y_array[counter];
-      this_pose_stamped.pose.position.z = z_array[counter];
-
-      this_pose_stamped.pose.orientation.x = 0;
-			this_pose_stamped.pose.orientation.y = 0;
-			this_pose_stamped.pose.orientation.z = 0;
-			this_pose_stamped.pose.orientation.w = 0;
-
-      if (counter == size){
-        counter = 0;
-      }
-
-      path_message.poses.push_back(this_pose_stamped);
+      kml_path.poses.push_back(kml_pose);
       RCLCPP_INFO(this->get_logger(), "Publish Success");
-      publisher_->publish(path_message);
-      counter = counter + 1;
+      publisher_->publish(kml_path);
     }
     
     rclcpp::TimerBase::SharedPtr timer_;
@@ -86,109 +180,8 @@ class MinimalPublisher : public rclcpp::Node
 
  
 int main(int argc, char * argv[]) {
-
-
-  ifstream dosyaOku("../catkin_ws2/src/parser/doc/coordinates.txt");
-  string satir = "";
-  int counter_1 = 0;
-
-
-  if ( dosyaOku.is_open() ){
-
-    while ( getline(dosyaOku, satir,' ') ){
-      //cout << satir << endl;
-
-      stringstream ss(satir);
-
-      while (ss.good()) {
-        string substr;
-        getline(ss, substr, ',');
-        v.push_back(substr);
-
-        if (counter_1 == 0){
-          longitude_array.push_back(substr);
-          counter_1++;
-        }
-
-        else if (counter_1 == 1){
-          latitude_array.push_back(substr);
-          counter_1++;
-        }
-
-        else if (counter_1 == 2){
-          altitude_array.push_back(substr);
-          counter_1 = 0;
-        }
-    }
-
-      for (size_t i = 0; i < latitude_array.size(); i++){
-        //cout << v[i] << endl;
-        //cout << longitude_array[i] << endl;
-        //cout << latitude_array[i] << endl;
-        //cout << altitude_array[i] << endl;
-
-        
-        
-      }
-
-
-      
-      
-    }
-
-
-    cout << endl << "########################################################" << endl;
-    dosyaOku.close();
-  }
-
-
-
-  try {
-    Geocentric earth(Constants::WGS84_a(), Constants::WGS84_f());
-    // Alternatively: const Geocentric& earth = Geocentric::WGS84();
-    //const double lat0 = 28.98113386763581, lon0 = 41.02535119363602; // Paris
-    double origin_long, origin_lat, origin_alt;
-
-    origin_lat = stod(latitude_array[0]);
-    origin_long = stod(longitude_array[0]);
-    origin_alt = stod(altitude_array[0]);
-    
-    LocalCartesian proj(origin_lat, origin_long, origin_alt, earth);
-    {
-      // Sample forward calculation
-      // From Geodetic to local cartesian
-
-      for (size_t i = 0; i < latitude_array.size(); i++){
-        //cout << v[i] << endl;
-        //cout << longitude_array[i] << endl;
-        //cout << latitude_array[i] << endl;
-        //cout << altitude_array[i] << endl;
-        
-        proj.Forward(stod(latitude_array[i]), stod(longitude_array[i]), stod(altitude_array[i]), x, y, z);
-        x_array.push_back(x);
-        y_array.push_back(y);
-        z_array.push_back(z);
-        cout << x_array[i] << " " << y_array[i] << " " << z_array[i] << "\n";    
-      }
-      //double lat = 50.9, lon = 1.8, h = 0; // Calais
-    }
-    /*{
-      // Sample reverse calculation
-      double x = -38e3, y = 230e3, z = -4e3;
-      double lat, lon, h;
-      proj.Reverse(x, y, z, lat, lon, h);
-      cout << lat << " " << lon << " " << h << "\n";
-    }**/
-
-    rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<MinimalPublisher>());
-    rclcpp::shutdown();
-  }
-  catch (const exception& e) {
-    cerr << "Caught exception: " << e.what() << "\n";
-    return 1;
-  }
-
-    
   
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<MinimalPublisher>());
+  rclcpp::shutdown();
 }

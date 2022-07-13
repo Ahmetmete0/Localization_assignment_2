@@ -1,0 +1,25 @@
+[0.023s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.047s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.047s] -- GeographicLib configuration, version 2.1
+[0.048s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.049s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.407s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.408s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.522s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.619s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.693s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.693s]   ament_target_dependencies() the passed package name 'tf2' was not found
+[0.693s]   before
+[0.693s] Call Stack (most recent call first):
+[0.694s]   CMakeLists.txt:119 (ament_target_dependencies)
+[0.694s] 
+[0.694s] 
+[0.695s] -- Configuring incomplete, errors occurred!
+[0.695s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeOutput.log".
+[0.695s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeError.log".
+[0.699s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.700s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:91:17:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   91 |       kmlfile = [01;35m[K'../catkin_ws2/src/parser/doc/Localization_Assignment_Test_Route.kml'[m[K;
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:91:17:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K778792300[m[K’ to ‘[01m[K'l'[m[K’ [[01;35m[K-Woverflow[m[K]
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:131:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis_pose_stamped[m[K’ was not declared in this scope
+  131 |                 [01;31m[Kthis_pose_stamped[m[K.pose.position.x = x;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:140:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_message[m[K’ was not declared in this scope
+  140 |                 [01;31m[Kpath_message[m[K.poses.push_back(this_pose_stamped);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,15 @@
+/usr/bin/ld: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o: in function `boost::intrusive_ptr<kmldom::Coordinates>::~intrusive_ptr()':
+local_cartesian.cpp:(.text._ZN5boost13intrusive_ptrIN6kmldom11CoordinatesEED2Ev[_ZN5boost13intrusive_ptrIN6kmldom11CoordinatesEED5Ev]+0x27): undefined reference to `kmlbase::intrusive_ptr_release(kmlbase::Referent*)'
+/usr/bin/ld: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o: in function `boost::intrusive_ptr<kmldom::Feature>::~intrusive_ptr()':
+local_cartesian.cpp:(.text._ZN5boost13intrusive_ptrIN6kmldom7FeatureEED2Ev[_ZN5boost13intrusive_ptrIN6kmldom7FeatureEED5Ev]+0x27): undefined reference to `kmlbase::intrusive_ptr_release(kmlbase::Referent*)'
+/usr/bin/ld: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o: in function `boost::intrusive_ptr<kmldom::Geometry>::~intrusive_ptr()':
+local_cartesian.cpp:(.text._ZN5boost13intrusive_ptrIN6kmldom8GeometryEED2Ev[_ZN5boost13intrusive_ptrIN6kmldom8GeometryEED5Ev]+0x27): undefined reference to `kmlbase::intrusive_ptr_release(kmlbase::Referent*)'
+/usr/bin/ld: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o: in function `boost::intrusive_ptr<kmlengine::KmlFile>::~intrusive_ptr()':
+local_cartesian.cpp:(.text._ZN5boost13intrusive_ptrIN9kmlengine7KmlFileEED2Ev[_ZN5boost13intrusive_ptrIN9kmlengine7KmlFileEED5Ev]+0x27): undefined reference to `kmlbase::intrusive_ptr_release(kmlbase::Referent*)'
+/usr/bin/ld: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o: in function `boost::intrusive_ptr<kmldom::Container>::~intrusive_ptr()':
+local_cartesian.cpp:(.text._ZN5boost13intrusive_ptrIN6kmldom9ContainerEED2Ev[_ZN5boost13intrusive_ptrIN6kmldom9ContainerEED5Ev]+0x27): undefined reference to `kmlbase::intrusive_ptr_release(kmlbase::Referent*)'
+/usr/bin/ld: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o:local_cartesian.cpp:(.text._ZN5boost13intrusive_ptrIN6kmldom9PlacemarkEED2Ev[_ZN5boost13intrusive_ptrIN6kmldom9PlacemarkEED5Ev]+0x27): more undefined references to `kmlbase::intrusive_ptr_release(kmlbase::Referent*)' follow
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:142: local_cartesian] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

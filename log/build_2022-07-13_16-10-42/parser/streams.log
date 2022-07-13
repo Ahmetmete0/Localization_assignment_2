@@ -1,0 +1,24 @@
+[0.024s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.046s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.046s] -- GeographicLib configuration, version 2.1
+[0.047s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.047s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.294s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.429s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.544s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.636s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.636s]   ament_target_dependencies() the passed package name 'sensor_msgs' was not
+[0.636s]   found before
+[0.636s] Call Stack (most recent call first):
+[0.636s]   CMakeLists.txt:118 (ament_target_dependencies)
+[0.636s] 
+[0.636s] 
+[0.637s] -- Configuring incomplete, errors occurred!
+[0.637s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeOutput.log".
+[0.637s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeError.log".
+[0.641s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.643s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

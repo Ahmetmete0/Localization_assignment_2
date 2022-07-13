@@ -23,11 +23,56 @@ include_directories (${GeographicLib_INCLUDE_DIRS})
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(LibKML REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+
+if( LIBKML_INCLUDE_DIR )
+    # Already in cache, be silent
+    set( LibKML_FIND_QUIETLY TRUE )
+endif()
+
+find_path( LIBKML_INCLUDE_DIR       kml/dom.h )
+find_path( LIBKML_INCLUDE_DIR       kml/engine.h )
+find_path( LIBKML_INCLUDE_DIR       kml/base.h )
+find_library( LIBKML_BASE_LIBRARY   NAMES kmlbase )
+find_library( LIBKML_DOM_LIBRARY    NAMES kmldom )
+find_library( LIBKML_ENGINE_LIBRARY NAMES kmlengine )
+
+mark_as_advanced(
+  LIBKML_INCLUDE_DIR
+  LIBKML_BASE_LIBRARY
+  LIBKML_DOM_LIBRARY
+  LIBKML_ENGINE_LIBRARY
+  )
+
+include( FindPackageHandleStandardArgs )
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(
+  LibKML
+  DEFAULT_MSG
+  LIBKML_INCLUDE_DIR
+  LIBKML_BASE_LIBRARY
+  LIBKML_DOM_LIBRARY
+  LIBKML_ENGINE_LIBRARY
+  )
+
+if(LIBKML_FOUND)
+  set(LIBKML_INCLUDE_DIRS ${LIBKML_INCLUDE_DIR})
+  set(LIBKML_LIBRARIES
+    ${LIBKML_BASE_LIBRARY}
+    ${LIBKML_DOM_LIBRARY}
+    ${LIBKML_ENGINE_LIBRARY}
+    )
+endif()
 
 set(dependencies
   nav_msgs
   geometry_msgs
   rclcpp
+  sensor_msgs
+  tf2
+  LibKML
+  GeographicLib
 )
 
 
@@ -41,7 +86,12 @@ add_executable (parser_geo src/example-Geodesic-small.cpp)
 target_link_libraries (parser_geo ${GeographicLib_LIBRARIES})
 
 add_executable (local_cartesian src/local_cartesian.cpp)
-target_link_libraries (local_cartesian ${GeographicLib_LIBRARIES})
+target_link_libraries (local_cartesian 
+${GeographicLib_LIBRARIES}
+${LIBKML_BASE_LIBRARY}
+${LIBKML_DOM_LIBRARY}
+${LIBKML_ENGINE_LIBRARY}
+)
 
 
 if (MSVC)

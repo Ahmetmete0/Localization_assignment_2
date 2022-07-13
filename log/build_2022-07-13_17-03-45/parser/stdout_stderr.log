@@ -1,0 +1,63 @@
+[35m[1mScanning dependencies of target local_cartesian[0m
+[ 50%] Built target parser_geo
+[ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:91:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kkmlengine::KmlFilePtr[m[K’ {aka ‘[01m[Kboost::intrusive_ptr<kmlengine::KmlFile>[m[K’} and ‘[01m[Kconst char [68][m[K’)
+   91 |       kml_file = [01;31m[K"../catkin_ws2/src/parser/doc/Localization Assignment Test Route.kml"[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/intrusive_ptr.hpp:16[m[K,
+                 from [01m[K/usr/local/include/kml/base/xml_element.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/dom/kml_cast.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/dom.h:33[m[K,
+                 from [01m[K/usr/local/include/kml/engine/clone.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/engine.h:33[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:21[m[K:
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:103:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class U> boost::intrusive_ptr<T>& boost::intrusive_ptr<T>::operator=(const boost::intrusive_ptr<U>&) [with U = U; T = kmlengine::KmlFile][m[K’
+  103 |     template<class U> intrusive_ptr & [01;36m[Koperator[m[K=(intrusive_ptr<U> const & rhs)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:103:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:91:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::intrusive_ptr<T>[m[K’ and ‘[01m[Kconst char [68][m[K’
+   91 |       kml_file = [01;36m[K"../catkin_ws2/src/parser/doc/Localization Assignment Test Route.kml"[m[K;
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/intrusive_ptr.hpp:16[m[K,
+                 from [01m[K/usr/local/include/kml/base/xml_element.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/dom/kml_cast.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/dom.h:33[m[K,
+                 from [01m[K/usr/local/include/kml/engine/clone.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/engine.h:33[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:21[m[K:
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:120:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kboost::intrusive_ptr<T>& boost::intrusive_ptr<T>::operator=(boost::intrusive_ptr<T>&&) [with T = kmlengine::KmlFile][m[K’
+  120 |     intrusive_ptr & [01;36m[Koperator[m[K=(intrusive_ptr && rhs) BOOST_SP_NOEXCEPT
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:120:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [68][m[K’ to ‘[01m[Kboost::intrusive_ptr<kmlengine::KmlFile>&&[m[K’
+  120 |     intrusive_ptr & operator=([01;36m[Kintrusive_ptr && rhs[m[K) BOOST_SP_NOEXCEPT
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:144:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class U> boost::intrusive_ptr<T>& boost::intrusive_ptr<T>::operator=(boost::intrusive_ptr<U>&&) [with U = U; T = kmlengine::KmlFile][m[K’
+  144 |     intrusive_ptr & [01;36m[Koperator[m[K=(intrusive_ptr<U> && rhs) BOOST_SP_NOEXCEPT
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:144:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:91:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::intrusive_ptr<T>[m[K’ and ‘[01m[Kconst char [68][m[K’
+   91 |       kml_file = [01;36m[K"../catkin_ws2/src/parser/doc/Localization Assignment Test Route.kml"[m[K;
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/intrusive_ptr.hpp:16[m[K,
+                 from [01m[K/usr/local/include/kml/base/xml_element.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/dom/kml_cast.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/dom.h:33[m[K,
+                 from [01m[K/usr/local/include/kml/engine/clone.h:31[m[K,
+                 from [01m[K/usr/local/include/kml/engine.h:33[m[K,
+                 from [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:21[m[K:
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:152:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kboost::intrusive_ptr<T>& boost::intrusive_ptr<T>::operator=(const boost::intrusive_ptr<T>&) [with T = kmlengine::KmlFile][m[K’
+  152 |     intrusive_ptr & [01;36m[Koperator[m[K=(intrusive_ptr const & rhs)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:152:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [68][m[K’ to ‘[01m[Kconst boost::intrusive_ptr<kmlengine::KmlFile>&[m[K’
+  152 |     intrusive_ptr & operator=([01;36m[Kintrusive_ptr const & rhs[m[K)
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:158:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kboost::intrusive_ptr<T>& boost::intrusive_ptr<T>::operator=(T*) [with T = kmlengine::KmlFile][m[K’
+  158 |     intrusive_ptr & [01;36m[Koperator[m[K=(T * rhs)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/intrusive_ptr.hpp:158:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [68][m[K’ to ‘[01m[Kkmlengine::KmlFile*[m[K’
+  158 |     intrusive_ptr & operator=([01;36m[KT * rhs[m[K)
+      |                               [01;36m[K~~~~^~~[m[K
+make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

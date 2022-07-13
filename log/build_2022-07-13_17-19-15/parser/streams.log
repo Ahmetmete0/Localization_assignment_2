@@ -1,0 +1,17 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target local_cartesian[0m
+[0.068s] [ 50%] Built target parser_geo
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o[0m
+[0.233s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:91:17:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.233s]    91 |       kmlfile = [01;35m[K'../catkin_ws2/src/parser/doc/Localization_Assignment_Test_Route.kml'[m[K;
+[0.233s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.535s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[1.535s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:91:17:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K778792300[m[K’ to ‘[01m[K'l'[m[K’ [[01;35m[K-Woverflow[m[K]
+[1.537s] [01m[K/home/mete/catkin_ws2/src/parser/src/local_cartesian.cpp:110:117:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.537s]   110 | titude(), coord.get_longitude(), coord.get_altitude(), earth)[01;31m[K{[m[K
+[1.537s]       |                                                              [01;31m[K^[m[K
+[1.537s] 
+[2.284s] make[2]: *** [CMakeFiles/local_cartesian.dir/build.make:63: CMakeFiles/local_cartesian.dir/src/local_cartesian.cpp.o] Error 1
+[2.284s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/local_cartesian.dir/all] Error 2
+[2.284s] make: *** [Makefile:141: all] Error 2
+[2.286s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
