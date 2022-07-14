@@ -1,8 +1,12 @@
 # Localization_assignment_2
 
-Kodlar "src/parser/src/local_cartesian.cpp" dosyası içinde bulunmaktadır.
+"src/parser/src/local_cartesian.cpp"
 
-KML dosyasından koordinatları ayırmak için libkml kütüphanesi kullanıldı.
+- KML dosyasından koordinatları ayırmak için libkml kütüphanesi kullanıldı.
+- Elde edilen koordinatlar jeodezik formatındadır. Jeodezik koordinat sisteminden yerel kartezten koordinat sistemine dönüşüm için GeographicLib kütüphanesi kullanılmıştır.
+- "Forward" fonksiyonu ile bu dönüşüm sağlanmaktadır.
+- Elde edilen yerel kartezyen koordinatları “nav_msgs/Path” aracılığı ile yayınlanmaktadır.
+- Yayınlanan “nav_msgs/Path” RVIZ2 üzerinde görüntülenmektedir.
 
 - ### RVIZ2 Görüntüleri
 ![path](https://user-images.githubusercontent.com/58399721/178893579-930027ca-7cb5-47fa-b45f-92d50d2c45e4.png)
