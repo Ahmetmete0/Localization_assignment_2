@@ -2,6 +2,8 @@
 
 Kodlar "src/parser/src/local_cartesian.cpp" dosyası içinde bulunmaktadır.
 
+KML dosyasından koordinatları ayırmak için libkml kütüphanesi kullanıldı.
+
 - ### RVIZ2 Görüntüleri
 ![path](https://user-images.githubusercontent.com/58399721/178893579-930027ca-7cb5-47fa-b45f-92d50d2c45e4.png)
 
