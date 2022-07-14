@@ -648,7 +648,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/local_cartesian.dir/DependInfo.cmake"
-  "CMakeFiles/parser_geo.dir/DependInfo.cmake"
   "CMakeFiles/parser_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   )

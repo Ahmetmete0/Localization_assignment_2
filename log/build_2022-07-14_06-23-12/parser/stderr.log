@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:123 (install):
+  install TARGETS given target "parser_geo" which does not exist.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

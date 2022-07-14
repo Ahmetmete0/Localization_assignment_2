@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/mete/catkin_ws2/src/parser/src/example-Geodesic-small.cpp', needed by 'CMakeFiles/parser_geo.dir/src/example-Geodesic-small.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/parser_geo.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

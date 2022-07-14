@@ -6,6 +6,5 @@
 /home/mete/catkin_ws2/build/parser/CMakeFiles/edit_cache.dir
 /home/mete/catkin_ws2/build/parser/CMakeFiles/test.dir
 /home/mete/catkin_ws2/build/parser/CMakeFiles/local_cartesian.dir
-/home/mete/catkin_ws2/build/parser/CMakeFiles/parser_geo.dir
 /home/mete/catkin_ws2/build/parser/CMakeFiles/parser_uninstall.dir
 /home/mete/catkin_ws2/build/parser/CMakeFiles/uninstall.dir

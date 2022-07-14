@@ -181,19 +181,6 @@ local_cartesian/fast:
 .PHONY : local_cartesian/fast
 
 #=============================================================================
-# Target rules for targets named parser_geo
-
-# Build rule for target.
-parser_geo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 parser_geo
-.PHONY : parser_geo
-
-# fast build rule for target.
-parser_geo/fast:
-	$(MAKE) -f CMakeFiles/parser_geo.dir/build.make CMakeFiles/parser_geo.dir/build
-.PHONY : parser_geo/fast
-
-#=============================================================================
 # Target rules for targets named parser_uninstall
 
 # Build rule for target.
@@ -218,33 +205,6 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
-
-src/example-Geodesic-small.o: src/example-Geodesic-small.cpp.o
-
-.PHONY : src/example-Geodesic-small.o
-
-# target to build an object file
-src/example-Geodesic-small.cpp.o:
-	$(MAKE) -f CMakeFiles/parser_geo.dir/build.make CMakeFiles/parser_geo.dir/src/example-Geodesic-small.cpp.o
-.PHONY : src/example-Geodesic-small.cpp.o
-
-src/example-Geodesic-small.i: src/example-Geodesic-small.cpp.i
-
-.PHONY : src/example-Geodesic-small.i
-
-# target to preprocess a source file
-src/example-Geodesic-small.cpp.i:
-	$(MAKE) -f CMakeFiles/parser_geo.dir/build.make CMakeFiles/parser_geo.dir/src/example-Geodesic-small.cpp.i
-.PHONY : src/example-Geodesic-small.cpp.i
-
-src/example-Geodesic-small.s: src/example-Geodesic-small.cpp.s
-
-.PHONY : src/example-Geodesic-small.s
-
-# target to generate assembly for a file
-src/example-Geodesic-small.cpp.s:
-	$(MAKE) -f CMakeFiles/parser_geo.dir/build.make CMakeFiles/parser_geo.dir/src/example-Geodesic-small.cpp.s
-.PHONY : src/example-Geodesic-small.cpp.s
 
 src/local_cartesian.o: src/local_cartesian.cpp.o
 
@@ -287,12 +247,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... local_cartesian"
-	@echo "... parser_geo"
 	@echo "... parser_uninstall"
 	@echo "... uninstall"
-	@echo "... src/example-Geodesic-small.o"
-	@echo "... src/example-Geodesic-small.i"
-	@echo "... src/example-Geodesic-small.s"
 	@echo "... src/local_cartesian.o"
 	@echo "... src/local_cartesian.i"
 	@echo "... src/local_cartesian.s"

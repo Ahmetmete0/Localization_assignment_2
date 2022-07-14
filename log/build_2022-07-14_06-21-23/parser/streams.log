@@ -1,0 +1,34 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.048s] -- Reading /home/mete/catkin_ws2/install/GeographicLib/lib/cmake/GeographicLib/geographiclib-config.cmake
+[0.049s] -- GeographicLib configuration, version 2.1
+[0.050s] --   ${GeographicLib_LIBRARIES} set to shared library
+[0.051s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.287s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.560s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.655s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.713s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.723s] CMake Error at CMakeLists.txt:123 (install):
+[0.723s]   install TARGETS given target "parser_geo" which does not exist.
+[0.724s] 
+[0.724s] 
+[0.724s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.775s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.776s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.776s] -- Configured cppcheck include dirs: 
+[0.776s] -- Configured cppcheck exclude dirs and/or files: 
+[0.777s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.777s] -- Configured cpplint exclude dirs and/or files: 
+[0.778s] -- Added test 'lint_cmake' to check CMake code style
+[0.779s] -- Added test 'uncrustify' to check C / C++ code style
+[0.779s] -- Configured uncrustify additional arguments: 
+[0.780s] -- Added test 'xmllint' to check XML markup files
+[0.782s] -- Configuring incomplete, errors occurred!
+[0.782s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeOutput.log".
+[0.782s] See also "/home/mete/catkin_ws2/build/parser/CMakeFiles/CMakeError.log".
+[0.787s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.789s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12

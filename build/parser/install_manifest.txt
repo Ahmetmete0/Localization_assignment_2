@@ -1,4 +1,3 @@
-/home/mete/catkin_ws2/install/parser/lib/parser/parser_geo
 /home/mete/catkin_ws2/install/parser/lib/parser/local_cartesian
 /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/package_run_dependencies/parser
 /home/mete/catkin_ws2/install/parser/share/ament_index/resource_index/parent_prefix_path/parser

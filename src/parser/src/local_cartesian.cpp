@@ -91,7 +91,7 @@ class MinimalPublisher : public rclcpp::Node
       timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
 
-      kmlfile = to_string('../catkin_ws2/src/parser/doc/Localization_Assignment_Test_Route.kml');
+      kmlfile = ("../catkin_ws2/src/parser/doc/Localization_Assignment_Test_Route.kml");
 
       if (!kmlbase::File::ReadFileToString(kmlfile, &file_data))
         {

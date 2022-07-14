@@ -82,8 +82,7 @@ if (NOT MSVC)
   set (CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 endif ()
 
-add_executable (parser_geo src/example-Geodesic-small.cpp)
-target_link_libraries (parser_geo ${GeographicLib_LIBRARIES})
+
 
 add_executable (local_cartesian src/local_cartesian.cpp)
 target_link_libraries (local_cartesian 
@@ -122,7 +121,6 @@ ament_target_dependencies(local_cartesian
 )
 
 install(TARGETS
-  parser_geo
   local_cartesian
   DESTINATION lib/${PROJECT_NAME})
 

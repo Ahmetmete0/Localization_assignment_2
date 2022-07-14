@@ -1,0 +1,8 @@
+[0.024s] Invoking command in '/home/mete/catkin_ws2/build/parser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
+[0.071s] [35m[1mScanning dependencies of target parser_geo[0m
+[0.073s] make[2]: *** No rule to make target '/home/mete/catkin_ws2/src/parser/src/example-Geodesic-small.cpp', needed by 'CMakeFiles/parser_geo.dir/src/example-Geodesic-small.cpp.o'.  Stop.
+[0.073s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/parser_geo.dir/all] Error 2
+[0.073s] make[1]: *** Waiting for unfinished jobs....
+[0.104s] [ 50%] Built target local_cartesian
+[0.106s] make: *** [Makefile:141: all] Error 2
+[0.112s] Invoked command in '/home/mete/catkin_ws2/build/parser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws2/build/parser -- -j12 -l12
